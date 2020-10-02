@@ -1,0 +1,28 @@
+{
+    "name": "final-space-api-backend",
+    "version": "1.0.0",
+    "description": "Final Space API backend.",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "start": "node server.js",
+        "prod": "NODE_ENV=production node server.js"
+    },
+    "author": "Ashutosh K Singh",
+    "license": "BSD-3-Clause",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "helmet": "^4.1.1",
+        "mongoose": "^5.10.7",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "dotenv": "^8.2.0",
+        "nodemon": "^2.0.4"
+    },
+    "engines": {
+        "node": "10.x"
+    }
+
+}
