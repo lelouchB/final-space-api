@@ -8,17 +8,17 @@ const path = require("path");
 
 const app = express();
 
-app.use(morgan("tiny"));
+app.use(morgan("common"));
 app.use(helmet());
 app.use(cors());
 app.use(express.json())
-app.use(express.static(path.join(__dirname, "/api"))); 
+app.use(express.static(path.join(__dirname + "/../frontend/build"))); 
 
 const apiRoutes = require("./routes/routes");
 
 const port = process.env.PORT || 8000;
 
-app.use("/v0", apiRoutes);
+app.use("/api/v0", apiRoutes);
 
 startServer= async()=> {
   await db.connectDb();
