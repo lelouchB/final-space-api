@@ -21,7 +21,7 @@ This API was inspired  by [The Rick and Morty API](https://rickandmortyapi.com).
 ### What I Used?
 Following are the tools and servies I used to create this API.
 
-**Tech Stack***
+**Tech Stack**
 - [NodeJS](https://nodejs.org/en/)
 - [Express](https://expressjs.com/) - Server.
 - [Mongoose](https://mongoosejs.com/) - Schema Modeling.
