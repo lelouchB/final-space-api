@@ -2,13 +2,8 @@
 id: character
 title: Character 
 ---
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
-
-<img alt="Final Space" src={useBaseUrl('img/wallpaper2.jpg')} />
-
-
-There is a total of `13` characters sorted by id.
+This is the documentation for the `/character` endpoint. There are curently `14` characters sorted by id, more are added everyday. 
 
 ### Character schema
 
@@ -63,7 +58,7 @@ https://finalspaceapi.com/api/v0/character/
 ### Get a single character
 You can get a single character by adding the `id` as a parameter: `/character/2`
 ```
-https://finalspaceapi.com/api/api/v0/character/2
+https://finalspaceapi.com/api/v0/character/2
 ```
 ```json
   {

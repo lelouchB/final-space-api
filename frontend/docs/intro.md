@@ -4,11 +4,9 @@ title: Introduction
 sidebar_label: Introduction
 slug: /
 ---
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This documentation will help you get familiar with the resources of the **Final Space API** and show you how to make different queries, so that you can get the most out of it.
 
-<img alt="Final Space" src={useBaseUrl('img/wallpaper.jpg')} />
+The Final Space API is a RESTful API based on the television show [Final Space](https://en.wikipedia.org/wiki/Final_Space).  All the data is taken from [Final Space wiki](https://final-space.fandom.com/wiki/Final_Space_Wiki).
 
 ### REST
 **Base url:** https://finalspaceapi.com/api/v0/
