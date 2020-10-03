@@ -1,4 +1,4 @@
-[![Final Space API](https://raw.githubusercontent.com/lelouchB/final-space-api/main/frontend/static/img/logo.png)](https://finalspaceapi.com)
+[![Final Space API](https://raw.githubusercontent.com/lelouchB/lelouchB/master/logo.png)](https://finalspaceapi.com)
 
 # Final Space API
 
