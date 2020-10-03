@@ -58,7 +58,7 @@ https://finalspaceapi.com/api/v0/character/
 ### Get a single character
 You can get a single character by adding the `id` as a parameter: `/character/2`
 ```
-https://finalspaceapi.com/api/api/v0/character/2
+https://finalspaceapi.com/api/v0/character/2
 ```
 ```json
   {
