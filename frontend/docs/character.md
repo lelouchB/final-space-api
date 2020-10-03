@@ -3,7 +3,7 @@ id: character
 title: Character 
 ---
 
-There is a total of `14` characters sorted by id.
+This is the documentation for the `/character` endpoint. There are curently `14` characters sorted by id, more are added everyday. ☺️
 
 ### Character schema
 
