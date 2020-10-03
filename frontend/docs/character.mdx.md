@@ -2,13 +2,8 @@
 id: character
 title: Character 
 ---
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
-
-<img alt="Final Space" src={useBaseUrl('img/wallpaper2.jpg')} />
-
-
-There is a total of `13` characters sorted by id.
+There is a total of `14` characters sorted by id.
 
 ### Character schema
 
