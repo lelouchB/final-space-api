@@ -11,10 +11,10 @@ Final Space API is a RESTful  API based on the animated television show [Final S
 ### Who are you?
 
 Hey Stranger 👋
-I am [Ashutosh K Singh](https://ashusingh.me/).
+I am [Ashutosh K Singh](https://ashusingh.me/). TBD
 
 
-### Technical stuff?
+### Technical jargon
 We use [Node](https://nodejs.org) and [MongoDB](https://www.mongodb.com/) to serve the API. All the data is formatted in [json](http://json.org/) and the entire project is hosted on [Digital Ocean](https://digitalocean.com).
 
 ### How can I contribute to the project?

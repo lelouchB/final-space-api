@@ -8,12 +8,12 @@ const characterSchema = new mongoose.Schema(
     },
     name: {
       type: String,
-      required: true,
+      required: false,
       unique: false,
     },
     status: {
       type: String,
-      required: true,
+      required: false,
     },
     species: {
       type: String || null,
