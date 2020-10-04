@@ -31,7 +31,7 @@ const apiRoutes = require("./routes/routes");
 const port = process.env.PORT || 8000;
 
 app.use("/api/v0", apiRoutes);
-app.use('/api/character/avatar', express.static(path.join(__dirname, 'images')))
+app.use('/api/v0/character/avatar', express.static(path.join(__dirname, 'images')))
 
 
 
