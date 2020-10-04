@@ -20,7 +20,9 @@ app.set('trust proxy', 1);
  
 const apiLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 500
+  max: 500,
+  message:
+    "Too many accounts created from this IP, please try again after an hour"
 });
  
 app.use("/api", apiLimiter);

@@ -46,7 +46,7 @@ https://finalspaceapi.com/api/v0/character/
       "Piloting",
       "Marksmanship"
     ],
-    "img_url": "https://finalspaceapi.com/api/character/avatar/gary_goodspeed.png"
+    "img_url": "https://finalspaceapi.com/api/character/avatar/gary_goodspeed.jpg"
   },
   //
 ]
@@ -61,7 +61,7 @@ https://finalspaceapi.com/api/v0/character/5
   {
   "id": 5,
   "name": "Avocato",
-  "status": "Alive(Dead from Chapter 6 to The Remembered)",
+  "status": "Alive",
   "species": "Ventrexian",
   "gender": "Male",
   "hair": "Dark Teal / White ",
@@ -73,6 +73,6 @@ https://finalspaceapi.com/api/v0/character/5
     "Combat",
     "Surgery"
   ],
-  "img_url": "https://finalspaceapi.com/api/character/avatar/avocato.png"
+  "img_url": "https://finalspaceapi.com/api/character/avatar/avocato.jpg"
 }
 ```
