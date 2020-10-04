@@ -11,7 +11,6 @@ This is the schema of the character
 
 |Key|Type|Description|
 |---|---|---|
-|_id|int|The Object id of the character.
 |id|int|The id of the character (starting from 1).
 |name|string|The name of the character.
 |status|string|The status of the character.
@@ -31,57 +30,50 @@ https://finalspaceapi.com/api/v0/character/
 ```json 
 [
   {
-    "alias": [
-      "The Gary(by Lord Commander)",
-      "Thunder Bandit(code name)",
-      "Star Dragon(new code name)",
-      "Primate(By Clarence)"
-    ],
-    "abilities": [
-      "Piloting",
-      "Marksmanship"
-    ],
-    "_id": "5f76ed7ee2748d55533c4d0d",
     "id": 1,
     "name": "Gary Goodspeed",
     "status": "Alive",
     "species": "Human",
     "gender": "Male",
     "hair": "Blonde",
+    "alias": [
+      "The Gary(by Lord Commander)",
+      "Thunder Bandit(code name)",
+      "Star Dragon(new code name)",
+      "Primate(By Clarence)"
+    ],
     "origin": "Earth",
-    "img_url": "https://raw.githubusercontent.com/lelouchB/finalspaceapi/master/assets/images/gary_goodspeed.png"
+    "abilities": [
+      "Piloting",
+      "Marksmanship"
+    ],
+    "img_url": "https://raw.githubusercontent.com/lelouchB/final-space-api/main/backend/images/gary_goodspeed.png"
   },
-  ///
+  //
 ]
 ```
 
 ### Get a single character
 You can get a single character by adding the `id` as a parameter: `/character/2`
 ```
-https://finalspaceapi.com/api/v0/character/2
+https://finalspaceapi.com/api/v0/character/5
 ```
 ```json
   {
-    "alias": [
-      "Specimen E - 351",
-      "Little Buddy",
-      "Planet Destroyer",
-      "Dude cake",
-      "Little Guy"
-    ],
-    "abilities": [
-      "Hovering",
-      "Firing Laser Beams",
-      "Planet Destruction"
-    ],
-    "_id": "5f76edc1e2748d55533ca3ef",
-    "id": 2,
-    "name": "Mooncake",
-    "status": "Alive",
-    "species": "Mooncake's Species",
-    "gender": "Male",
-    "hair": "Bald",
-    "origin": "Created when John Goodspeed used an Anti-matter bomb to close a breach to Final Space.",
-    "img_url": "https://raw.githubusercontent.com/lelouchB/finalspaceapi/master/assets/images/mooncake.png"
-  }
+  "id": 5,
+  "name": "Avocato",
+  "status": "Alive(Dead from Chapter 6 to The Remembered)",
+  "species": "Ventrexian",
+  "gender": "Male",
+  "hair": "Dark Teal / White ",
+  "alias": [
+    "General Avocato"
+  ],
+  "origin": "Unknown",
+  "abilities": [
+    "Combat",
+    "Surgery"
+  ],
+  "img_url": "https://raw.githubusercontent.com/lelouchB/final-space-api/main/backend/images/avocato.png"
+}
 ```

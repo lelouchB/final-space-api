@@ -1,5 +1,4 @@
 const Character = require("./../models/character.model");
-const mongoose = require("mongoose");
 
 module.exports = {
   getCharacters: async (req, res, next) => {
@@ -10,7 +9,7 @@ module.exports = {
           message: "Something went wrong.",
         });
       }
-      return res.json(characters);
+      return res.json(Character.structure(characters));
     });
   },
 
@@ -23,7 +22,7 @@ module.exports = {
           message: "Something went wrong.",
         });
       }
-      return res.json(character);
+      return res.json(Character.structure(character));
     });
   },
 };

@@ -2,53 +2,50 @@ const mongoose = require("mongoose");
 
 const characterSchema = new mongoose.Schema(
   {
-    id: {
-      type: Number,
-      required: false,
-    },
-    name: {
-      type: String,
-      required: false,
-      unique: false,
-    },
-    status: {
-      type: String,
-      required: false,
-    },
-    species: {
-      type: String || null,
-      required: false,
-    },
-    gender: {
-      type: String,
-      required: false,
-    },
-    hair: {
-      type: String || null,
-      required: false,
-    },
-    alias: {
-      type: Array,
-      required: false,
-    },
-    origin: {
-      type: String,
-      required: false,
-    },
-    abilities:{
-      type:Array,
-      required:false,
-    },
-    img_url: {
-      type: String,
-      required: false,
-    },
+    id: Number,
+    name: String,
+    status: String,
+    species: String,
+    gender: String,
+    hair: String,
+    alias: Array,
+    origin: String,
+    abilities: Array,
+    img_url: String,
   },
   {
     collection: "characters",
   },
   { timestamps: true }
 );
+
+characterSchema.statics.structure = (res) => {
+  const sortSchema = ({
+    id,
+    name,
+    status,
+    species,
+    gender,
+    hair,
+    alias,
+    origin,
+    abilities,
+    img_url,
+  }) => ({
+    id,
+    name,
+    status,
+    species,
+    gender,
+    hair,
+    alias,
+    origin,
+    abilities,
+    img_url,
+  });
+
+  return Array.isArray(res) ? res.map(sortSchema) : sortSchema(res);
+};
 
 const Character = mongoose.model("characters", characterSchema);
 
