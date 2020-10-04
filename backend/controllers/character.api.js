@@ -9,6 +9,7 @@ module.exports = {
           message: "Something went wrong.",
         });
       }
+      res.set('Cache-Control', 'max-age=31557600');
       return res.json(Character.structure(characters));
     });
   },
@@ -22,6 +23,7 @@ module.exports = {
           message: "Something went wrong.",
         });
       }
+      res.set('Cache-Control', 'max-age=31557600');
       return res.json(Character.structure(character));
     });
   },

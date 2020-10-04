@@ -5,16 +5,16 @@ const cors = require("cors");
 const morgan = require("morgan");
 const helmet = require("helmet");
 const path = require("path");
+const rateLimit = require("express-rate-limit");
 
 const app = express();
 
 app.use(morgan("common"));
-app.use(helmet());
+// app.use(helmet());
 app.use(cors());
 app.use(express.json())
 app.use(express.static(path.join(__dirname + "/../frontend/build"))); 
 
-const rateLimit = require("express-rate-limit");
  
 app.set('trust proxy', 1);
  
