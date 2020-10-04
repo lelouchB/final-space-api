@@ -47,7 +47,7 @@ function Home() {
               </p>
               <div>
                 <button className="button button--secondary button--outline button--lg">
-                  <Link to={useBaseUrl("docs/react")}>Docs</Link>
+                  <Link to={useBaseUrl("docs/react")}>Examples</Link>
                 </button>
               </div>
             </div>

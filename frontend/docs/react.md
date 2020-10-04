@@ -3,7 +3,18 @@ id: react
 title: React
 ---
 
-You can play around with this example.
+You can play around with this live example and add new features, styles and so much more.
+
+
+:::tip Hint 
+Uncomment the following line:
+ ```jsx
+ <div className="card--title">{character.species}</div>
+ ```
+
+ PS: remove `{/* */}`
+:::
+
 
 ```jsx live
 function App() {
@@ -35,6 +46,7 @@ function App() {
             <img src={character.img_url} alt={character.name} />{" "}
           </div>
           <div className="card--title">{character.name}</div>
+         {/* <div className="card--title">{character.species}</div>*/}
         </div>
       ))}
     </div>
