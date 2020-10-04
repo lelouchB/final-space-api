@@ -105,5 +105,5 @@ module.exports = {
       },
     ],
   ],
-  // themes: ['@docusaurus/theme-live-codeblock'],
+  themes: ['@docusaurus/theme-live-codeblock'],
 };
