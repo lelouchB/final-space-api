@@ -24,6 +24,7 @@ This is the schema of the character
 
 ### Get all characters
 You can access the list of characters by using the `/character` endpoint.
+
 ```
 https://finalspaceapi.com/api/v0/character/
 ```

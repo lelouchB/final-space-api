@@ -46,9 +46,10 @@ function Home() {
                 titular "Final Space".
               </p>
               <div>
-                <button className="button button--secondary button--outline button--lg">
-                  <Link to={useBaseUrl("docs/react")}>Examples</Link>
-                </button>
+                <a className="button button--success button--outline button--lg" href={useBaseUrl("docs/react")}>
+               Examples
+                </a>
+                
               </div>
             </div>
           </div>
