@@ -28,8 +28,7 @@ You can access the list of characters by using the `/character` endpoint.
 https://finalspaceapi.com/api/v0/character/
 ```
 ```json 
-[
-  {
+[ {
     "id": 1,
     "name": "Gary Goodspeed",
     "status": "Alive",
@@ -47,7 +46,7 @@ https://finalspaceapi.com/api/v0/character/
       "Piloting",
       "Marksmanship"
     ],
-    "img_url": "https://raw.githubusercontent.com/lelouchB/final-space-api/main/backend/images/gary_goodspeed.png"
+    "img_url": "https://finalspaceapi.com/api/character/avatar/gary_goodspeed.png"
   },
   //
 ]
@@ -74,6 +73,6 @@ https://finalspaceapi.com/api/v0/character/5
     "Combat",
     "Surgery"
   ],
-  "img_url": "https://raw.githubusercontent.com/lelouchB/final-space-api/main/backend/images/avocato.png"
+  "img_url": "https://finalspaceapi.com/api/character/avatar/avocato.png"
 }
 ```

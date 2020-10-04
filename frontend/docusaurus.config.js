@@ -73,6 +73,10 @@ module.exports = {
               label: "GitHub",
               href: "https://github.com/lelouchB/final-space-api",
             },
+            {
+              label: "Status",
+              href: "https://status.finalspaceapi.com/",
+            },
           ],
         },
       ],
