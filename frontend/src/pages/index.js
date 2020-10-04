@@ -5,7 +5,6 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
-import myImageUrl from "../../static/img/wallapaper4.jpg";
 
 function Home() {
   const [data, setData] = useState([]);
@@ -14,7 +13,7 @@ function Home() {
   const { siteConfig = {} } = context;
 
   useEffect(() => {
-    fetch("http://localhost:8000/api/v0/character")
+    fetch("http://finalspaceapi.com/api/v0/character")
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
@@ -45,7 +44,7 @@ function Home() {
         <div className="container">
           <div className="row">
           {data.map((character) => (
-            <div class="col col--5">
+            <div class="col col--2">
               <div class="card shadow--tl">
                 <div class="card__image">
                   <img src={character.img_url} alt={character.name} />
