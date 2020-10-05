@@ -1,6 +1,6 @@
 import React from 'react'
-import CardList from "./CardList";
-import InfoContainer from "./InfoCointainer";
+import CardList from "./_CardList";
+import InfoContainer from "./_InfoCointainer";
 
 function Body(){
     return(
