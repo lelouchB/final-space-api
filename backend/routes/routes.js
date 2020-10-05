@@ -3,12 +3,16 @@ var router = express.Router();
 var characterController = require("../controllers/character.api.js");
 var apiController = require("../controllers/api.js");
 
-router.route("/character").get(characterController.getCharacters);
-router.route("/character/:id").get(characterController.getCharacter);
-router.route("/").get(apiController.getAPI)
+const { getAllCharacters, getSingleCharacter } = characterController;
 
-router.route("*").get(async function (req, res) {
-  return res.status(404).send("❌❌Endpoint does not exist.❌❌");
+router.route("/character").get(getAllCharacters);
+
+router.route("/character/:id").get(getSingleCharacter);
+
+router.route("/").get(apiController.getAPI);
+
+router.route("*").get((req, res) => {
+  return res.status(404).send("❌❌ Endpoint does not exist. ❌❌");
 });
 
 module.exports = router;

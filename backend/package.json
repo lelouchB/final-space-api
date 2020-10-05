@@ -24,5 +24,17 @@
     },
     "engines": {
         "node": "10.x"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lelouchB/final-space-api.git"
+    },
+    "keywords": [
+        "api",
+        "final space"
+    ],
+    "bugs": {
+        "url": "https://github.com/lelouchB/final-space-api/issues"
+    },
+    "homepage": "https://github.com/lelouchB/final-space-api#readme"
 }

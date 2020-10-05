@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const database_url = process.env.DATABASE_URL;
 
-async function connectDb() {
+const connectDb = async () => {
   return mongoose
     .connect(database_url, {
       useNewUrlParser: true,
@@ -16,6 +16,6 @@ async function connectDb() {
       console.error("Error : Cannot connect to Database " + err);
       return false;
     });
-}
+};
 
 exports.connectDb = connectDb;
