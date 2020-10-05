@@ -25,9 +25,9 @@ final-space-api
 
 ## Installation
 
-Both frontend and backend need to be installed seperately. 
+First, Clone this repo. Both frontend and backend need to be installed seperately. 
 
- **frontend**
+For **frontend** run the following commands.
  
  ```bash
  cd frontend
@@ -36,7 +36,7 @@ Both frontend and backend need to be installed seperately.
  ```
  It is important that frontend is installed first and a `build` directory is created since the backend serves this `build` folder. 
  
- **backend**
+ For **backend** run the following commands.
  
  ```bash
  cd backend
