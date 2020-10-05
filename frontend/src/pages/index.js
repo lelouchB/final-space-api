@@ -12,8 +12,9 @@ function Home() {
 
   return (
     <Layout
+    permalink="/"
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="Final Space API is a REST API based on the animated television show Final Space."
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">

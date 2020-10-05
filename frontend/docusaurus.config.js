@@ -82,6 +82,21 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Ashutosh K Singh`,
     },
+    metadatas: [
+      { name: "og:locale", content: "en" },
+      { name: "og:type", content: "website" },
+      {
+        name: "twitter:description",
+        content:
+          "Final Space API is a REST API based on the animated television show Final Space.",
+      },
+      { name: "twitter:title", content: "Final Space API" },
+      { name: "twitter:url", content: "https://finalspaceapi.com" },
+      { name: "twitter:creator", content: "noharashutosh" },
+    ],
+    image: "img/logo.png",
+    twitterImage: "img/logo.png",
+    ogImage: "img/logo.png",
   },
   presets: [
     [
@@ -105,5 +120,5 @@ module.exports = {
       },
     ],
   ],
-  themes: ['@docusaurus/theme-live-codeblock'],
+  themes: ["@docusaurus/theme-live-codeblock"],
 };

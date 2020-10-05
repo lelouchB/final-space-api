@@ -14,12 +14,14 @@ Hey Stranger 👋
 I am [Ashutosh K Singh](https://twitter.com/noharashutosh), a JavaScript Dev and Technical Writer who loves building awesome things and writing about them. 
 
 
-I binged **Final Space** a few months back and fell in love with it. Chookity! Chookity! But didn't thought much of it. It was [Colby Fayock](https://www.colbyfayock.com/) who suggested to build an API for this amazing show. Thanks a lot for that Colby.
+I binged **Final Space** a few months back and really liked it. Chookity! Chookity! But didn't thought much of it. 
+
+It was [Colby Fayock](https://www.colbyfayock.com/) who suggested to build an API for this amazing show. Thanks a lot for that Colby.
 
 This API was inspired by [The Rick and Morty API](https://rickandmortyapi.com).
 
 ### What I Used?
-Following are the tools and servies I used to create this API.
+Following are the tools and services I used to create this API.
 
 **Tech Stack**
 - [NodeJS](https://nodejs.org/en/)
