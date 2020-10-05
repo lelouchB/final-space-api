@@ -54,7 +54,8 @@ module.exports = {
           items: [
             {
               label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/final-space-api",
+              href:
+                "https://stackoverflow.com/questions/tagged/final-space-api",
             },
             {
               label: "Twitter",
@@ -83,7 +84,10 @@ module.exports = {
       copyright: "Handcrafted by me © twentytwenty",
     },
     metadatas: [
-      {name:"title", content:"Hello from Final Space API | Final Space API"},
+      {
+        name: "title",
+        content: "Hello from Final Space API | Final Space API",
+      },
       { property: "og:locale", content: "en" },
       { property: "og:site_name", content: "Final Space API" },
       { property: "og:type", content: "website" },
@@ -96,9 +100,11 @@ module.exports = {
       { name: "twitter:url", content: "https://finalspaceapi.com" },
       { name: "twitter:creator", content: "@noharashutosh" },
       { name: "twitter:site", content: "@noharashutosh" },
-      {name:"twitter:card", content:"summary_large_image"},
-      {name:"twitter:image:src", content:"https://finalspaceapi.com/img/wallpaper.jpg"},
-      {name:"robots", content:"index,follow,max-image-preview:large"}
+      { name: "twitter:card", content: "summary_large_image" },
+      {
+        name: "twitter:image:src",
+        content: "https://finalspaceapi.com/img/wallpaper.jpg",
+      },
     ],
     image: "img/wallpaper.jpg",
     twitterImage: "img/wallpaper.jpg",
@@ -122,6 +128,12 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+        sitemap: {
+          cacheTime: 600 * 1000, // 600 sec - cache purge period
+          changefreq: "weekly",
+          priority: 0.5,
+          trailingSlash: false,
         },
       },
     ],
