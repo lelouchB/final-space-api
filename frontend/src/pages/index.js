@@ -60,7 +60,7 @@ function Home() {
                 <div className="card__image">
                   <img
                     height="300px"
-                    src="img/gary_goodspeed.jpg"
+                    src={useBaseUrl("img/gary_goodspeed.jpg")}
                     alt="gary_goodspeed"
                   />
                 </div>
@@ -73,7 +73,7 @@ function Home() {
             <div className={styles.card}>
               <div className="card shadow--tl">
                 <div className="card__image">
-                  <img height="300px" src="img/mooncake.jpg" alt="mooncake" />
+                  <img height="300px" src={useBaseUrl("img/mooncake.jpg")} alt="mooncake" />
                 </div>
                 <div className="card__body">
                   <h3>Mooncake</h3>
@@ -86,7 +86,7 @@ function Home() {
                 <div className="card__image">
                   <img
                     height="300px"
-                    src="img/quinn_ergon.jpg"
+                    src={useBaseUrl("img/quinn_ergon.jpg")}
                     alt="quinn_ergon"
                   />
                 </div>
@@ -101,7 +101,7 @@ function Home() {
                 <div className="card__image">
                   <img
                     height="300px"
-                    src="img/little_cato.jpg"
+                    src={useBaseUrl("img/little_cato.jpg")}
                     alt="little_cato"
                   />
                 </div>
@@ -114,7 +114,7 @@ function Home() {
             <div className={styles.card}>
               <div className="card shadow--tl">
                 <div className="card__image">
-                  <img height="300px" src="img/avocato.jpg" alt="avocato" />
+                  <img height="300px" src={useBaseUrl("img/avocato.jpg")} alt="avocato" />
                 </div>
                 <div className="card__body">
                   <h3>Avocato</h3>
@@ -125,7 +125,7 @@ function Home() {
             <div className={styles.card}>
               <div className="card shadow--tl">
                 <div className="card__image">
-                  <img height="300px" src="img/kvn.jpg" alt="kvn" />
+                  <img height="300px" src={useBaseUrl("img/kvn.jpg")} alt="kvn" />
                 </div>
                 <div className="card__body">
                   <h3>K.V.N</h3>
@@ -138,7 +138,7 @@ function Home() {
                 <div className="card__image">
                   <img
                     height="300px"
-                    src="img/ash_graven.jpg"
+                    src={useBaseUrl("img/ash_graven.jpg")}
                     alt="ash_graven"
                   />
                 </div>
