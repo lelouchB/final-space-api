@@ -9,7 +9,7 @@ You can play around with this live example and add new features, styles and so m
 :::tip Hint 
 Uncomment the following line:
  ```jsx
- <div className="card--title">{character.species}</div>
+ <div className="card--text">{character.species}</div>
  ```
 
  PS: remove `{/* */}`
@@ -46,7 +46,7 @@ function App() {
             <img src={character.img_url} alt={character.name} />{" "}
           </div>
           <div className="card--title">{character.name}</div>
-         {/* <div className="card--title">{character.species}</div>*/}
+         {/* <div className="card--text">{character.species}</div>*/}
         </div>
       ))}
     </div>

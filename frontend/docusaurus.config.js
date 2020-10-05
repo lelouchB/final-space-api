@@ -54,7 +54,7 @@ module.exports = {
           items: [
             {
               label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/finalspaceapi",
+              href: "https://stackoverflow.com/questions/tagged/final-space-api",
             },
             {
               label: "Twitter",
@@ -80,23 +80,25 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Ashutosh K Singh`,
+      copyright: "Handcrafted by me © twentytwenty",
     },
     metadatas: [
+      {name:"title", content:"Hello from Final Space API | Final Space API"},
       { name: "og:locale", content: "en" },
       { name: "og:type", content: "website" },
       {
         name: "twitter:description",
         content:
-          "Final Space API is a REST API based on the animated television show Final Space.",
+          "Final Space API is a RESTful public API based on the animated television show Final Space.",
       },
       { name: "twitter:title", content: "Final Space API" },
       { name: "twitter:url", content: "https://finalspaceapi.com" },
       { name: "twitter:creator", content: "noharashutosh" },
+      {name:"twitter:card", content:"summary_large_image"}
     ],
-    image: "img/logo.png",
-    twitterImage: "img/logo.png",
-    ogImage: "img/logo.png",
+    image: "img/wallpaper.jpg",
+    twitterImage: "img/wallpaper.jpg",
+    ogImage: "img/wallpaper.jpg",
   },
   presets: [
     [

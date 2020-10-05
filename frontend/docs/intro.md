@@ -6,7 +6,7 @@ slug: /
 ---
 
 
-The Final Space API is a RESTful API based on the television show [Final Space](https://en.wikipedia.org/wiki/Final_Space).  All the data is taken from [Final Space wiki](https://final-space.fandom.com/wiki/Final_Space_Wiki).
+The Final Space API is a RESTful API based on the television show [Final Space](https://en.wikipedia.org/wiki/Final_Space). [Final Space wiki](https://final-space.fandom.com/wiki/Final_Space_Wiki) was used to gather data for this API.
 
 ### REST
 **Base url:** https://finalspaceapi.com/api/v0/
