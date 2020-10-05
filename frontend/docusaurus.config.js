@@ -85,6 +85,7 @@ module.exports = {
     metadatas: [
       {name:"title", content:"Hello from Final Space API | Final Space API"},
       { name: "og:locale", content: "en" },
+      { name: "og:site_name", content: "Final Space API" },
       { name: "og:type", content: "website" },
       {
         name: "twitter:description",
@@ -93,8 +94,11 @@ module.exports = {
       },
       { name: "twitter:title", content: "Final Space API" },
       { name: "twitter:url", content: "https://finalspaceapi.com" },
-      { name: "twitter:creator", content: "noharashutosh" },
-      {name:"twitter:card", content:"summary_large_image"}
+      { name: "twitter:creator", content: "@noharashutosh" },
+      { name: "twitter:site", content: "@noharashutosh" },
+      {name:"twitter:card", content:"summary_large_image"},
+      {name:"twitter:image:src", content:"https://finalspaceapi.com/img/wallpaper.jpg"},
+      {name:"robots", content:"index,follow,max-image-preview:large"}
     ],
     image: "img/wallpaper.jpg",
     twitterImage: "img/wallpaper.jpg",
