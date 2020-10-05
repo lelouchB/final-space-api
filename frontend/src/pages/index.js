@@ -1,8 +1,8 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import Body from './Body/Body'
-import Head from './Head/Head'
+import Body from '../Components/Body/Body'
+import Head from '../Components/Head/Head'
 
 
 function Home() {
