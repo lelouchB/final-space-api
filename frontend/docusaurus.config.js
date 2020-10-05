@@ -84,9 +84,9 @@ module.exports = {
     },
     metadatas: [
       {name:"title", content:"Hello from Final Space API | Final Space API"},
-      { name: "og:locale", content: "en" },
-      { name: "og:site_name", content: "Final Space API" },
-      { name: "og:type", content: "website" },
+      { property: "og:locale", content: "en" },
+      { property: "og:site_name", content: "Final Space API" },
+      { property: "og:type", content: "website" },
       {
         name: "twitter:description",
         content:
