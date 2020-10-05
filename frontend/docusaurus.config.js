@@ -91,6 +91,7 @@ module.exports = {
       { property: "og:locale", content: "en" },
       { property: "og:site_name", content: "Final Space API" },
       { property: "og:type", content: "website" },
+      { property: "fb:app_id", content: "1883581578450612" },
       {
         name: "twitter:description",
         content:
