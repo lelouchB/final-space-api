@@ -7,6 +7,9 @@ The Final Space API is a RESTful API based on the television show [Final Space](
 ## Project Structure
 ```
 final-space-api
+├───.github
+│   ├───ISSUE_TEMPLATE
+│   └───workflows
 ├───backend
 │   ├───config
 │   ├───controllers
@@ -19,6 +22,9 @@ final-space-api
     ├───src
     │   ├───css
     │   └───pages
+    │       └───Components
+    │           ├───Body
+    │           └───Head
     └───static
         └───img
 ```
