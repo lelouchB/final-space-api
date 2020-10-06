@@ -3,6 +3,21 @@ id: intro
 title: Introduction
 sidebar_label: Introduction
 slug: /
+hide_title: false
+hide_table_of_contents: false
+keywords:
+  - final space
+  - finalspace
+  - finalspaceapi
+  - final space wiki
+  - api
+  - restapi
+  - rest api
+  - tbs
+  - adult swim
+  - introduction
+  - graphqi
+description: The Final Space API is a RESTful API based on the television show Final Space
 ---
 
 

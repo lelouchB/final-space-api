@@ -1,6 +1,21 @@
 ---
 id: react
 title: React
+hide_title: false
+hide_table_of_contents: false
+keywords:
+  - final space
+  - finalspace
+  - finalspaceapi
+  - final space wiki
+  - api
+  - restapi
+  - rest api
+  - tbs
+  - adult swim
+  - example
+  - react
+description: A live example of the Final Space API using React
 ---
 
 You can play around with this live example and add new features, styles and so much more.
