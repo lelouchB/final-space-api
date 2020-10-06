@@ -4,6 +4,15 @@
   "air_date": "04/23/2018",
   "director": "Mike Roberts",
   "writer": "Olan Rogers",
-  "characters": ["Gary", "KVN", "H.U.E", "Quinn", "Lord Commander", "Little Cato", "Tribore", "Shannon Thunder"],
+  "characters": [
+    "https://finalspaceapi.com/api/v0/character/1",
+    "KVN",
+    "H.U.E",
+    "Quinn",
+    "Lord Commander",
+    "Little Cato",
+    "Tribore",
+    "Shannon Thunder"
+  ],
   "img_url": "https://static.wikia.nocookie.net/final-space/images/9/99/Vive_la_Resistance%21.png/revision/latest/scale-to-width-down/640?cb=20180429002820"
 }

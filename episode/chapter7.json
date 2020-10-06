@@ -4,6 +4,13 @@
   "air_date": "04/09/2018",
   "director": "Mike Roberts",
   "writer": "Olan Rogers",
-  "characters": ["Gary", "KVN", "H.U.E", "Quinn", "Nightfall", "Little Cato"],
+  "characters": [
+    "https://finalspaceapi.com/api/v0/character/1",
+    "KVN",
+    "H.U.E",
+    "Quinn",
+    "Nightfall",
+    "Little Cato"
+  ],
   "img_url": "https://static.wikia.nocookie.net/final-space/images/f/ff/Screenshot_20180411-180851.png/revision/latest/scale-to-width-down/1000?cb=20180412011400"
 }

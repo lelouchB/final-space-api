@@ -4,6 +4,17 @@
   "air_date": "04/16/2018",
   "director": "Mike Roberts",
   "writer": "Olan Rogers",
-  "characters": ["Gary", "KVN", "H.U.E", "Quinn", "Nightfall", "Lord Commander", "Little Cato", "Bolo", "John Goodspeed", "Gatekeeper"],
+  "characters": [
+    "https://finalspaceapi.com/api/v0/character/1",
+    "KVN",
+    "H.U.E",
+    "Quinn",
+    "Nightfall",
+    "Lord Commander",
+    "Little Cato",
+    "Bolo",
+    "John Goodspeed",
+    "Gatekeeper"
+  ],
   "img_url": "https://static.wikia.nocookie.net/final-space/images/4/47/Screenshot_20180418-170814.png/revision/latest/scale-to-width-down/1000?cb=20180419000904"
 }

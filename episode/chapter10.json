@@ -4,6 +4,17 @@
   "air_date": "04/30/2018",
   "director": "Mike Roberts",
   "writer": "Olan Rogers",
-  "characters": ["Gary", "KVN", "H.U.E", "Quinn", "Lord Commander", "Little Cato", "Tribore", "Shannon Thunder", "Viro", "John Goodspeed"],
+  "characters": [
+    "https://finalspaceapi.com/api/v0/character/1",
+    "https://finalspaceapi.com/api/v0/character/6",
+    "https://finalspaceapi.com/api/v0/character/9",
+    "https://finalspaceapi.com/api/v0/character/3",
+    "Lord Commander",
+    "Little Cato",
+    "Tribore",
+    "Shannon Thunder",
+    "Viro",
+    "John Goodspeed"
+  ],
   "img_url": "https://static.wikia.nocookie.net/final-space/images/8/85/Screenshot_20180430-193123.png/revision/latest/scale-to-width-down/1000?cb=20180501050013"
 }

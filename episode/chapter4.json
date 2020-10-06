@@ -4,6 +4,16 @@
   "air_date": "03/19/2018",
   "director": "Mike Roberts",
   "writer": "Olan Rogers",
-  "characters": ["Gary", "KVN", "H.U.E", "Avocato", "Quinn", "Lord Commander", "Little Cato", "John Goodspeed", "Young Gary"],
+  "characters": [
+    "https://finalspaceapi.com/api/v0/character/1",
+    "KVN",
+    "H.U.E",
+    "Avocato",
+    "Quinn",
+    "Lord Commander",
+    "Little Cato",
+    "John Goodspeed",
+    "Young Gary"
+  ],
   "img_url": "https://static.wikia.nocookie.net/final-space/images/8/8f/Episode_4.jpg/revision/latest/scale-to-width-down/1000?cb=20180323220014"
 }

@@ -4,6 +4,19 @@
   "air_date": "02/15/2018",
   "director": "Mike Roberts",
   "writer": "Olan Rogers",
-  "characters": ["Gary", "H.U.E", "Paris", "Quinn", "Avocato", "Mooncake", "Tribore", "KVN", "Terk", "Clarence", "Little Cato", "Nightfall"],
+  "characters": [
+    "https://finalspaceapi.com/api/v0/character/1",
+    "https://finalspaceapi.com/api/v0/character/6",
+    "https://finalspaceapi.com/api/v0/character/9",
+    "https://finalspaceapi.com/api/v0/character/3",
+    "Paris",
+    "Avocato",
+    "Mooncake",
+    "Tribore",
+    "Terk",
+    "Clarence",
+    "Little Cato",
+    "Nightfall"
+  ],
   "img_url": "https://static.wikia.nocookie.net/final-space/images/c/c8/Picture2.jpg/revision/latest/scale-to-width-down/1000?cb=20180323220756"
 }
