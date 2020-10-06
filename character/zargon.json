@@ -2,7 +2,7 @@
   "id": 40,
   "name": "Zargon Tukalishi",
   "status": "Deceased",
-  "species": String,
+  "species": "String",
   "gender": "Male",
   "hair": "None",
   "alias": [],
