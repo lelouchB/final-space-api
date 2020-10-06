@@ -50,7 +50,7 @@ function Home() {
                 <a className="button button--success button--outline button--lg" href={useBaseUrl("docs/react")}>
                Examples
                 </a>
-                
+
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ function Home() {
                 <div className="card__image">
                   <img
                     height="300px"
-                    src={useBaseUrl("img/gary_goodspeed.jpg")}
+                    src={useBaseUrl("img/gary_goodspeed.webp")}
                     alt="gary_goodspeed"
                   />
                 </div>
@@ -73,7 +73,7 @@ function Home() {
             <div className={styles.card}>
               <div className="card shadow--tl">
                 <div className="card__image">
-                  <img height="300px" src={useBaseUrl("img/mooncake.jpg")} alt="mooncake" />
+                  <img height="300px" src={useBaseUrl("img/mooncake.webp")} alt="mooncake" />
                 </div>
                 <div className="card__body">
                   <h3>Mooncake</h3>
@@ -86,7 +86,7 @@ function Home() {
                 <div className="card__image">
                   <img
                     height="300px"
-                    src={useBaseUrl("img/quinn_ergon.jpg")}
+                    src={useBaseUrl("img/quinn_ergon.webp")}
                     alt="quinn_ergon"
                   />
                 </div>
@@ -101,7 +101,7 @@ function Home() {
                 <div className="card__image">
                   <img
                     height="300px"
-                    src={useBaseUrl("img/little_cato.jpg")}
+                    src={useBaseUrl("img/little_cato.webp")}
                     alt="little_cato"
                   />
                 </div>
@@ -114,7 +114,7 @@ function Home() {
             <div className={styles.card}>
               <div className="card shadow--tl">
                 <div className="card__image">
-                  <img height="300px" src={useBaseUrl("img/avocato.jpg")} alt="avocato" />
+                  <img height="300px" src={useBaseUrl("img/avocato.webp")} alt="avocato" />
                 </div>
                 <div className="card__body">
                   <h3>Avocato</h3>
@@ -125,7 +125,7 @@ function Home() {
             <div className={styles.card}>
               <div className="card shadow--tl">
                 <div className="card__image">
-                  <img height="300px" src={useBaseUrl("img/kvn.jpg")} alt="kvn" />
+                  <img height="300px" src={useBaseUrl("img/kvn.webp")} alt="kvn" />
                 </div>
                 <div className="card__body">
                   <h3>K.V.N</h3>
@@ -138,7 +138,7 @@ function Home() {
                 <div className="card__image">
                   <img
                     height="300px"
-                    src={useBaseUrl("img/ash_graven.jpg")}
+                    src={useBaseUrl("img/ash_graven.webp")}
                     alt="ash_graven"
                   />
                 </div>
