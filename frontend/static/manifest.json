@@ -1,0 +1,14 @@
+{
+  "name": "Final Space API",
+  "short_name": "Final Space",
+  "description": "Documentation to interact with data about the webshow Final Space",
+  "display": "standalone",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/img/logo.png",
+      "type": "image/png",
+      "sizes": "406x246"
+    }
+  ]
+}
