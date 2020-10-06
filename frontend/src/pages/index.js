@@ -17,6 +17,7 @@ function Home() {
       >
       <Head/>
       <Body/>
+
     </Layout>
   );
 }
