@@ -6,12 +6,12 @@
   "writer": "Olan Rogers",
   "characters": [
     "https://finalspaceapi.com/api/v0/character/1",
-    "Avocato",
-    "Little Cato",
-    "Lord Commander",
-    "KVN",
-    "H.U.E",
-    "Quinn"
+    "https://finalspaceapi.com/api/v0/character/3",
+    "https://finalspaceapi.com/api/v0/character/4",
+    "https://finalspaceapi.com/api/v0/character/5",
+    "https://finalspaceapi.com/api/v0/character/6",
+    "https://finalspaceapi.com/api/v0/character/9",
+    "https://finalspaceapi.com/api/v0/character/11"
   ],
   "img_url": "https://static.wikia.nocookie.net/final-space/images/e/e7/Episode_6.jpg/revision/latest/scale-to-width-down/1000?cb=20180326201133"
 }

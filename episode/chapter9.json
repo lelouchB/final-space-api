@@ -6,13 +6,13 @@
   "writer": "Olan Rogers",
   "characters": [
     "https://finalspaceapi.com/api/v0/character/1",
-    "KVN",
-    "H.U.E",
-    "Quinn",
-    "Lord Commander",
-    "Little Cato",
-    "Tribore",
-    "Shannon Thunder"
+    "https://finalspaceapi.com/api/v0/character/3",
+    "https://finalspaceapi.com/api/v0/character/4",
+    "https://finalspaceapi.com/api/v0/character/6",
+    "https://finalspaceapi.com/api/v0/character/9",
+    "https://finalspaceapi.com/api/v0/character/11",
+    "https://finalspaceapi.com/api/v0/character/14",
+    "https://finalspaceapi.com/api/v0/character/22"
   ],
   "img_url": "https://static.wikia.nocookie.net/final-space/images/9/99/Vive_la_Resistance%21.png/revision/latest/scale-to-width-down/640?cb=20180429002820"
 }

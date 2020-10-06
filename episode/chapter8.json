@@ -6,15 +6,14 @@
   "writer": "Olan Rogers",
   "characters": [
     "https://finalspaceapi.com/api/v0/character/1",
-    "KVN",
-    "H.U.E",
-    "Quinn",
-    "Nightfall",
-    "Lord Commander",
-    "Little Cato",
-    "Bolo",
-    "John Goodspeed",
-    "Gatekeeper"
+    "https://finalspaceapi.com/api/v0/character/3",
+    "https://finalspaceapi.com/api/v0/character/4",
+    "https://finalspaceapi.com/api/v0/character/6",
+    "https://finalspaceapi.com/api/v0/character/9",
+    "https://finalspaceapi.com/api/v0/character/11",
+    "https://finalspaceapi.com/api/v0/character/12",
+    "https://finalspaceapi.com/api/v0/character/15",
+    "https://finalspaceapi.com/api/v0/character/18"
   ],
   "img_url": "https://static.wikia.nocookie.net/final-space/images/4/47/Screenshot_20180418-170814.png/revision/latest/scale-to-width-down/1000?cb=20180419000904"
 }
