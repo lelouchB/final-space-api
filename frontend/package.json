@@ -1,34 +1,50 @@
 {
-  "name": "frontend",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
-    "serve": "docusaurus serve"
-  },
-  "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.65",
-    "@docusaurus/preset-classic": "2.0.0-alpha.65",
-    "@docusaurus/theme-live-codeblock": "^2.0.0-alpha.39",
-    "@mdx-js/react": "^1.5.8",
-    "clsx": "^1.1.1",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+    "name": "final-space-api-frontend",
+    "version": "0.0.0",
+    "scripts": {
+        "docusaurus": "docusaurus",
+        "start": "docusaurus start",
+        "build": "docusaurus build",
+        "swizzle": "docusaurus swizzle",
+        "deploy": "docusaurus deploy",
+        "serve": "docusaurus serve"
+    },
+    "author": "Ashutosh K Singh",
+    "license": "BSD-3-Clause",
+    "dependencies": {
+        "@docusaurus/core": "2.0.0-alpha.65",
+        "@docusaurus/preset-classic": "2.0.0-alpha.65",
+        "@docusaurus/theme-live-codeblock": "^2.0.0-alpha.39",
+        "@mdx-js/react": "^1.5.8",
+        "clsx": "^1.1.1",
+        "react": "^16.8.4",
+        "react-dom": "^16.8.4"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "engines": {
+        "node": "10.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lelouchB/final-space-api.git"
+    },
+    "keywords": [
+        "api",
+        "final space"
     ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "bugs": {
+        "url": "https://github.com/lelouchB/final-space-api/issues"
+    },
+    "homepage": "https://github.com/lelouchB/final-space-api#readme"
 }
