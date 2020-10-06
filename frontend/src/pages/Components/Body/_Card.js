@@ -9,7 +9,7 @@ function Card(props){
             <div className="card__image">
                 <img
                 height="300px"
-                src={useBaseUrl(`img/${props.charName}.jpg`)}
+                src={useBaseUrl(`img/${props.charName}.webp`)}
                 alt={props.charName}
                 />
             </div>
