@@ -17,7 +17,13 @@ keywords:
 description: Episode endpoint documentation for Final Space API.
 ---
 
-This is the documentation for the `/episode` endpoint. There are curently `23` episodes sorted by id, more are added every season. 
+Currently there are `23` episodes spanning over two seasons released in 2018 and 2019.
+
+Season 1 premiered on TBS and consists of 10 episodes which are named as **Chapter 1**, **Chapter 2**, **Chapter 3**, etc.
+
+Season 2 premiered in 2019 on Adult Swim and consists of 13 episodes.
+
+Season 3 is currently in development and it's data will be added after it's release.
 
 ### Episode schema
 
