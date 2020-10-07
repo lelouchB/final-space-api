@@ -14,7 +14,7 @@ keywords:
   - tbs
   - adult swim
   - character
-description: Character endpoint documentation for Final Space API
+description: Character endpoint documentation for Final Space API.
 ---
 
 This is the documentation for the `/character` endpoint. There are curently `25` characters sorted by id, more are added everyday. 
