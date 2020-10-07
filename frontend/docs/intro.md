@@ -13,10 +13,8 @@ keywords:
   - api
   - restapi
   - rest api
-  - tbs
-  - adult swim
   - introduction
-  - graphqi
+  - graphql
 description: The Final Space API is a RESTful API based on the television show Final Space
 ---
 
