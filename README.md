@@ -1,8 +1,6 @@
 # Final Space API
 
-[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
 
 ![](https://img.shields.io/badge/Maintained-Yes-orange)
 ![](https://img.shields.io/badge/PRs-Accepting-brightgreen)
@@ -156,11 +154,6 @@ npm run dev
 Head to [http://localhost:8000](http://localhost:8000), if a `build` folder is present in `frontend` directory then you will see the landing page of the project.
 
 **For more details related to installation and requirements please check the README in Backend directory.** 
-
-## Project Details
-
-Project Link : https://finalspaceapi.com/
-API Docs : https://finalspaceapi.com/docs/
 
 ## License
 Final Space is created by Olan Rogers for [TBS](https://www.tbs.com/) and later picked by [Adult Swim](https://www.adultswim.com). The data and images are used without claim of ownership and belong to their respective owners.
