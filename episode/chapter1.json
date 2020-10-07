@@ -1,0 +1,17 @@
+{
+  "id": 1,
+  "name": "Chapter 1",
+  "air_date": "02/15/2018",
+  "director": "Mike Roberts",
+  "writer": "Olan Rogers",
+  "characters": [
+    "https://finalspaceapi.com/api/v0/character/1",
+    "https://finalspaceapi.com/api/v0/character/2",
+    "https://finalspaceapi.com/api/v0/character/3",
+    "https://finalspaceapi.com/api/v0/character/5",
+    "https://finalspaceapi.com/api/v0/character/6",
+    "https://finalspaceapi.com/api/v0/character/9",
+    "https://finalspaceapi.com/api/v0/character/11"
+  ],
+  "img_url": "https://static.wikia.nocookie.net/final-space/images/9/9a/Episode_1b.jpg/revision/latest/scale-to-width-down/1000?cb=20180323215650"
+}

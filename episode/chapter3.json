@@ -1,0 +1,18 @@
+{
+  "id": 3,
+  "name": "Chapter 3",
+  "air_date": "02/26/2018",
+  "director": "Mike Roberts",
+  "writer": "Olan Rogers",
+  "characters": [
+    "https://finalspaceapi.com/api/v0/character/1",
+    "https://finalspaceapi.com/api/v0/character/3",
+    "https://finalspaceapi.com/api/v0/character/4",
+    "https://finalspaceapi.com/api/v0/character/5",
+    "https://finalspaceapi.com/api/v0/character/6",
+    "https://finalspaceapi.com/api/v0/character/9",
+    "https://finalspaceapi.com/api/v0/character/11",
+    "https://finalspaceapi.com/api/v0/character/14"
+  ],
+  "img_url": "https://static.wikia.nocookie.net/final-space/images/1/12/Picture5.jpg/revision/latest/scale-to-width-down/1000?cb=20180323221608"
+}

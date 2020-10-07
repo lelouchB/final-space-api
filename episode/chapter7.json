@@ -1,0 +1,16 @@
+{
+  "id": 7,
+  "name": "Chapter 7",
+  "air_date": "04/09/2018",
+  "director": "Mike Roberts",
+  "writer": "Olan Rogers",
+  "characters": [
+    "https://finalspaceapi.com/api/v0/character/1",
+    "https://finalspaceapi.com/api/v0/character/3",
+    "https://finalspaceapi.com/api/v0/character/4",
+    "https://finalspaceapi.com/api/v0/character/6",
+    "https://finalspaceapi.com/api/v0/character/9",
+    "https://finalspaceapi.com/api/v0/character/12"
+  ],
+  "img_url": "https://static.wikia.nocookie.net/final-space/images/f/ff/Screenshot_20180411-180851.png/revision/latest/scale-to-width-down/1000?cb=20180412011400"
+}
