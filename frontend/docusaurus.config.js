@@ -1,65 +1,4 @@
 module.exports = {
-  plugins: [
-    [
-      "@docusaurus/plugin-pwa",
-      {
-        debug: true,
-        offlineModeActivationStrategies: [
-          "appInstalled",
-          "queryString",
-          "always",
-        ],
-        pwaHead: [
-          {
-            tagName: "link",
-            rel: "icon",
-            href: "/img/logo.png",
-          },
-          {
-            tagName: "link",
-            rel: "manifest",
-            href: "/manifest.json", // your PWA manifest
-          },
-          {
-            tagName: "meta",
-            name: "theme-color",
-            content: "rgb(37, 194, 160)",
-          },
-          {
-            tagName: "meta",
-            name: "apple-mobile-web-app-capable",
-            content: "yes",
-          },
-          {
-            tagName: "meta",
-            name: "apple-mobile-web-app-status-bar-style",
-            content: "#000",
-          },
-          {
-            tagName: "link",
-            rel: "apple-touch-icon",
-            href: "/img/logo.png",
-          },
-          {
-            tagName: "link",
-            rel: "mask-icon",
-            href: "/img/logo.svg",
-            color: "rgb(37, 194, 160)",
-          },
-          {
-            tagName: "meta",
-            name: "msapplication-TileImage",
-            content: "/img/logo.png",
-          },
-          {
-            tagName: "meta",
-            name: "msapplication-TileColor",
-            content: "#000",
-          },
-        ],
-      },
-    ],
-  ],
   title: "Final Space API",
   tagline: `"That's Not A Cookie. And You Know That HUE, You Know That!"`,
   url: "https://finalspaceapi.com",
@@ -144,10 +83,6 @@ module.exports = {
       ],
       copyright: "Handcrafted by me © twentytwenty",
     },
-    googleAnalytics: {
-      trackingID: 'UA-179975321-1',
-      anonymizeIP: true, 
-    },
     metadatas: [
       {
         name: "title",
@@ -205,4 +140,65 @@ module.exports = {
     ],
   ],
   themes: ["@docusaurus/theme-live-codeblock"],
+  plugins: [
+    [
+      "@docusaurus/plugin-pwa",
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          "appInstalled",
+          "queryString",
+          // "always",
+        ],
+        pwaHead: [
+          {
+            tagName: "link",
+            rel: "icon",
+            href: "/img/pwa/chrome/chrome-extensionmanagementpage-48-48.png",
+          },
+          {
+            tagName: "link",
+            rel: "manifest",
+            href: "/manifest.json", // your PWA manifest
+          },
+          {
+            tagName: "meta",
+            name: "theme-color",
+            content: "rgb(37, 194, 160)",
+          },
+          {
+            tagName: "meta",
+            name: "apple-mobile-web-app-capable",
+            content: "yes",
+          },
+          {
+            tagName: "meta",
+            name: "apple-mobile-web-app-status-bar-style",
+            content: "#000",
+          },
+          {
+            tagName: "link",
+            rel: "apple-touch-icon",
+            href: "/img/logo.png",
+          },
+          {
+            tagName: "link",
+            rel: "mask-icon",
+            href: "/img/logo.svg",
+            color: "rgb(37, 194, 160)",
+          },
+          {
+            tagName: "meta",
+            name: "msapplication-TileImage",
+            content: "/img/logo.png",
+          },
+          {
+            tagName: "meta",
+            name: "msapplication-TileColor",
+            content: "#000",
+          },
+        ],
+      },
+    ],
+  ],
 };
