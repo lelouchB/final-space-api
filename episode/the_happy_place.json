@@ -1,0 +1,19 @@
+{
+  "id": 12,
+  "name": "The Happy Place",
+  "air_date": "06/22/2019",
+  "director": "Yoriaki Mochizuki",
+  "writer": "Olan Rogers",
+  "characters": [
+    "https://finalspaceapi.com/api/v0/character/1",
+    "https://finalspaceapi.com/api/v0/character/4",
+    "https://finalspaceapi.com/api/v0/character/6",
+    "https://finalspaceapi.com/api/v0/character/7",
+    "https://finalspaceapi.com/api/v0/character/8",
+    "https://finalspaceapi.com/api/v0/character/9",
+    "https://finalspaceapi.com/api/v0/character/10",
+    "https://finalspaceapi.com/api/v0/character/12",
+    "https://finalspaceapi.com/api/v0/character/13"
+  ],
+  "img_url": "https://static.wikia.nocookie.net/final-space/images/3/3d/Almighty_Tribore.png/revision/latest/scale-to-width-down/1000?cb=20190702161053" 
+}

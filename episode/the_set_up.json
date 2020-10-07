@@ -1,0 +1,20 @@
+{
+  "id": 21,
+  "name": "The Set Up",
+  "air_date": "08/09/2019",
+  "director": "Anne Walker Farrell",
+  "writer": "Olan Rogers",
+  "characters": [
+    "https://finalspaceapi.com/api/v0/character/1",
+    "https://finalspaceapi.com/api/v0/character/4",
+    "https://finalspaceapi.com/api/v0/character/6",
+    "https://finalspaceapi.com/api/v0/character/7",
+    "https://finalspaceapi.com/api/v0/character/8",
+    "https://finalspaceapi.com/api/v0/character/9",
+    "https://finalspaceapi.com/api/v0/character/10",
+    "https://finalspaceapi.com/api/v0/character/12",
+    "https://finalspaceapi.com/api/v0/character/13",
+    "https://finalspaceapi.com/api/v0/character/16"
+  ],
+  "img_url": "https://static.wikia.nocookie.net/final-space/images/c/cb/EFLeE5qW4AUnGco.png/revision/latest?cb=20190929234241" 
+}
