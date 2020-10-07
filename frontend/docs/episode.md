@@ -14,7 +14,7 @@ keywords:
   - tbs
   - adult swim
   - episode
-description: Episode documentation for Final Space API
+description: Episode endpoint documentation for Final Space API.
 ---
 
 
