@@ -2,16 +2,18 @@ const Character = require("./../models/character.model");
 const options = require("../helpers/options");
 
 const getAllCharacters = async (req, res) => {
-  await options.sort(Character.find(), req.query).exec((err, characters) => {
-    if (err) {
-      return res.status(500).send({
-        success: false,
-        message: "Something went wrong.",
-      });
+  await Character.find(null, null, options(req.query)).exec(
+    (err, characters) => {
+      if (err) {
+        return res.status(500).send({
+          success: false,
+          message: "Something went wrong.",
+        });
+      }
+      res.set("Cache-Control", "public, max-age=315576");
+      return res.json(Character.structure(characters));
     }
-    res.set("Cache-Control", "public, max-age=315576");
-    return res.json(Character.structure(characters));
-  });
+  );
 };
 
 const getSingleCharacter = async (req, res) => {
