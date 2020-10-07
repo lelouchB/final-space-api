@@ -11,11 +11,9 @@ keywords:
   - api
   - restapi
   - rest api
-  - tbs
-  - adult swim
   - example
   - react
-description: A live example of the Final Space API using React
+description: A live example of the Final Space API using React.
 ---
 
 You can play around with this live example and add new features, styles and so much more.
