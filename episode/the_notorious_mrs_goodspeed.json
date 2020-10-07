@@ -1,0 +1,21 @@
+{
+  "id": 15,
+  "name": "The Notorious Mrs. Goodspeed",
+  "air_date": "06/22/2019",
+  "director": "Yoriaki Mochizuki",
+  "writer": "Olan Rogers",
+  "characters": [
+    "https://finalspaceapi.com/api/v0/character/1",
+    "https://finalspaceapi.com/api/v0/character/4",
+    "https://finalspaceapi.com/api/v0/character/6",
+    "https://finalspaceapi.com/api/v0/character/7",
+    "https://finalspaceapi.com/api/v0/character/8",
+    "https://finalspaceapi.com/api/v0/character/9",
+    "https://finalspaceapi.com/api/v0/character/10",
+    "https://finalspaceapi.com/api/v0/character/11",
+    "https://finalspaceapi.com/api/v0/character/12",
+    "https://finalspaceapi.com/api/v0/character/13",
+    "https://finalspaceapi.com/api/v0/character/16"
+  ],
+  "img_url": "https://static.wikia.nocookie.net/final-space/images/e/ea/Notorious.png/revision/latest?cb=20190724000700" 
+}

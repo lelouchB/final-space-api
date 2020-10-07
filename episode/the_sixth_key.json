@@ -1,0 +1,20 @@
+{
+  "id": 23,
+  "name": "The Sixth Key",
+  "air_date": "08/23/2019",
+  "director": "Yoriaki Mochizuki",
+  "writer": "Olan Rogers",
+  "characters": [
+    "https://finalspaceapi.com/api/v0/character/1",
+    "https://finalspaceapi.com/api/v0/character/4",
+    "https://finalspaceapi.com/api/v0/character/5",
+    "https://finalspaceapi.com/api/v0/character/6",
+    "https://finalspaceapi.com/api/v0/character/7",
+    "https://finalspaceapi.com/api/v0/character/8",
+    "https://finalspaceapi.com/api/v0/character/9",
+    "https://finalspaceapi.com/api/v0/character/12",
+    "https://finalspaceapi.com/api/v0/character/13",
+    "https://finalspaceapi.com/api/v0/character/16"
+  ],
+  "img_url": "https://static.wikia.nocookie.net/final-space/images/c/c3/Tumblr_cc2613bf55da41393a883db935485549_26090ffc_640.png/revision/latest?cb=20190929235644" 
+}
