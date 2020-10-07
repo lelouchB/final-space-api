@@ -23,9 +23,9 @@ function Head(props) {
           >
             Get Started
           </Link>
-          <span className={styles.indexCtasGitHubButtonWrapper}>
+          <span className={styles.githubStarButtonWrapper}>
             <iframe
-              className={styles.indexCtasGitHubButton}
+              className={styles.githubStarButton}
               src="https://ghbtns.com/github-btn.html?user=lelouchB&amp;repo=final-space-api&amp;type=star&amp;count=true&amp;size=large"
               width={160}
               height={30}
