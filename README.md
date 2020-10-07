@@ -4,7 +4,7 @@
 
 The Final Space API is a RESTful API based on the television show [Final Space](https://en.wikipedia.org/wiki/Final_Space). All the data is taken from [Final Space wiki](https://final-space.fandom.com/wiki/Final_Space_Wiki).
 
-## Project Structure
+## This is our Project Structure.
 ```
 final-space-api
 ├───.github
@@ -29,7 +29,7 @@ final-space-api
         └───img
 ```
 
-## Installation
+## How to do Installation?
 
 First, Clone this repo. Both frontend and backend need to be installed seperately. 
 
@@ -104,5 +104,5 @@ Head to [http://localhost:8000](http://localhost:8000), if a `build` folder is p
 Final Space is created by Olan Rogers for [TBS](https://www.tbs.com/) and later picked by [Adult Swim](https://www.adultswim.com). The data and images are used without claim of ownership and belong to their respective owners.
 
 This API is open source and uses a [BSD license](/LICENSE).
-
+## Enjoy!
  
