@@ -1,6 +1,20 @@
 ---
 id: character
 title: Character 
+hide_title: false
+hide_table_of_contents: false
+keywords:
+  - final space
+  - finalspace
+  - finalspaceapi
+  - final space wiki
+  - api
+  - restapi
+  - rest api
+  - tbs
+  - adult swim
+  - character
+description: Character endpoint documentation for Final Space API.
 ---
 
 This is the documentation for the `/character` endpoint. There are curently `25` characters sorted by id, more are added everyday. 
