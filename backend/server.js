@@ -3,7 +3,7 @@ const db = require("./config/db");
 const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
-const helmet = require("helmet");
+// const helmet = require("helmet");
 const path = require("path");
 const rateLimit = require("express-rate-limit");
 
