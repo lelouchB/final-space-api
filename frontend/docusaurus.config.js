@@ -7,7 +7,6 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "lelouchB", // Usually your GitHub org/user name.
   projectName: "final-space-api", // Usually your repo name.
-  plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
     navbar: {
       title: "Final Space API",
