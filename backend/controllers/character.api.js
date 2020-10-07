@@ -1,7 +1,8 @@
 const Character = require("./../models/character.model");
+const options = require("../helpers/options");
 
 const getAllCharacters = async (req, res) => {
-  await Character.find({}, (err, characters) => {
+  await options.sort(Character.find(), req.query).exec((err, characters) => {
     if (err) {
       return res.status(500).send({
         success: false,
