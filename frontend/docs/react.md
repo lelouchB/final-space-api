@@ -1,6 +1,19 @@
 ---
 id: react
 title: React
+hide_title: false
+hide_table_of_contents: false
+keywords:
+  - final space
+  - finalspace
+  - finalspaceapi
+  - final space wiki
+  - api
+  - restapi
+  - rest api
+  - example
+  - react
+description: A live example of the Final Space API using React.
 ---
 
 You can play around with this live example and add new features, styles and so much more.
@@ -39,7 +52,7 @@ function App() {
   }, []);
 
   return (
-    <div clasName="root" style={rootStyle}>
+    <div className="root" style={rootStyle}>
       {data.slice(0, 5).map((character) => (
         <div className="card" style={cardStyle} key={character.id}>
           <div className="card--image">
