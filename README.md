@@ -1,6 +1,5 @@
 # Final Space API
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
@@ -119,7 +118,7 @@ For **frontend** run the following commands.
 8. Fill in the title and provide a concise description.
 9. Wait for respose on the PR. Congratulations you just contributed to open source! 👏👏
 
-#### Contributing to Frontend
+### Contributing to Frontend
  
  The frontend of this project is made with [Docusaurus](https://v2.docusaurus.io/docs/) and [React](https://reactjs.org/).
  To start the dev server, run the following commands in `frontend` directory:
@@ -144,7 +143,7 @@ Make sure your contributions are reflected properly in this build.
 
 **For more details related to installation and requirements please check the README in Frontend directory.** 
 
-#### Contributing to Backend
+### Contributing to Backend
 
 The backend is made with **NodeJS**, **Express** and **MongoDB**.
 Run the following commands to open the dev server.
@@ -160,7 +159,6 @@ Head to [http://localhost:8000](http://localhost:8000), if a `build` folder is p
 
 ## Project Details
 
-Name : [ASHUTOSH KUMAR SINGH](https://github.com/lelouchB)
 Project Link : https://finalspaceapi.com/
 API Docs : https://finalspaceapi.com/docs/
 
