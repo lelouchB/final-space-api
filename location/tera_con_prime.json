@@ -1,0 +1,13 @@
+{
+  "id": 3,
+  "name": "Tera Con Prime",
+  "type": "Destroyed planet", 
+  "inhabitants": ["Lord Commander's army", "Infinity Guard soldiers"],
+  "notable_residents": [
+    "https://finalspaceapi.com/api/v0/character/10",
+    "https://finalspaceapi.com/api/v0/character/11",
+    "https://finalspaceapi.com/api/v0/character/20",
+    "https://finalspaceapi.com/api/v0/character/27"
+  ],
+  "img_url": "" 
+}

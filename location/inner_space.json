@@ -1,0 +1,10 @@
+{
+  "id": 4,
+  "name": "Inner Space",
+  "type": "Dimension", 
+  "inhabitants": ["Bolo"],
+  "notable_residents": [
+    "https://finalspaceapi.com/api/v0/character/18"
+  ],
+  "img_url": "" 
+}

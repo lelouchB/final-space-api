@@ -1,0 +1,13 @@
+{
+  "id": 2,
+  "name": "Final Space",
+  "type": "Dimension", 
+  "inhabitants": ["Titans", "Invictus", "Quinn"],
+  "notable_residents": [
+    "https://finalspaceapi.com/api/v0/character/2",
+    "https://finalspaceapi.com/api/v0/character/3",
+    "https://finalspaceapi.com/api/v0/character/15",
+    "https://finalspaceapi.com/api/v0/character/18"
+  ],
+  "img_url": "" 
+}
