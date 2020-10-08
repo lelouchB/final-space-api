@@ -27,7 +27,6 @@ Season 3 is currently in development and it's data will be added after it's rele
 
 ### Episode schema
 
-This is the schema of the episode
 
 | Key        | Type         | Description                              |
 | ---------- | ------------ | ---------------------------------------- |
