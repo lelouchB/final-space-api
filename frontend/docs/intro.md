@@ -98,53 +98,19 @@ https://finalspaceapi.com/api/v0/
 :::info Endpoints
 
 
-There are currently four available resources:
+There are currently two available resources:
 
 - [Character](/docs/character): used to get all the characters.
   
 ```
 GET https://finalspaceapi.com/api/v0/character
 ```
-*Sample Request*
-
-```
-https://finalspaceapi.com/api/v0/character
-```
-
-*Sample Response*
-```json
-[{"id":1,"name":"Gary Goodspeed","status":"Alive","species":"Human","gender":"Male","hair":"Blonde",
-"alias":["The Gary(by Lord Commander)","Thunder Bandit(code name)","Star Dragon(new code name)",
-"Primate(By Clarence)"],"origin":"Earth","abilities":["Piloting","Marksmanship"],
-"img_url":"https://finalspaceapi.com/api/character/avatar/gary_goodspeed.jpg"},
-{"id":2,"name":"Mooncake","status":"Alive","species":"Mooncake's Species",
-"gender":"Male","hair":"None","alias":["Specimen E - 351","Little Buddy","Planet Destroyer","Dude cake","Little Guy"],
-"origin":"Created when John Goodspeed used an Anti-matter bomb to close a breach to Final Space.",
-"abilities":["Hovering","Firing Laser Beams","Planet Destruction"],
-"img_url":"https://finalspaceapi.com/api/character/avatar/mooncake.jpg"}]
-```
-
 
 - [Character with Character id](/docs/character): used to get a specific character details.
   
 ```
 GET https://finalspaceapi.com/api/v0/character/<character_id>
 ```
-*Sample Request*
-
-```
-https://finalspaceapi.com/api/v0/character/2
-```
-
-*Sample Response*
-```json
-{"id":2,"name":"Mooncake","status":"Alive","species":"Mooncake's Species","gender":"Male","hair":"None",
-"alias":["Specimen E - 351","Little Buddy","Planet Destroyer","Dude cake","Little Guy"],
-"origin":"Created when John Goodspeed used an Anti-matter bomb to close a breach to Final Space.",
-"abilities":["Hovering","Firing Laser Beams","Planet Destruction"],
-"img_url":"https://finalspaceapi.com/api/character/avatar/mooncake.jpg"}
-```
-
 
 - [Episode](/docs/episode): used to get all the episodes.
 
@@ -152,49 +118,12 @@ https://finalspaceapi.com/api/v0/character/2
 GET https://finalspaceapi.com/api/v0/episode
 ```
 
-*Sample Request*
-
-```
-https://finalspaceapi.com/api/v0/episode
-```
-
-*Sample Response*
-```json
-[{"id":1,"name":"Chapter 1","air_date":"02/15/2018","director":"Mike Roberts","writer":"Olan Rogers",
-"characters":["https://finalspaceapi.com/api/v0/character/1","https://finalspaceapi.com/api/v0/character/2",
-"https://finalspaceapi.com/api/v0/character/3","https://finalspaceapi.com/api/v0/character/5",
-"https://finalspaceapi.com/api/v0/character/6","https://finalspaceapi.com/api/v0/character/9",
-"https://finalspaceapi.com/api/v0/character/11"],"img_url":
-"http://finalspaceapi.com/api/episode/image/chapter1.jpg"},
-{"id":2,"name":"Chapter 2","air_date":"02/15/2018","director":"Mike Roberts","writer":"Olan Rogers",
-"characters":["https://finalspaceapi.com/api/v0/character/1","https://finalspaceapi.com/api/v0/character/2",
-"https://finalspaceapi.com/api/v0/character/3","https://finalspaceapi.com/api/v0/character/4",
-"https://finalspaceapi.com/api/v0/character/5","https://finalspaceapi.com/api/v0/character/6",
-"https://finalspaceapi.com/api/v0/character/9","https://finalspaceapi.com/api/v0/character/10",
-"https://finalspaceapi.com/api/v0/character/12","https://finalspaceapi.com/api/v0/character/14"],
-"img_url":"http://finalspaceapi.com/api/episode/image/chapter2.jpg"}]
-```
-
-
 - [Episode with Episode Number](/docs/episode): used to get a particular episode details.
 
 ```
 GET https://finalspaceapi.com/api/v0/episode/<episode_id>
 ```
 
-*Sample Request*
-
-```
-https://finalspaceapi.com/api/v0/episode/1
-```
-*Sample Response*
-  ```json
-  {"id":1,"name":"Chapter 1","air_date":"02/15/2018","director":"Mike Roberts","writer":"Olan Rogers",
-  "characters":["https://finalspaceapi.com/api/v0/character/1","https://finalspaceapi.com/api/v0/character/2",
-  "https://finalspaceapi.com/api/v0/character/3","https://finalspaceapi.com/api/v0/character/5",
-  "https://finalspaceapi.com/api/v0/character/6","https://finalspaceapi.com/api/v0/character/9",
-  "https://finalspaceapi.com/api/v0/character/11"],"img_url":"http://finalspaceapi.com/api/episode/image/chapter1.jpg"}
-  ```
 :::
 
 ### GraphQL
