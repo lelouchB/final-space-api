@@ -18,7 +18,7 @@ Check it out here:
 https://finalspaceapi.com/api/v0/episode
 
 
-Thanks [Gerardo Larios](https://github.com/GerryLarios) and [Damien Chazoule](https://github.com/MrDommy) for their valuable contributions to the project.
+Thanks [Gerardo Larios](https://github.com/GerryLarios) and [Damien Chazoule](https://github.com/MrDoomy) for their valuable contributions to the project.
 
 - [ [ADD] episode's data season 1 #28 ](https://github.com/lelouchB/final-space-api/pull/28)
 - [ [ADD] episode's data season 2 #42 ](https://github.com/lelouchB/final-space-api/pull/42)
