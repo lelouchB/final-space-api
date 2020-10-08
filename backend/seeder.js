@@ -42,7 +42,7 @@ seedCharacters = async () => {
     .catch((err) => console.log("Error: characters data didn't fetched " + err))
 
   try {
-    for (character of characters) {
+    for (var character of characters) {
       let newCharacter = new Character(character)
       await newCharacter.save()
     }
@@ -62,7 +62,7 @@ seedEpisodes = async () => {
     .catch((err) => console.log("Error: episodes data didn't fetched " + err))
 
   try {
-    for (episode of episodes) {
+    for (var episode of episodes) {
       let newEpisode = new Episode(episode)
       await newEpisode.save()
     }
