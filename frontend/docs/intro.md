@@ -39,10 +39,58 @@ https://finalspaceapi.com/api/v0/
 ```
 
 ```json
-{
-  "characters": "https://finalspaceapi.com/api/v0/character",
-  "episodes": "https://finalspaceapi.com/api/v0/episode"
-}
+[
+  {
+    "type": "GET",
+    "name": "Endpoints Data",
+    "path": "/",
+    "fullUrl": "https://finalspaceapi.com/api/v0/"
+  },
+  {
+    "type": "GET",
+    "name": "All Characters",
+    "path": "/character",
+    "queryParams": [
+      {
+        "optional": true,
+        "name": "Sort By",
+        "values": [
+          "asc",
+          "desc"
+        ]
+      }
+    ],
+    "fullUrl": "https://finalspaceapi.com/api/v0/character"
+  },
+  {
+    "type": "GET",
+    "name": "Single Character",
+    "path": "/character/<id>",
+    "fullUrl": "https://finalspaceapi.com/api/v0/character/<id>"
+  },
+  {
+    "type": "GET",
+    "name": "All Episodes",
+    "path": "/episode",
+    "queryParams": [
+      {
+        "optional": true,
+        "name": "Sort By",
+        "values": [
+          "asc",
+          "desc"
+        ]
+      }
+    ],
+    "fullUrl": "https://finalspaceapi.com/api/v0/episode"
+  },
+  {
+    "type": "GET",
+    "name": "Single Episode",
+    "path": "/episode/<id>",
+    "fullUrl": "https://finalspaceapi.com/api/v0/episode/<id>"
+  }
+]
 ```
 
 
