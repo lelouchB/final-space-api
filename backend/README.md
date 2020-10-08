@@ -19,7 +19,11 @@ To get a local copy up and running follow these simple example steps.
 npm install npm@latest -g
 ```
 
-- [MongoDB](https://docs.mongodb.com/manual/installation/)
+- [MongoDB](https://docs.mongodb.com/manual/installation/), make sure to copy .env.example to .env before start the backend server
+
+```bash
+cp .env.example .env
+```
 
 #### Project Structure
 
