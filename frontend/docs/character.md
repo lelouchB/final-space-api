@@ -17,7 +17,7 @@ keywords:
 description: Character endpoint documentation for Final Space API.
 ---
 
-This is the documentation for the `/character` endpoint. There are curently `25` characters sorted by id, more are added everyday. 
+This is the documentation for the `/character` endpoint. There are curently `40` characters sorted by id, more are added everyday. 
 
 ### Character schema
 
@@ -115,6 +115,80 @@ https://finalspaceapi.com/api/v0/character/?sort=desc
     "img_url": "https://finalspaceapi.com/api/character/avatar/zargon_tukalishi.jpg"
   },
   ...
+]
+```
+
+### Limit numbers of returend characters
+
+You can now limit numbers of charachters returned by passing the `/?limit={number}` query in the URL.
+
+```
+https://finalspaceapi.com/api/v0/character/?limit=3
+```
+
+```json
+[
+{
+"id": 1,
+"name": "Gary Goodspeed",
+"status": "Alive",
+"species": "Human",
+"gender": "Male",
+"hair": "Blonde",
+"alias": [
+"The Gary(by Lord Commander)",
+"Thunder Bandit(code name)",
+"Star Dragon(new code name)",
+"Primate(By Clarence)"
+],
+"origin": "Earth",
+"abilities": [
+"Piloting",
+"Marksmanship"
+],
+"img_url": "https://finalspaceapi.com/api/character/avatar/gary_goodspeed.jpg"
+},
+{
+"id": 2,
+"name": "Mooncake",
+"status": "Alive",
+"species": "Mooncake's Species",
+"gender": "Male",
+"hair": "None",
+"alias": [
+"Specimen E - 351",
+"Little Buddy",
+"Planet Destroyer",
+"Dude cake",
+"Little Guy"
+],
+"origin": "Created when John Goodspeed used an Anti-matter bomb to close a breach to Final Space.",
+"abilities": [
+"Hovering",
+"Firing Laser Beams",
+"Planet Destruction"
+],
+"img_url": "https://finalspaceapi.com/api/character/avatar/mooncake.jpg"
+},
+{
+"id": 3,
+"name": "Quinn Ergon",
+"status": "Alive",
+"species": "Human",
+"gender": "Female",
+"hair": "Dark Brown",
+"alias": [
+"Nightfall(codename)"
+],
+"origin": "Earth",
+"abilities": [
+"Astrophysicist",
+"Engineer",
+"Piloting",
+"Hand - to - hand Combat"
+],
+"img_url": "https://finalspaceapi.com/api/character/avatar/quinn_ergon.jpg"
+},
 ]
 ```
 
