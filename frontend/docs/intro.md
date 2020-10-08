@@ -65,7 +65,7 @@ https://finalspaceapi.com/api/v0/episode
 
 :::
 
-### GraphQl
+### GraphQL
 
 :::note
 Coming Soon. Work in Progress.
