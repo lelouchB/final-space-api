@@ -104,10 +104,7 @@ There are currently two available resources:
   
 ```
 GET https://finalspaceapi.com/api/v0/character
-```
-
-- [Character with Character id](/docs/character): used to get a specific character details.
-  
+```  
 ```
 GET https://finalspaceapi.com/api/v0/character/<character_id>
 ```
@@ -117,9 +114,6 @@ GET https://finalspaceapi.com/api/v0/character/<character_id>
 ```
 GET https://finalspaceapi.com/api/v0/episode
 ```
-
-- [Episode with Episode Number](/docs/episode): used to get a particular episode details.
-
 ```
 GET https://finalspaceapi.com/api/v0/episode/<episode_id>
 ```
