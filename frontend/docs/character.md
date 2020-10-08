@@ -185,65 +185,55 @@ https://finalspaceapi.com/api/v0/character/?limit=3
 
 ### Use limit with sort
 
-You can limit the response and sort it by passing the `/?limit={number}` and `/?sort=desc` or `/?sort=asc` query parameters in the URL.
+You can limit and sort the response simultaneously by passing both `limit={number}` and `sort=desc` query parameters in the URL and seperating them with `&` operator.
 
 ```
-https://finalspaceapi.com/api/v0/character/?limit=3$sort=desc
+https://finalspaceapi.com/api/v0/character/?limit=3&sort=desc
 ```
 
 ```json
 [
   {
-    "id": 3,
-    "name": "Quinn Ergon",
-    "status": "Alive",
-    "species": "Human",
-    "gender": "Female",
-    "hair": "Dark Brown",
-    "alias": ["Nightfall(codename)"],
-    "origin": "Earth",
-    "abilities": [
-      "Astrophysicist",
-      "Engineer",
-      "Piloting",
-      "Hand - to - hand Combat"
-    ],
-    "img_url": "https://finalspaceapi.com/api/character/avatar/quinn_ergon.jpg"
+    "id": 40,
+    "name": "Zargon Tukalishi",
+    "status": "Deceased",
+    "species": "Unknown",
+    "gender": "Male",
+    "hair": "None",
+    "alias": [],
+    "origin": "Yarno",
+    "abilities": [],
+    "img_url": "https://finalspaceapi.com/api/character/avatar/zargon_tukalishi.jpg"
   },
   {
-    "id": 2,
-    "name": "Mooncake",
-    "status": "Alive",
-    "species": "Mooncake's Species",
+    "id": 39,
+    "name": "Werthrent",
+    "status": "Deceased",
+    "species": "Fire Snake",
     "gender": "Male",
     "hair": "None",
     "alias": [
-      "Specimen E - 351",
-      "Little Buddy",
-      "Planet Destroyer",
-      "Dude cake",
-      "Little Guy"
+      "Serpent God",
+      "Snake God"
     ],
-    "origin": "Created when John Goodspeed used an Anti-matter bomb to close a breach to Final Space.",
-    "abilities": ["Hovering", "Firing Laser Beams", "Planet Destruction"],
-    "img_url": "https://finalspaceapi.com/api/character/avatar/mooncake.jpg"
+    "origin": "Serepentis",
+    "abilities": [
+      "Telepathy",
+      "Mind-breaking"
+    ],
+    "img_url": "https://finalspaceapi.com/api/character/avatar/werthrent.jpg"
   },
   {
-    "id": 1,
-    "name": "Gary Goodspeed",
-    "status": "Alive",
-    "species": "Human",
+    "id": 38,
+    "name": "Viro",
+    "status": "Deceased",
+    "species": "Cyborg",
     "gender": "Male",
-    "hair": "Blonde",
-    "alias": [
-      "The Gary(by Lord Commander)",
-      "Thunder Bandit(code name)",
-      "Star Dragon(new code name)",
-      "Primate(By Clarence)"
-    ],
-    "origin": "Earth",
-    "abilities": ["Piloting", "Marksmanship"],
-    "img_url": "https://finalspaceapi.com/api/character/avatar/gary_goodspeed.jpg"
+    "hair": "None",
+    "alias": [],
+    "origin": "Unknown",
+    "abilities": [],
+    "img_url": "https://finalspaceapi.com/api/character/avatar/viro.jpg"
   }
 ]
 ```

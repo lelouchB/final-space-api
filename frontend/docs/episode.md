@@ -206,68 +206,73 @@ https://finalspaceapi.com/api/v0/episode/?limit=3
 
 ### Use limit with sort
 
-You can limit the response and sort it by passing the `/?limit={number}` and `/?sort=desc` or `/?sort=asc` query parameters in the URL.
+You can limit and sort the response simultaneously by passing both `limit={number}` and `sort=desc` query parameters in the URL and seperating them with `&` operator.
 
 ```
-https://finalspaceapi.com/api/v0/character/?limit=3$sort=desc
+https://finalspaceapi.com/api/v0/episode/?limit=3&sort=desc
 ```
 
 ```json
 [
   {
-    "id": 3,
-    "name": "Chapter 3",
-    "air_date": "02/26/2018",
-    "director": "Mike Roberts",
+    "id": 23,
+    "name": "The Sixth Key",
+    "air_date": "08/23/2019",
+    "director": "Yoriaki Mochizuki",
     "writer": "Olan Rogers",
     "characters": [
       "https://finalspaceapi.com/api/v0/character/1",
-      "https://finalspaceapi.com/api/v0/character/3",
       "https://finalspaceapi.com/api/v0/character/4",
       "https://finalspaceapi.com/api/v0/character/5",
       "https://finalspaceapi.com/api/v0/character/6",
+      "https://finalspaceapi.com/api/v0/character/7",
+      "https://finalspaceapi.com/api/v0/character/8",
       "https://finalspaceapi.com/api/v0/character/9",
-      "https://finalspaceapi.com/api/v0/character/11",
-      "https://finalspaceapi.com/api/v0/character/14"
+      "https://finalspaceapi.com/api/v0/character/12",
+      "https://finalspaceapi.com/api/v0/character/13",
+      "https://finalspaceapi.com/api/v0/character/16"
     ],
-    "img_url": "http://finalspaceapi.com/api/episode/image/chapter3.jpg"
+    "img_url": "http://finalspaceapi.com/api/episode/image/the_sixth_key.jpg"
   },
   {
-    "id": 2,
-    "name": "Chapter 2",
-    "air_date": "02/15/2018",
-    "director": "Mike Roberts",
+    "id": 22,
+    "name": "The Descent Into Darkness",
+    "air_date": "08/16/2019",
+    "director": "Yoriaki Mochizuki",
     "writer": "Olan Rogers",
     "characters": [
       "https://finalspaceapi.com/api/v0/character/1",
-      "https://finalspaceapi.com/api/v0/character/2",
-      "https://finalspaceapi.com/api/v0/character/3",
       "https://finalspaceapi.com/api/v0/character/4",
-      "https://finalspaceapi.com/api/v0/character/5",
       "https://finalspaceapi.com/api/v0/character/6",
+      "https://finalspaceapi.com/api/v0/character/7",
+      "https://finalspaceapi.com/api/v0/character/8",
+      "https://finalspaceapi.com/api/v0/character/9",
+      "https://finalspaceapi.com/api/v0/character/12",
+      "https://finalspaceapi.com/api/v0/character/13",
+      "https://finalspaceapi.com/api/v0/character/16",
+      "https://finalspaceapi.com/api/v0/character/17"
+    ],
+    "img_url": "http://finalspaceapi.com/api/episode/image/the_descent_into_darkness.jpg"
+  },
+  {
+    "id": 21,
+    "name": "The Set Up",
+    "air_date": "08/09/2019",
+    "director": "Anne Walker Farrell",
+    "writer": "Olan Rogers",
+    "characters": [
+      "https://finalspaceapi.com/api/v0/character/1",
+      "https://finalspaceapi.com/api/v0/character/4",
+      "https://finalspaceapi.com/api/v0/character/6",
+      "https://finalspaceapi.com/api/v0/character/7",
+      "https://finalspaceapi.com/api/v0/character/8",
       "https://finalspaceapi.com/api/v0/character/9",
       "https://finalspaceapi.com/api/v0/character/10",
       "https://finalspaceapi.com/api/v0/character/12",
-      "https://finalspaceapi.com/api/v0/character/14"
+      "https://finalspaceapi.com/api/v0/character/13",
+      "https://finalspaceapi.com/api/v0/character/16"
     ],
-    "img_url": "http://finalspaceapi.com/api/episode/image/chapter2.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Chapter 1",
-    "air_date": "02/15/2018",
-    "director": "Mike Roberts",
-    "writer": "Olan Rogers",
-    "characters": [
-      "https://finalspaceapi.com/api/v0/character/1",
-      "https://finalspaceapi.com/api/v0/character/2",
-      "https://finalspaceapi.com/api/v0/character/3",
-      "https://finalspaceapi.com/api/v0/character/5",
-      "https://finalspaceapi.com/api/v0/character/6",
-      "https://finalspaceapi.com/api/v0/character/9",
-      "https://finalspaceapi.com/api/v0/character/11"
-    ],
-    "img_url": "http://finalspaceapi.com/api/episode/image/chapter1.jpg"
+    "img_url": "http://finalspaceapi.com/api/episode/image/the_set_up.jpg"
   }
 ]
 ```
