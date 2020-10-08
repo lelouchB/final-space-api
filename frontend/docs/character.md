@@ -97,7 +97,7 @@ https://finalspaceapi.com/api/v0/character/5
 You can now sort the response based on `id` by passing the `/?sort=asc` or `/?sort=desc` query in the URL.
 
 ```
-https://finalspaceapi.com/api/v0/character?sort=desc
+https://finalspaceapi.com/api/v0/character/?sort=desc
 ```
 
 ```json
