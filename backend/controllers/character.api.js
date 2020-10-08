@@ -1,5 +1,5 @@
 const Character = require("./../models/character.model")
-const options = require("../helpers/options");
+const options = require("../helpers/options")
 
 const getAllCharacters = async (req, res) => {
   await Character.find({}, null, options(req.query), (err, characters) => {
