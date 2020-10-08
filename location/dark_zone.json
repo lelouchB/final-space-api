@@ -1,8 +1,8 @@
 {
-  id: 6,
-  name: "Dark Zone",
-  type: "Black hole", 
-  inhabitants: []
-  notable_residents: [],
-  img_url: "https://static.wikia.nocookie.net/final-space/images/7/70/Final_Space_S2_E12_4.png/revision/latest/scale-to-width-down/1000?cb=20200213183523" 
+  "id": 6,
+  "name": "Dark Zone",
+  "type": "Black hole", 
+  "inhabitants": [],
+  "notable_residents": [],
+  "img_url": "https://static.wikia.nocookie.net/final-space/images/7/70/Final_Space_S2_E12_4.png/revision/latest/scale-to-width-down/1000?cb=20200213183523" 
 }

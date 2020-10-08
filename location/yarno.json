@@ -1,8 +1,8 @@
 {
-  id: 5,
-  name: "Inner Space",
-  type: "Planet", 
-  inhabitants: []
-  notable_residents: [],
-  img_url: "https://static.wikia.nocookie.net/final-space/images/e/e7/Yarno.PNG/revision/latest/scale-to-width-down/1000?cb=20180227035510" 
+  "id": 5,
+  "name": "Inner Space",
+  "type": "Planet", 
+  "inhabitants": [],
+  "notable_residents": [],
+  "img_url": "https://static.wikia.nocookie.net/final-space/images/e/e7/Yarno.PNG/revision/latest/scale-to-width-down/1000?cb=20180227035510" 
 }

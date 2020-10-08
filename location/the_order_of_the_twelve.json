@@ -1,8 +1,8 @@
 {
-  id: 9,
-  name: "The Order of the Twelve",
-  type: "Temple", 
-  inhabitants: []
-  notable_residents: [],
-  img_url: "https://static.wikia.nocookie.net/final-space/images/a/a6/Order_of_the_Twelve_Facade.PNG/revision/latest/scale-to-width-down/1000?cb=20180316000625" 
+  "id": 9,
+  "name": "The Order of the Twelve",
+  "type": "Temple", 
+  "inhabitants": [],
+  "notable_residents": [],
+  "img_url": "https://static.wikia.nocookie.net/final-space/images/a/a6/Order_of_the_Twelve_Facade.PNG/revision/latest/scale-to-width-down/1000?cb=20180316000625" 
 }
