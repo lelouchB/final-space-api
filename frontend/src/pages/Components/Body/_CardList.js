@@ -10,7 +10,6 @@ function CardList(props){
             <Card charName="little_cato" name="Little Cato" status="Alive"/>
             <Card charName="avocato" name="Avocato" status="Alive"/>
             <Card charName="kvn" name="K.V.N" status="Operational"/>
-            <Card charName="ash_graven" name="Ash Graven" status="Alive"/>
         </div>
     )
 }

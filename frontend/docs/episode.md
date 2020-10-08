@@ -56,17 +56,17 @@ https://finalspaceapi.com/api/v0/episode/
     "director": "Mike Roberts",
     "writer": "Olan Rogers",
     "characters": [
-        "https://finalspaceapi.com/api/v0/character/1",
-        "https://finalspaceapi.com/api/v0/character/2",
-        "https://finalspaceapi.com/api/v0/character/3",
-        "https://finalspaceapi.com/api/v0/character/5",
-        "https://finalspaceapi.com/api/v0/character/6",
-        "https://finalspaceapi.com/api/v0/character/9",
-        "https://finalspaceapi.com/api/v0/character/11"
+      "https://finalspaceapi.com/api/v0/character/1",
+      "https://finalspaceapi.com/api/v0/character/2",
+      "https://finalspaceapi.com/api/v0/character/3",
+      "https://finalspaceapi.com/api/v0/character/5",
+      "https://finalspaceapi.com/api/v0/character/6",
+      "https://finalspaceapi.com/api/v0/character/9",
+      "https://finalspaceapi.com/api/v0/character/11"
     ],
-    "img_url": "https://static.wikia.nocookie.net/final-space/images/9/9a/Episode_1b.jpg/revision/latest/scale-to-width-down/1000?cb=20180323215650"
+    "img_url": "http://finalspaceapi.com/episode/image/chapter1.jpg"
   },
-  // ...
+ ...
 ]
 ```
 
@@ -98,6 +98,44 @@ https://finalspaceapi.com/api/v0/episode/15
     "https://finalspaceapi.com/api/v0/character/13",
     "https://finalspaceapi.com/api/v0/character/16"
   ],
-  "img_url": "https://static.wikia.nocookie.net/final-space/images/e/ea/Notorious.png/revision/latest?cb=20190724000700" 
+  "img_url": "http://finalspaceapi.com/episode/image/the_notorious_mrs_goodspeed.jpg"
 }
 ```
+
+
+
+### Sort the response
+
+You can now sort the response based on `id` by passing the `/?sort=asc` or `/?sort=desc` query in the URL.
+
+```
+https://finalspaceapi.com/api/v0/episode/?sort=desc
+```
+
+```json
+[
+  {
+    "id": 23,
+    "name": "The Sixth Key",
+    "air_date": "08/23/2019",
+    "director": "Yoriaki Mochizuki",
+    "writer": "Olan Rogers",
+    "characters": [
+      "https://finalspaceapi.com/api/v0/character/1",
+      "https://finalspaceapi.com/api/v0/character/4",
+      "https://finalspaceapi.com/api/v0/character/5",
+      "https://finalspaceapi.com/api/v0/character/6",
+      "https://finalspaceapi.com/api/v0/character/7",
+      "https://finalspaceapi.com/api/v0/character/8",
+      "https://finalspaceapi.com/api/v0/character/9",
+      "https://finalspaceapi.com/api/v0/character/12",
+      "https://finalspaceapi.com/api/v0/character/13",
+      "https://finalspaceapi.com/api/v0/character/16"
+    ],
+    "img_url": "http://finalspaceapi.com/episode/image/the_sixth_key.jpg"
+  },
+  ...
+]
+```
+
+

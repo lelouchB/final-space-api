@@ -81,7 +81,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: "Handcrafted by me © twentytwenty",
+      copyright: "Handcrafted with 🤍 by Me",
     },
     googleAnalytics: { trackingID: "UA-179975321-1", anonymizeIP: true },
     metadatas: [

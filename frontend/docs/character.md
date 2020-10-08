@@ -63,7 +63,7 @@ https://finalspaceapi.com/api/v0/character/
     ],
     "img_url": "https://finalspaceapi.com/api/character/avatar/gary_goodspeed.jpg"
   },
-  //
+  ...
 ]
 ```
 
@@ -91,3 +91,31 @@ https://finalspaceapi.com/api/v0/character/5
   "img_url": "https://finalspaceapi.com/api/character/avatar/avocato.jpg"
 }
 ```
+
+### Sort the response
+
+You can now sort the response based on `id` by passing the `/?sort=asc` or `/?sort=desc` query in the URL.
+
+```
+https://finalspaceapi.com/api/v0/character/?sort=desc
+```
+
+```json
+[
+  {
+    "id": 40,
+    "name": "Zargon Tukalishi",
+    "status": "Deceased",
+    "species": "Unknown",
+    "gender": "Male",
+    "hair": "None",
+    "alias": [],
+    "origin": "Yarno",
+    "abilities": [],
+    "img_url": "https://finalspaceapi.com/api/character/avatar/zargon_tukalishi.jpg"
+  },
+  ...
+]
+```
+
+

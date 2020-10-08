@@ -12,8 +12,13 @@ function InfoContainer(){
                 The series involves a prisoner named <b>Gary Goodspeed</b> and
                 his alien friend, <b>Mooncake</b>, and focuses on their
                 intergalactic adventures as they try to solve the mystery of the
-                titular "Final Space".
+                titular "Final Space".<br />
+
+                The data and images are used without claim of ownership and belong to their respective owners.
+                This API is open source and uses a <a href="https://github.com/lelouchB/final-space-api/blob/main/LICENSE" >BSD license</a>.
+
               </p>
+
               <div>
                 <a className="button button--success button--outline button--lg" href={useBaseUrl("docs/react")}>
                Examples
