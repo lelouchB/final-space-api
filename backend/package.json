@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
-    "prod": "NODE_ENV=production node server.js"
+    "prod": "NODE_ENV=production node server.js",
+    "seed": "node seeder.js"
   },
   "author": "Ashutosh K Singh",
   "license": "BSD-3-Clause",
@@ -19,6 +20,7 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "axios": "^0.20.0",
     "dotenv": "^8.2.0",
     "nodemon": "^2.0.4",
     "prettier": "2.1.2"
