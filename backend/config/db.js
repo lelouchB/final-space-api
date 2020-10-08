@@ -1,6 +1,6 @@
-const mongoose = require("mongoose");
+const mongoose = require("mongoose")
 
-const database_url = process.env.DATABASE_URL;
+const database_url = process.env.DATABASE_URL
 
 const connectDb = async () => {
   return mongoose
@@ -9,13 +9,13 @@ const connectDb = async () => {
       useUnifiedTopology: true,
     })
     .then(() => {
-      console.log("Database Connected");
-      return true;
+      console.log("Database Connected")
+      return true
     })
     .catch((err) => {
-      console.error("Error : Cannot connect to Database " + err);
-      return false;
-    });
-};
+      console.error("Error : Cannot connect to Database " + err)
+      return false
+    })
+}
 
-exports.connectDb = connectDb;
+exports.connectDb = connectDb

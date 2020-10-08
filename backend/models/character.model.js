@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require("mongoose")
 
 const characterSchema = new mongoose.Schema(
   {
@@ -16,8 +16,8 @@ const characterSchema = new mongoose.Schema(
   {
     collection: "characters",
   },
-  { timestamps: true }
-);
+  { timestamps: true },
+)
 
 characterSchema.statics.structure = (res) => {
   const sortSchema = ({
@@ -42,11 +42,11 @@ characterSchema.statics.structure = (res) => {
     origin,
     abilities,
     img_url,
-  });
+  })
 
-  return Array.isArray(res) ? res.map(sortSchema) : sortSchema(res);
-};
+  return Array.isArray(res) ? res.map(sortSchema) : sortSchema(res)
+}
 
-const Character = mongoose.model("characters", characterSchema);
+const Character = mongoose.model("characters", characterSchema)
 
-module.exports = Character;
+module.exports = Character
