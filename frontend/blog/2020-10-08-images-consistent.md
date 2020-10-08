@@ -1,6 +1,6 @@
 ---
 slug: avatar
-title: Character Imgaes Consisitent 300x300
+title: Character Images Consistent 300x300
 author: Ashutosh K Singh
 author_title: Final Space API
 authorTwitter: noharashutosh
