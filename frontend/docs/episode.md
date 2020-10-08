@@ -1,6 +1,6 @@
 ---
 id: episode
-title: Episode 
+title: Episode
 hide_title: false
 hide_table_of_contents: false
 keywords:
@@ -29,15 +29,15 @@ Season 3 is currently in development and it's data will be added after it's rele
 
 This is the schema of the episode
 
-|Key|Type|Description|
-|---|---|---|
-|id|int|The id of the episode (starting from 1).
-|name|string|The name of the episode.
-|air_date|string|The air date of the episode.
-|director|string|The director of the episode.
-|writer|string|The writer of the episode.
-|characters|array|Different characters of the episode.
-|img_url|string (url)|Link to the episode's image. 
+| Key        | Type         | Description                              |
+| ---------- | ------------ | ---------------------------------------- |
+| id         | int          | The id of the episode (starting from 1). |
+| name       | string       | The name of the episode.                 |
+| air_date   | string       | The air date of the episode.             |
+| director   | string       | The director of the episode.             |
+| writer     | string       | The writer of the episode.               |
+| characters | array        | Different characters of the episode.     |
+| img_url    | string (url) | Link to the episode's image.             |
 
 ### Get all episodes
 
@@ -47,7 +47,7 @@ You can access the list of episodes by using the `/episode` endpoint.
 https://finalspaceapi.com/api/v0/episode/
 ```
 
-```json 
+```json
 [
   {
     "id": 1,
@@ -102,8 +102,6 @@ https://finalspaceapi.com/api/v0/episode/15
 }
 ```
 
-
-
 ### Sort the response
 
 You can now sort the response based on `id` by passing the `/?sort=asc` or `/?sort=desc` query in the URL.
@@ -138,4 +136,138 @@ https://finalspaceapi.com/api/v0/episode/?sort=desc
 ]
 ```
 
+### Limit the response
 
+You can now limit the response by passing the `/?limit={number}` query in the URL.
+
+```
+https://finalspaceapi.com/api/v0/episode/?limit=3
+```
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Chapter 1",
+    "air_date": "02/15/2018",
+    "director": "Mike Roberts",
+    "writer": "Olan Rogers",
+    "characters": [
+      "https://finalspaceapi.com/api/v0/character/1",
+      "https://finalspaceapi.com/api/v0/character/2",
+      "https://finalspaceapi.com/api/v0/character/3",
+      "https://finalspaceapi.com/api/v0/character/5",
+      "https://finalspaceapi.com/api/v0/character/6",
+      "https://finalspaceapi.com/api/v0/character/9",
+      "https://finalspaceapi.com/api/v0/character/11"
+    ],
+    "img_url": "http://finalspaceapi.com/api/episode/image/chapter1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chapter 2",
+    "air_date": "02/15/2018",
+    "director": "Mike Roberts",
+    "writer": "Olan Rogers",
+    "characters": [
+      "https://finalspaceapi.com/api/v0/character/1",
+      "https://finalspaceapi.com/api/v0/character/2",
+      "https://finalspaceapi.com/api/v0/character/3",
+      "https://finalspaceapi.com/api/v0/character/4",
+      "https://finalspaceapi.com/api/v0/character/5",
+      "https://finalspaceapi.com/api/v0/character/6",
+      "https://finalspaceapi.com/api/v0/character/9",
+      "https://finalspaceapi.com/api/v0/character/10",
+      "https://finalspaceapi.com/api/v0/character/12",
+      "https://finalspaceapi.com/api/v0/character/14"
+    ],
+    "img_url": "http://finalspaceapi.com/api/episode/image/chapter2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Chapter 3",
+    "air_date": "02/26/2018",
+    "director": "Mike Roberts",
+    "writer": "Olan Rogers",
+    "characters": [
+      "https://finalspaceapi.com/api/v0/character/1",
+      "https://finalspaceapi.com/api/v0/character/3",
+      "https://finalspaceapi.com/api/v0/character/4",
+      "https://finalspaceapi.com/api/v0/character/5",
+      "https://finalspaceapi.com/api/v0/character/6",
+      "https://finalspaceapi.com/api/v0/character/9",
+      "https://finalspaceapi.com/api/v0/character/11",
+      "https://finalspaceapi.com/api/v0/character/14"
+    ],
+    "img_url": "http://finalspaceapi.com/api/episode/image/chapter3.jpg"
+  }
+]
+```
+
+### Use limit with sort
+
+You can limit the response and sort it by passing the `/?limit={number}` and `/?sort=desc` or `/?sort=asc` query parameters in the URL.
+
+```
+https://finalspaceapi.com/api/v0/character/?limit=3$sort=desc
+```
+
+```json
+[
+  {
+    "id": 3,
+    "name": "Chapter 3",
+    "air_date": "02/26/2018",
+    "director": "Mike Roberts",
+    "writer": "Olan Rogers",
+    "characters": [
+      "https://finalspaceapi.com/api/v0/character/1",
+      "https://finalspaceapi.com/api/v0/character/3",
+      "https://finalspaceapi.com/api/v0/character/4",
+      "https://finalspaceapi.com/api/v0/character/5",
+      "https://finalspaceapi.com/api/v0/character/6",
+      "https://finalspaceapi.com/api/v0/character/9",
+      "https://finalspaceapi.com/api/v0/character/11",
+      "https://finalspaceapi.com/api/v0/character/14"
+    ],
+    "img_url": "http://finalspaceapi.com/api/episode/image/chapter3.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chapter 2",
+    "air_date": "02/15/2018",
+    "director": "Mike Roberts",
+    "writer": "Olan Rogers",
+    "characters": [
+      "https://finalspaceapi.com/api/v0/character/1",
+      "https://finalspaceapi.com/api/v0/character/2",
+      "https://finalspaceapi.com/api/v0/character/3",
+      "https://finalspaceapi.com/api/v0/character/4",
+      "https://finalspaceapi.com/api/v0/character/5",
+      "https://finalspaceapi.com/api/v0/character/6",
+      "https://finalspaceapi.com/api/v0/character/9",
+      "https://finalspaceapi.com/api/v0/character/10",
+      "https://finalspaceapi.com/api/v0/character/12",
+      "https://finalspaceapi.com/api/v0/character/14"
+    ],
+    "img_url": "http://finalspaceapi.com/api/episode/image/chapter2.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Chapter 1",
+    "air_date": "02/15/2018",
+    "director": "Mike Roberts",
+    "writer": "Olan Rogers",
+    "characters": [
+      "https://finalspaceapi.com/api/v0/character/1",
+      "https://finalspaceapi.com/api/v0/character/2",
+      "https://finalspaceapi.com/api/v0/character/3",
+      "https://finalspaceapi.com/api/v0/character/5",
+      "https://finalspaceapi.com/api/v0/character/6",
+      "https://finalspaceapi.com/api/v0/character/9",
+      "https://finalspaceapi.com/api/v0/character/11"
+    ],
+    "img_url": "http://finalspaceapi.com/api/episode/image/chapter1.jpg"
+  }
+]
+```
