@@ -1,31 +1,40 @@
 /* stylelint-disable docusaurus/copyright-header */
 
-
 /**
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
 
 .heroBanner {
-    padding: 4rem 0;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 966px) {
-    .heroBanner {
-        padding: 2rem;
-    }
+  .heroBanner {
+    padding: 2rem;
+  }
 }
 
 .buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
-    margin: 20px;
-    justify-content: space-around;
+  margin: 20px;
+  justify-content: space-around;
+}
+
+.githubStarButtonWrapper {
+  display: flex;
+}
+
+.githubStarButton {
+  border: none;
+  margin-left: 24px;
+  overflow: hidden;
 }
