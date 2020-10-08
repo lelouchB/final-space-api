@@ -71,7 +71,7 @@ For **frontend** run the following commands.
  npm start
  ```
  
- This will start the frontend dev server on [http://localhost:3000](http://localhost:3000).
+ This will start the frontend development server on [http://localhost:3000](http://localhost:3000).
  
 After you have done with your contribution, create the production build by running the following commands:
 
@@ -89,7 +89,7 @@ Make sure your contributions are reflected properly in this build.
 ## Contributing to Backend
 
 The backend is made with **NodeJS**, **Express** and **MongoDB**.
-Run the following commands to open the dev server.
+Run the following commands to open the development server.
 
 ```bash
 cd backend
