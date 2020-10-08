@@ -1,7 +1,5 @@
 # Final Space API
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-
 ![](https://img.shields.io/badge/Maintained-Yes-orange)
 ![](https://img.shields.io/badge/PRs-Accepting-brightgreen)
 ![](https://img.shields.io/github/issues/lelouchB/final-space-api)
