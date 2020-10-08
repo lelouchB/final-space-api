@@ -111,6 +111,13 @@ module.exports = {
     image: "img/wallpaper.jpg",
     twitterImage: "img/wallpaper.jpg",
     ogImage: "img/wallpaper.jpg",
+    announcementBar: {
+      id: "github_annoucement",
+      content: "Let's Get Wild, How About You <span style='text-decoration:line-through;'>Buy</span> Get Me A <span style='text-decoration:line-through;'>Drink</span> <a href='https://github.com/lelouchB/final-space-api' target='_blank'>Star</a> - Gary Goodspeed 😗",
+      backgroundColor: "#fff",
+      textColor: "#1c1e21",
+      isCloseable: true,
+    },
   },
   presets: [
     [
