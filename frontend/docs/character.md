@@ -17,11 +17,9 @@ keywords:
 description: Character endpoint documentation for Final Space API.
 ---
 
-This is the documentation for the `/character` endpoint. There are curently `40` characters sorted by id, more are added everyday.
+This is the documentation for the `/character` endpoint. There are currently `40` characters sorted by `id`.
 
 ### Character schema
-
-This is the schema of the character
 
 | Key       | Type         | Description                                |
 | --------- | ------------ | ------------------------------------------ |
@@ -71,7 +69,7 @@ https://finalspaceapi.com/api/v0/character/
 
 ### Get a single character
 
-You can get a single character by adding the `id` as a parameter: `/character/2`
+You can get a single character by adding the `id` as a parameter: `/character/5`
 
 ```
 https://finalspaceapi.com/api/v0/character/5
