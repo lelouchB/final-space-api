@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "./backend"
+		},
+		{
+			"path": "./frontend"
+		}
+	],
+	"settings": {
+	},
+	"extensions": {
+		"recommendations": [
+			"visualstudioexptteam.vscodeintellicode",
+			"editorconfig.editorconfig",
+			"dbaeumer.vscode-eslint"
+		]
+	}
+}
