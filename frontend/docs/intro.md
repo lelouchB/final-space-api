@@ -18,8 +18,13 @@ keywords:
 description: The Final Space API is a RESTful API based on the television show Final Space
 ---
 
+The Final Space API is based on the television show [Final Space](https://en.wikipedia.org/wiki/Final_Space) by Olan Rogers from TBS. From talking cats to evil aliens, the animated show tells the intergalactic adventures of Gary Goodspeed and his alien friend Mooncake as they unravel the mystery of "Final Space". The show can be viewed, amongst other places, on [TBS](https://www.international.tbs.com/), [AdultSwim](https://www.adultswim.com/videos/final-space), and [Netflix](https://www.netflix.com/title/80174479).
 
-The Final Space API is a RESTful API based on the television show [Final Space](https://en.wikipedia.org/wiki/Final_Space). [Final Space wiki](https://final-space.fandom.com/wiki/Final_Space_Wiki) was used to gather data for this API.
+All data of this API, such as character info, is obtained from the [Final Space wiki]. More data such as season and episode information is planned for future release. This data can be used for your own projects such as fan pages or any way you see fit.
+
+All this information is available through a RESTful API implemented in NodeJs. This API returns data in a friendly `json` format.
+
+The Final Space API is maintained as an open source project on [GitHub](https://github.com/lelouchB/final-space-api). More information about contributing can be found in the readme.
 
 ### REST
 **Base url:** https://finalspaceapi.com/api/v0/

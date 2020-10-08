@@ -79,7 +79,7 @@ After you have done with your contribution, create the production build by runni
 ```bash
 cd frontend
 npm run build
-npm run server
+npm run serve
 ```
 The last command will server the build folder on [http://localhost:3000](http://localhost:3000).
 
