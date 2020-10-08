@@ -1,5 +1,4 @@
-const API_VERSION = 0
-const BASE_URL = `https://finalspaceapi.com/api/v${API_VERSION}`
+const apiData = require("./api")
 
 const endpoints = [
   {
@@ -44,6 +43,6 @@ const endpoints = [
 ]
 
 module.exports = endpoints.map((endpoint) => {
-  endpoint.fullUrl = `${BASE_URL}${endpoint.path}`
+  endpoint.fullUrl = `${apiData.BASE_URL}${endpoint.path}`
   return endpoint
 })
