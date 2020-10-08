@@ -1,6 +1,6 @@
 {
     "name": "Final Space API",
-    "short_name": "Final Space",
+    "short_name": "Final Space API",
     "description": "Documentation to interact with data about the webshow Final Space",
     "display": "standalone",
     "scope": "/",
