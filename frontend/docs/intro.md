@@ -106,6 +106,8 @@ There are currently two available resources:
 GET https://finalspaceapi.com/api/v0/character
 ```  
 ```
+Specific Character
+
 GET https://finalspaceapi.com/api/v0/character/<character_id>
 ```
 
@@ -115,6 +117,8 @@ GET https://finalspaceapi.com/api/v0/character/<character_id>
 GET https://finalspaceapi.com/api/v0/episode
 ```
 ```
+Specific Episode
+
 GET https://finalspaceapi.com/api/v0/episode/<episode_id>
 ```
 
