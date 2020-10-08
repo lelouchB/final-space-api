@@ -1,0 +1,11 @@
+{
+  id: 1,
+  name: "Earth",
+  type: "Planet", 
+  inhabitants: ["Humans", "Animals", "Robots", "Aliens"]
+  notable_residents: [
+    "https://finalspaceapi.com/api/v0/character/1",
+    "https://finalspaceapi.com/api/v0/character/3"
+  ],
+  img_url: "https://static.wikia.nocookie.net/final-space/images/d/d0/Earth.PNG/revision/latest/scale-to-width-down/1000?cb=20180227073059"
+}

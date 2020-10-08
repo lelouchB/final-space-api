@@ -1,0 +1,10 @@
+{
+  id: 4,
+  name: "Inner Space",
+  type: "Dimension", 
+  inhabitants: ["Bolo"]
+  notable_residents: [
+    "https://finalspaceapi.com/api/v0/character/18"
+  ],
+  img_url: "https://static.wikia.nocookie.net/final-space/images/1/15/InnerSpace.png/revision/latest/scale-to-width-down/1000?cb=20180421041502" 
+}

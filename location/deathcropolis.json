@@ -1,0 +1,8 @@
+{
+  id: 7,
+  name: "Deathcropolis",
+  type: "Gladiatorial Colosseum", 
+  inhabitants: []
+  notable_residents: [],
+  img_url: "https://static.wikia.nocookie.net/final-space/images/1/1c/Deathcropolis_Exterior.PNG/revision/latest/scale-to-width-down/1000?cb=20180227032041" 
+}
