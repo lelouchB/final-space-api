@@ -51,6 +51,19 @@ Following are the tools and services I used to create this API.
 - [Namecheap](https://www.namecheap.com/) - For `finalspaceapi.com` domain.
 
 
+**Contributors**
+- [lelouchB](https://github.com/lelouchB)
+- [ErickLemos](https://github.com/ErickLemos)
+- [mhalsubhi](https://github.com/mhalsubhi)
+- [PSmigielski](https://github.com/PSmigielski)
+- [Pervolarakis](https://github.com/Pervolarakis)
+- [tim-richter](https://github.com/tim-richter)
+- [JuanVqz](https://github.com/JuanVqz)
+- [emmzzyhost](https://github.com/emmzzyhost)
+- [trybick](https://github.com/trybick)
+- [guzbarraf](https://github.com/guzbarraf)
+- [PPinfy](https://github.com/PPinfy)
+
 
 ### How can I contribute to the project?
 You can contribute to this project on [GitHub](https://github.com/lelouchb/final-space-api).
