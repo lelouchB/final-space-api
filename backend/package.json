@@ -7,7 +7,7 @@
     "dev": "nodemon server.js",
     "start": "node server.js",
     "prod": "NODE_ENV=production node server.js",
-    "seed": "node seeder.js"
+    "seed": "node ./helpers/seeder.js"
   },
   "author": "Ashutosh K Singh",
   "license": "BSD-3-Clause",

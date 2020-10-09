@@ -1,8 +1,8 @@
-require("dotenv").config({ path: __dirname + "/./.env" })
+require("dotenv").config({ path: __dirname + "/./../.env" })
 const mongoose = require("mongoose")
 const axios = require("axios")
-const Character = require("./models/character.model")
-const Episode = require("./models/episode.model")
+const Character = require("../models/character.model")
+const Episode = require("../models/episode.model")
 const database_url = process.env.DATABASE_URL
 
 seed = async () => {
