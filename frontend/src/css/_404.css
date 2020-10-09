@@ -1,0 +1,33 @@
+.center {
+    text-align: center;
+}
+
+._404Page {
+    padding: 2em;
+}
+
+.medium__text {
+    font-size: 1.5em;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.background-image {
+    background-image: url(https://optinmonster.com/wp-content/uploads/2018/06/11-brilliant-404-pages-to-turn-lost-visitors-into-loyal-customers-2.png);
+    margin: 1em;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+
+._404__home__btn {
+    background-color: #39ac31;
+    padding: 10px 20px;
+    color: white;
+}
+
+._404__home__btn:hover {
+    color: white;
+    text-decoration: underline;
+}
