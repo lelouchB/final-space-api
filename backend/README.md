@@ -55,40 +55,35 @@ backend
 
 ## Installation
 
-1. Clone this repo
+1. Clone this repo:
 
 ```bash
 git clone https://github.com/lelouchB/final-space-api.git
 ```
-![clone step](https://i.imgur.com/icZznpW.png)
 
-2. Cd to the backend directory
+2. CD to the backend directory:
 
 ```bash
 cd final-space-api/backend
 ```
-![cd step](https://i.imgur.com/4Pteq76.png)
 
-3. Install the required npm packages
+3. Install the required npm packages:
 
 ```bash
 npm install
 ```
-![npm install step](https://i.imgur.com/iRUgixn.png)
 
 4. Copy `.env.example` file and rename it to `.env`
 
 ```bash
 cp .env.example .env
 ```
-![cp step](https://i.imgur.com/xbQPLDQ.png)
 
 5. (Optional) seed local database with actual data from [API](https://finalspaceapi.com/api/v0/)
 
 ```bash
 npm run seed
 ```
-![seed database step](https://i.imgur.com/tyyEZmV.png)
 
 ## Running
 
