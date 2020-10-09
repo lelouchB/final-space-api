@@ -21,7 +21,7 @@ npm install npm@latest -g
 
 - [MongoDB](https://docs.mongodb.com/manual/installation/)
 
-#### Project Structure
+### Project Structure
 
 ```
 backend
@@ -53,7 +53,7 @@ backend
         routes.js
 ```
 
-#### Installation
+## Installation
 
 1. Clone this repo
 
@@ -90,7 +90,7 @@ npm run seed
 ```
 ![seed database step](https://i.imgur.com/tyyEZmV.png)
 
-#### Running
+## Running
 
 After completing the above steps run this to start a development server:
 
