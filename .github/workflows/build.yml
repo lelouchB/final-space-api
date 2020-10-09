@@ -20,5 +20,8 @@ jobs:
               cd frontend
               npm install
               npm run build --if-present
+      - name: Coveralls GitHub Action
+        uses: coverallsapp/github-action@v1.1.2
+
         env:
           CI: true
