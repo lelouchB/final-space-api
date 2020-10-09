@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
-    "prod": "NODE_ENV=production node server.js"
+    "prod": "NODE_ENV=production node server.js",
+    "lint": "eslint ."
   },
   "author": "Ashutosh K Singh",
   "license": "BSD-3-Clause",
@@ -20,6 +21,9 @@
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
+    "eslint": "^7.10.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.12.0",
     "nodemon": "^2.0.4",
     "prettier": "2.1.2"
   },
