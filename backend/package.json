@@ -20,8 +20,11 @@
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
+    "jest": "^26.5.2",
+    "mongodb-memory-server": "^6.9.1",
     "nodemon": "^2.0.4",
-    "prettier": "2.1.2"
+    "prettier": "2.1.2",
+    "supertest": "^5.0.0"
   },
   "engines": {
     "node": "10.x"

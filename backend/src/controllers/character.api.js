@@ -1,4 +1,4 @@
-const Character = require("./../models/character.model")
+const Character = require("../models/character.model")
 const options = require("../helpers/options")
 
 const getAllCharacters = async (req, res) => {

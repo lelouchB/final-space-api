@@ -1,4 +1,4 @@
-const Episode = require("./../models/episode.model")
+const Episode = require("../models/episode.model")
 const options = require("../helpers/options")
 
 const getAllEpisodes = async (req, res) => {
