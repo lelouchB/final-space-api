@@ -1,8 +1,8 @@
-var express = require("express")
-var router = express.Router()
-var characterController = require("../controllers/character.api.js")
-var episodeController = require("../controllers/episode.api.js")
-var apiController = require("../controllers/api.js")
+const express = require("express")
+const router = express.Router()
+const characterController = require("../controllers/character.api.js")
+const episodeController = require("../controllers/episode.api.js")
+const apiController = require("../controllers/api.js")
 
 const { getAllCharacters, getSingleCharacter } = characterController
 const { getAllEpisodes, getSingleEpisode } = episodeController
