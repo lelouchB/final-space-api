@@ -1,0 +1,120 @@
+---
+id: javascript 
+title: Vanilla js
+hide_title: false
+hide_table_of_contents: false
+keywords:
+  - final space
+  - finalspace
+  - finalspaceapi
+  - final space wiki
+  - api
+  - restapi
+  - rest api
+  - example
+  - axios
+description: A live example of the Final Space API using Vanilla Js + Axios.
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
+<Tabs
+  defaultValue="js"
+  values={[
+    {label: 'Javascript', value: 'js'},
+    {label: 'Axios', value: 'axios'},
+  ]}>
+  <TabItem value="js">
+
+```js
+{/* Not a Live Editor*/}
+document.write("<div class=\"root\"></div>")
+const root = document.querySelector(".root")
+const cardStyle = {
+  boxShadow: "0 5px 8px 0 rgba(0, 0, 0, 0.3)",
+  padding: "12px",
+  marginBottom: "10px",
+  textAlign: "center",
+  backgroundColor: "#fafafa",
+};
+const rootStyle = {
+  margin: "0 auto",
+  width: "max-content",
+  padding: "0 10px",
+};
+Object.assign(root.style, rootStyle);
+fetch("https://finalspaceapi.com/api/v0/character?limit=5")
+  .then((res) => res.json())
+  .then((data) => {
+    console.log(data)
+    data.forEach(character => {
+      const cardDiv = document.createElement("div")
+      Object.assign(cardDiv.style, cardStyle);
+      const cardImage = document.createElement("div")
+      const image = document.createElement("img")
+      image.src = character.img_url
+      image.alt = character.name
+      cardImage.appendChild(image)
+      cardDiv.appendChild(cardImage)
+      const name = document.createElement("div")
+      name.classList.add("card--title")
+      name.innerHTML = character.name
+      cardDiv.appendChild(name);
+    //   const species = document.createElement("div")
+    //   species.innerHTML = character.species;
+    //   cardDiv.appendChild(species);
+      root.appendChild(cardDiv);
+    })
+ })
+```
+
+  </TabItem>
+  <TabItem value="axios">
+
+```js 
+{/* Not a Live Editor*/}
+import axios from 'axios'
+
+document.write("<div class=\"root\"></div>")
+const root = document.querySelector(".root")
+const cardStyle = {
+  boxShadow: "0 5px 8px 0 rgba(0, 0, 0, 0.3)",
+  padding: "12px",
+  marginBottom: "10px",
+  textAlign: "center",
+  backgroundColor: "#fafafa",
+};
+const rootStyle = {
+  margin: "0 auto",
+  width: "max-content",
+  padding: "0 10px",
+};
+Object.assign(root.style, rootStyle);
+axios.get("https://finalspaceapi.com/api/v0/character?limit=5")
+  .then((res) => {
+    let data = res.data;
+    data.forEach(character => {
+      const cardDiv = document.createElement("div")
+      Object.assign(cardDiv.style, cardStyle);
+      const cardImage = document.createElement("div")
+      const image = document.createElement("img")
+      image.src = character.img_url
+      image.alt = character.name
+      cardImage.appendChild(image)
+      cardDiv.appendChild(cardImage)
+      const name = document.createElement("div")
+      name.classList.add("card--title")
+      name.innerHTML = character.name
+      cardDiv.appendChild(name);
+    //   const species = document.createElement("div")
+    //   species.innerHTML = character.species;
+    //   cardDiv.appendChild(species);
+      root.appendChild(cardDiv);
+  })    
+})
+```
+
+  </TabItem>
+</Tabs>

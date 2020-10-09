@@ -1,7 +1,7 @@
 module.exports = {
   someSidebar: {
     "Getting Started": ["intro", "character", "episode"],
-    "Examples": ["react"],
+    "Examples": ["react", "javascript"],
     About: ["about"],
   },
 };
