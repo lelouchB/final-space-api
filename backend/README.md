@@ -19,28 +19,36 @@ To get a local copy up and running follow these simple example steps.
 npm install npm@latest -g
 ```
 
-- [MongoDB](https://docs.mongodb.com/manual/installation/), make sure to copy .env.example to .env before start the backend server
-
-```bash
-cp .env.example .env
-```
+- [MongoDB](https://docs.mongodb.com/manual/installation/)
 
 #### Project Structure
 
 ```
 backend
+|   .env.example
+|   .gitignore
+|   .prettierignore
+|   .prettierrc.json
 │   package-lock.json
 │   package.json
+|   README.md
 │   server.js
 ├───config
+|       api.js
 │       db.js
+|       endpoints.js
 ├───controllers
 │       api.js
 │       character.api.js
+|       episode.api.js
+├───helpers
+│       options.js
+│       seeder.js
 ├───images
     ...
 ├───models
 │       character.model.js
+|       episode.model.js
 └───routes
         routes.js
 ```
@@ -53,17 +61,28 @@ backend
 git clone https://github.com/lelouchB/final-space-api.git
 ```
 
-2. Go to the backend directory
+2. Cd to the backend directory
+
+```bash
+cd final-space-api/backend
+```
+
 3. Install the required npm packages
 
 ```bash
 npm install
 ```
 
-4. Create a **.env** folder and add the **Database URL** in it.
+4. Copy `.env.example` file and rename it to `.env`
 
+```bash
+cp .env.example .env
 ```
-DATABASE_URL=mongodb://127.0.0.1:27017/final-space-api
+
+5. (Optional) seed local database with actual data from api
+
+```bash
+npm run seed
 ```
 
 #### Running
