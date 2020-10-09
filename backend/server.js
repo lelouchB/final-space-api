@@ -36,12 +36,12 @@ app.use("/api/episode/image", express.static(path.join(__dirname, "images/episod
 
 const startServer = async () => {
   await db.connectDb()
-
-  app.listen(port, () =>
-    console.log(
-      `Final Space API 🚀 backend server listening on ${port}! 👽👽👽`,
-    ),
-  )
+  app.listen(port);
 }
 
 startServer()
+  .then(() =>
+    console.log(`Final Space API 🚀 backend server listening on ${port}! 👽👽👽`)
+  ).catch(() =>
+    console.log('Final Space API, ops... failed!')
+  )
