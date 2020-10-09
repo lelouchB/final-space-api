@@ -42,7 +42,6 @@ const startServer = async () => {
 startServer()
   .then(() =>
     console.log(`Final Space API 🚀 backend server listening on ${port}! 👽👽👽`)
-  )
-.catch(() =>
-    console.log("Final Space API, ops... failed!")
+  ).catch(() =>
+    console.log('Final Space API, ops... failed!')
   )
