@@ -32,17 +32,66 @@ The Final Space API is maintained as an open source project on [GitHub](https://
 The base url contains information about all available API's resources.
 All requests are `GET` requests and go over `https`. All responses will return data in `json`.
 
-*Sample request*
+*Sample Request*
 
 ```
 https://finalspaceapi.com/api/v0/
 ```
 
+*Sample Response*
 ```json
-{
-  "characters": "https://finalspaceapi.com/api/v0/character",
-  "episodes": "https://finalspaceapi.com/api/v0/episode"
-}
+[
+  {
+    "type": "GET",
+    "name": "Endpoints Data",
+    "path": "/",
+    "fullUrl": "https://finalspaceapi.com/api/v0/"
+  },
+  {
+    "type": "GET",
+    "name": "All Characters",
+    "path": "/character",
+    "queryParams": [
+      {
+        "optional": true,
+        "name": "Sort By",
+        "values": [
+          "asc",
+          "desc"
+        ]
+      }
+    ],
+    "fullUrl": "https://finalspaceapi.com/api/v0/character"
+  },
+  {
+    "type": "GET",
+    "name": "Single Character",
+    "path": "/character/<id>",
+    "fullUrl": "https://finalspaceapi.com/api/v0/character/<id>"
+  },
+  {
+    "type": "GET",
+    "name": "All Episodes",
+    "path": "/episode",
+    "queryParams": [
+      {
+        "optional": true,
+        "name": "Sort By",
+        "values": [
+          "asc",
+          "desc"
+        ]
+      }
+    ],
+    "fullUrl": "https://finalspaceapi.com/api/v0/episode"
+  },
+  {
+    "type": "GET",
+    "name": "Single Episode",
+    "path": "/episode/<id>",
+    "fullUrl": "https://finalspaceapi.com/api/v0/episode/<id>"
+  }
+]
 ```
 
 
@@ -54,13 +103,23 @@ There are currently two available resources:
 - [Character](/docs/character): used to get all the characters.
   
 ```
-https://finalspaceapi.com/api/v0/character
+GET https://finalspaceapi.com/api/v0/character
+```  
+```
+Specific Character
+
+GET https://finalspaceapi.com/api/v0/character/<character_id>
 ```
 
 - [Episode](/docs/episode): used to get all the episodes.
 
 ```
-https://finalspaceapi.com/api/v0/episode
+GET https://finalspaceapi.com/api/v0/episode
+```
+```
+Specific Episode
+
+GET https://finalspaceapi.com/api/v0/episode/<episode_id>
 ```
 
 :::
