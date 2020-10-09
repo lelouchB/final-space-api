@@ -1,5 +1,4 @@
-module.exports = {
-    "env": {
+module.exports = { "env": {
         "commonjs": true,
         "es2021": true,
         "node": true
@@ -11,8 +10,7 @@ module.exports = {
     "parserOptions": {
         "ecmaVersion": 12
     },
-    "rules": {
-        "accessor-pairs": "error",
+    "rules": { "accessor-pairs": "error",
         "array-bracket-newline": "error",
         "array-bracket-spacing": [
             "error",
@@ -297,6 +295,4 @@ module.exports = {
         "yoda": [
             "error",
             "never"
-        ]
-    }
-};
+        ] } };

@@ -103,23 +103,13 @@ There are currently two available resources:
 - [Character](/docs/character): used to get all the characters.
   
 ```
-GET https://finalspaceapi.com/api/v0/character
+https://finalspaceapi.com/api/v0/character
 ```  
-```
-Specific Character
-
-GET https://finalspaceapi.com/api/v0/character/<character_id>
-```
 
 - [Episode](/docs/episode): used to get all the episodes.
 
 ```
-GET https://finalspaceapi.com/api/v0/episode
-```
-```
-Specific Episode
-
-GET https://finalspaceapi.com/api/v0/episode/<episode_id>
+https://finalspaceapi.com/api/v0/episode
 ```
 
 :::
