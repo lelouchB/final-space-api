@@ -9,5 +9,5 @@ jobs:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Hey Hey Welcome to this repo. Thanks for your time and contribution to this project.'
-        pr-message: 'Hey Hey Welcome to this repo. Thanks for your time and contribution to this project.'
+        issue-message: "That's Not A Cookie. And You Know That @${{ github.actor }}, You Know That!"
+        pr-message: "I Like The Way You Submit Pull Requests... Chookity!"
