@@ -83,7 +83,7 @@ cp .env.example .env
 ```
 ![cp step](https://i.imgur.com/xbQPLDQ.png)
 
-5. (Optional) seed local database with actual data from api
+5. (Optional) seed local database with actual data from [API](https://finalspaceapi.com/api/v0/)
 
 ```bash
 npm run seed
