@@ -48,7 +48,7 @@ https://finalspaceapi.com/api/v0/location/
       "https://finalspaceapi.com/api/v0/character/1",
       "https://finalspaceapi.com/api/v0/character/3"
     ],
-    "img_url": "https://finalspaceapi.com/api/image/location/earth.jpg"
+    "img_url": "https://finalspaceapi.com/api/location/image/earth.jpg"
   },
  ...
 ]
@@ -74,7 +74,7 @@ https://finalspaceapi.com/api/v0/location/3
     "https://finalspaceapi.com/api/v0/character/20",
     "https://finalspaceapi.com/api/v0/character/27"
   ],
-  "img_url": "https://finalspaceapi.com/api/image/location/tera_con_prime.jpg"
+  "img_url": "https://finalspaceapi.com/api/location/image/tera_con_prime.jpg"
 }
 ```
 
@@ -94,7 +94,7 @@ https://finalspaceapi.com/api/v0/location/?sort=desc
     "type": "Temple", 
     "inhabitants": [],
     "notable_residents": [],
-    "img_url": "https://finalspaceapi.com/api/image/location/the_order_of_the_twelve.jpg" 
+    "img_url": "https://finalspaceapi.com/api/location/image/the_order_of_the_twelve.jpg" 
   },
   ...
 ]
@@ -119,7 +119,7 @@ https://finalspaceapi.com/api/v0/location/?limit=3
       "https://finalspaceapi.com/api/v0/character/1",
       "https://finalspaceapi.com/api/v0/character/3"
     ],
-    "img_url": "https://finalspaceapi.com/api/image/location/earth.jpg" 
+    "img_url": "https://finalspaceapi.com/api/location/image/earth.jpg" 
   },
   {
     "id": 2,
@@ -132,7 +132,7 @@ https://finalspaceapi.com/api/v0/location/?limit=3
       "https://finalspaceapi.com/api/v0/character/15",
       "https://finalspaceapi.com/api/v0/character/18"
     ],
-    "img_url": "https://finalspaceapi.com/api/image/location/final_space.jpg" 
+    "img_url": "https://finalspaceapi.com/api/location/image/final_space.jpg" 
   },
   {
     "id": 3,
@@ -145,7 +145,7 @@ https://finalspaceapi.com/api/v0/location/?limit=3
       "https://finalspaceapi.com/api/v0/character/20",
       "https://finalspaceapi.com/api/v0/character/27"
     ],
-    "img_url": "https://finalspaceapi.com/api/image/location/tera_con_prime.jpg" 
+    "img_url": "https://finalspaceapi.com/api/location/image/tera_con_prime.jpg" 
   }
 ]
 ```
@@ -166,7 +166,7 @@ https://finalspaceapi.com/api/v0/location/?limit=3&sort=desc
     "type": "Temple", 
     "inhabitants": [],
     "notable_residents": [],
-    "img_url": "https://finalspaceapi.com/api/image/location/the_order_of_the_twelve.jpg" 
+    "img_url": "https://finalspaceapi.com/api/location/image/the_order_of_the_twelve.jpg" 
   },
   {
     "id": 8,
@@ -174,7 +174,7 @@ https://finalspaceapi.com/api/v0/location/?limit=3&sort=desc
     "type": "Trap", 
     "inhabitants": [],
     "notable_residents": [],
-    "img_url": "https://finalspaceapi.com/api/image/location/lazarus_trap.jpg" 
+    "img_url": "https://finalspaceapi.com/api/location/image/lazarus_trap.jpg" 
   },
   {
     "id": 7,
@@ -182,7 +182,7 @@ https://finalspaceapi.com/api/v0/location/?limit=3&sort=desc
     "type": "Gladiatorial Colosseum", 
     "inhabitants": [],
     "notable_residents": [],
-    "img_url": "https://finalspaceapi.com/api/image/location/deathcropolis.jpg" 
+    "img_url": "https://finalspaceapi.com/api/location/image/deathcropolis.jpg" 
   }
 ]
 ```
