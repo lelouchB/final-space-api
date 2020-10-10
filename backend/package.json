@@ -9,6 +9,7 @@
         "prod": "NODE_ENV=production node server.js",
         "lint": "eslint .",
         "lint:fix": "eslint --fix --ext .js,.jsx .",
+        "format": "prettier --write '**/*.{js,css,md}'",
         "seed":"node ./helpers/seeder.js"
     },
     "author": "Ashutosh K Singh",
@@ -27,6 +28,8 @@
         "eslint": "^7.10.0",
         "eslint-config-google": "^0.14.0",
         "eslint-config-prettier": "^6.12.0",
+        "husky": "^4.3.0",
+        "lint-staged": "^10.4.0",
         "nodemon": "^2.0.4",
         "prettier": "2.1.2"
     },
@@ -44,5 +47,14 @@
     "bugs": {
         "url": "https://github.com/lelouchB/final-space-api/issues"
     },
-    "homepage": "https://github.com/lelouchB/final-space-api#readme"
+    "homepage": "https://github.com/lelouchB/final-space-api#readme",
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.js": "eslint --cache --fix",
+        "*.{js,css,md}": "prettier --write"
+    }
 }
