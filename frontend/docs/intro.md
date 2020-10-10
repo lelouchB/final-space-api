@@ -42,64 +42,78 @@ https://finalspaceapi.com/api/v0/
 ```json
 [
   {
-    type: "GET",
-    name: "Endpoints Data",
-    path: "/",
+    "type": "GET",
+    "name": "Endpoints Data",
+    "path": "/",
+    "fullUrl": "https://finalspaceapi.com/api/v0/"
   },
   {
-    type: "GET",
-    name: "All Characters",
-    path: "/character",
-    queryParams: [
+    "type": "GET",
+    "name": "All Characters",
+    "path": "/character",
+    "queryParams": [
       {
-        optional: true,
-        name: "Sort By",
-        values: ["asc", "desc"],
-      },
+        "optional": true,
+        "name": "Sort By",
+        "values": [
+          "asc",
+          "desc"
+        ]
+      }
     ],
+    "fullUrl": "https://finalspaceapi.com/api/v0/character"
   },
   {
-    type: "GET",
-    name: "Single Character",
-    path: "/character/<id>",
+    "type": "GET",
+    "name": "Single Character",
+    "path": "/character/<id>",
+    "fullUrl": "https://finalspaceapi.com/api/v0/character/<id>"
   },
   {
-    type: "GET",
-    name: "All Episodes",
-    path: "/episode",
-    queryParams: [
+    "type": "GET",
+    "name": "All Episodes",
+    "path": "/episode",
+    "queryParams": [
       {
-        optional: true,
-        name: "Sort By",
-        values: ["asc", "desc"],
-      },
+        "optional": true,
+        "name": "Sort By",
+        "values": [
+          "asc",
+          "desc"
+        ]
+      }
     ],
+    "fullUrl": "https://finalspaceapi.com/api/v0/episode"
   },
   {
-    type: "GET",
-    name: "Single Episode",
-    path: "/episode/<id>",
+    "type": "GET",
+    "name": "Single Episode",
+    "path": "/episode/<id>",
+    "fullUrl": "https://finalspaceapi.com/api/v0/episode/<id>"
   },
-  
   {
-    type: "GET",
-    name: "All Locations",
-    path: "/location",
-    queryParams: [
+    "type": "GET",
+    "name": "All Locations",
+    "path": "/location",
+    "queryParams": [
       {
-        optional: true,
-        name: "Sort By",
-        values: ["asc", "desc"],
-      },
+        "optional": true,
+        "name": "Sort By",
+        "values": [
+          "asc",
+          "desc"
+        ]
+      }
     ],
+    "fullUrl": "https://finalspaceapi.com/api/v0/location"
   },
   {
-    type: "GET",
-    name: "Single Location",
-    path: "/location/<id>",
-  },
-]
-```
+    "type": "GET",
+    "name": "Single Location",
+    "path": "/location/<id>",
+    "fullUrl": "https://finalspaceapi.com/api/v0/location/<id>"
+  }
+]```
 
 
 :::info Endpoints
