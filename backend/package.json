@@ -9,12 +9,12 @@
         "prod": "NODE_ENV=production node server.js",
         "lint": "eslint .",
         "lint:fix": "eslint --fix --ext .js,.jsx .",
-        "seed":"node ./helpers/seeder.js"
+        "seed": "node ./helpers/seeder.js"
     },
     "author": "Ashutosh K Singh",
     "license": "BSD-3-Clause",
     "dependencies": {
-      "axios": "^0.20.0",
+        "axios": "^0.20.0",
         "cors": "^2.8.5",
         "express": "^4.17.1",
         "express-rate-limit": "^5.1.3",
