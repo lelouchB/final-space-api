@@ -90,15 +90,36 @@ https://finalspaceapi.com/api/v0/
     "name": "Single Episode",
     "path": "/episode/<id>",
     "fullUrl": "https://finalspaceapi.com/api/v0/episode/<id>"
+  },
+  {
+    "type": "GET",
+    "name": "All Locations",
+    "path": "/location",
+    "queryParams": [
+      {
+        "optional": true,
+        "name": "Sort By",
+        "values": [
+          "asc",
+          "desc"
+        ]
+      }
+    ],
+    "fullUrl": "https://finalspaceapi.com/api/v0/location"
+  },
+  {
+    "type": "GET",
+    "name": "Single Location",
+    "path": "/location/<id>",
+    "fullUrl": "https://finalspaceapi.com/api/v0/location/<id>"
   }
-]
-```
+]```
 
 
 :::info Endpoints
 
 
-There are currently two available resources:
+There are three available resources:
 
 - [Character](/docs/character): used to get all the characters.
   
@@ -110,6 +131,13 @@ https://finalspaceapi.com/api/v0/character
 
 ```
 https://finalspaceapi.com/api/v0/episode
+```
+
+
+- [Location](/docs/location): used to get all the locations.
+
+```
+https://finalspaceapi.com/api/v0/location
 ```
 
 :::
