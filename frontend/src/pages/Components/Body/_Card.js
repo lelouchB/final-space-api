@@ -15,10 +15,11 @@ function Card(props){
             </div>
             <div className="card__body">
                 <h3>{props.name}</h3>
-                {props.status == 'Alive' ?  <img src = '.img/alive.jpg' /> : null}
-                {props.status == 'Dead' ? <img src = '.img/dead.jpg' /> : null}
-                {props.status == 'Operational' ? <img src = '.img/operational.jpg' /> : null}
+                {props.status == 'Alive' ?  <img src = 'img/alive.jpg'/> : null}
+                {props.status == 'Dead' ? <img src = 'img/dead.jpg' /> : null}
+                {props.status == 'Operational' ? <img src = 'img/operational.jpg' /> : null}
                 <small>{props.status}</small>
+
             </div>
             </div>
         </div>
