@@ -40,6 +40,11 @@ app.use(
   express.static(path.join(__dirname, "images/episode")),
 )
 
+app.use(
+  "/api/location/image",
+  express.static(path.join(__dirname, "images/location")),
+)
+
 const startServer = async () => {
   await db.connectDb()
   app.listen(port)

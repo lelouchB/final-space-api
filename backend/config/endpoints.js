@@ -40,6 +40,24 @@ const endpoints = [
     name: "Single Episode",
     path: "/episode/<id>",
   },
+
+  {
+    type: "GET",
+    name: "All Locations",
+    path: "/location",
+    queryParams: [
+      {
+        optional: true,
+        name: "Sort By",
+        values: ["asc", "desc"],
+      },
+    ],
+  },
+  {
+    type: "GET",
+    name: "Single Location",
+    path: "/location/<id>",
+  },
 ]
 
 module.exports = endpoints.map((endpoint) => {

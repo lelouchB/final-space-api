@@ -5,6 +5,7 @@ const mongoose = require("mongoose")
 const axios = require("axios")
 const Character = require("../models/character.model")
 const Episode = require("../models/episode.model")
+const Location = require("../models/location.model")
 const database_url = process.env.DATABASE_URL
 
 const seedCharacters = async () => {
@@ -47,6 +48,26 @@ const seedEpisodes = async () => {
   }
 }
 
+const seedLocations = async () => {
+  const locationEndpoint = "https://finalspaceapi.com/api/v0/location"
+  let locations = null
+  await axios
+    .get(locationEndpoint)
+    .then((res) => locations = res.data)
+    .then(() => console.log("Locations data Fetched"))
+    .catch((err) => console.log("Error: locations data didn't fetched " + err))
+
+  try {
+    for (var location of locations) {
+      const newLocation = new Location(location)
+      await newLocation.save()
+    }
+    console.log("Locations seeded to database successfully")
+  } catch (err) {
+    console.log("Error: locations didn't seeded to database " + err)
+  }
+}
+
 const connectDb = async () => {
   mongoose
     .connect(database_url, {
@@ -71,6 +92,7 @@ const seed = async () => {
   connectDb()
   await seedCharacters()
   await seedEpisodes()
+  await seedLocations()
   closeDb()
 }
 
