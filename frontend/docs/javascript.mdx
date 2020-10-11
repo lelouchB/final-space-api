@@ -1,6 +1,6 @@
 ---
 id: javascript 
-title: Vanilla js
+title: Vanilla JS
 hide_title: false
 hide_table_of_contents: false
 keywords:
@@ -13,7 +13,7 @@ keywords:
   - rest api
   - example
   - axios
-description: A live example of the Final Space API using Vanilla Js + Axios.
+description: A static example of the Final Space API using Vanilla Js + Axios.
 ---
 
 import Tabs from '@theme/Tabs';
@@ -33,17 +33,28 @@ import TabItem from '@theme/TabItem';
 document.write("<div class=\"root\"></div>")
 const root = document.querySelector(".root")
 const cardStyle = {
-  boxShadow: "0 5px 8px 0 rgba(0, 0, 0, 0.3)",
+  border: "1px solid lightgrey",
   padding: "12px",
+  width:"600px",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "space-between",
   marginBottom: "10px",
   textAlign: "center",
   backgroundColor: "#fafafa",
 };
+const dataContainerStyle = {
+  width:"250px",
+  padding: "12px",
+  textAlign: "left"
+}
 const rootStyle = {
   margin: "0 auto",
   width: "max-content",
   padding: "0 10px",
 };
+const imageStyle = {boxShadow: "0 5px 8px 0 rgba(0, 0, 0, 0.3)"}
+Object.assign(root.style, rootStyle);
 Object.assign(root.style, rootStyle);
 fetch("https://finalspaceapi.com/api/v0/character?limit=5")
   .then((res) => res.json())
@@ -54,17 +65,27 @@ fetch("https://finalspaceapi.com/api/v0/character?limit=5")
       Object.assign(cardDiv.style, cardStyle);
       const cardImage = document.createElement("div")
       const image = document.createElement("img")
+      Object.assign(image.style, imageStyle);
       image.src = character.img_url
       image.alt = character.name
       cardImage.appendChild(image)
       cardDiv.appendChild(cardImage)
-      const name = document.createElement("div")
+      const dataContainer = document.createElement("div")
+      Object.assign(dataContainer.style, dataContainerStyle);
+      const name = document.createElement("p")
       name.classList.add("card--title")
-      name.innerHTML = character.name
-      cardDiv.appendChild(name);
-    //   const species = document.createElement("div")
-    //   species.innerHTML = character.species;
-    //   cardDiv.appendChild(species);
+      name.innerHTML = `name: ${character.name}`
+      dataContainer.appendChild(name)
+      const species = document.createElement("p")
+      species.innerHTML = `spieces: ${character.species}`
+      dataContainer.appendChild(species)
+      const gender = document.createElement("p")
+      gender.innerHTML = `gender: ${character.gender}`
+      dataContainer.appendChild(gender)
+      const hair = document.createElement("p")
+      hair.innerHTML = `hair: ${character.hair}`
+      dataContainer.appendChild(hair)
+      cardDiv.appendChild(dataContainer)
       root.appendChild(cardDiv);
     })
  })
@@ -80,17 +101,27 @@ import axios from 'axios'
 document.write("<div class=\"root\"></div>")
 const root = document.querySelector(".root")
 const cardStyle = {
-  boxShadow: "0 5px 8px 0 rgba(0, 0, 0, 0.3)",
+  border: "1px solid lightgrey",
   padding: "12px",
+  width:"600px",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "space-between",
   marginBottom: "10px",
   textAlign: "center",
   backgroundColor: "#fafafa",
 };
+const dataContainerStyle = {
+  width:"250px",
+  padding: "12px",
+  textAlign: "left"
+}
 const rootStyle = {
   margin: "0 auto",
   width: "max-content",
   padding: "0 10px",
 };
+const imageStyle = {boxShadow: "0 5px 8px 0 rgba(0, 0, 0, 0.3)"}
 Object.assign(root.style, rootStyle);
 axios.get("https://finalspaceapi.com/api/v0/character?limit=5")
   .then((res) => {
@@ -100,17 +131,27 @@ axios.get("https://finalspaceapi.com/api/v0/character?limit=5")
       Object.assign(cardDiv.style, cardStyle);
       const cardImage = document.createElement("div")
       const image = document.createElement("img")
+      Object.assign(image.style, imageStyle);
       image.src = character.img_url
       image.alt = character.name
       cardImage.appendChild(image)
       cardDiv.appendChild(cardImage)
-      const name = document.createElement("div")
+      const dataContainer = document.createElement("div")
+      Object.assign(dataContainer.style, dataContainerStyle);
+      const name = document.createElement("p")
       name.classList.add("card--title")
-      name.innerHTML = character.name
-      cardDiv.appendChild(name);
-    //   const species = document.createElement("div")
-    //   species.innerHTML = character.species;
-    //   cardDiv.appendChild(species);
+      name.innerHTML = `name: ${character.name}`
+      dataContainer.appendChild(name)
+      const species = document.createElement("p")
+      species.innerHTML = `spieces: ${character.species}`
+      dataContainer.appendChild(species)
+      const gender = document.createElement("p")
+      gender.innerHTML = `gender: ${character.gender}`
+      dataContainer.appendChild(gender)
+      const hair = document.createElement("p")
+      hair.innerHTML = `hair: ${character.hair}`
+      dataContainer.appendChild(hair)
+      cardDiv.appendChild(dataContainer)
       root.appendChild(cardDiv);
   })    
 })
