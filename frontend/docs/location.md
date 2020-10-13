@@ -14,11 +14,10 @@ keywords:
   - location
 description: Location endpoint documentation for Final Space API.
 ---
- 
+
 This is the documentation for the `/location` endpoint. There are currently `9` locations sorted by id.
 
 ### Location schema
-
 
 | Key               | Type         | Description                               |
 | ----------------- | ------------ | ----------------------------------------- |
@@ -42,7 +41,7 @@ https://finalspaceapi.com/api/v0/location/
   {
     "id": 1,
     "name": "Earth",
-    "type": "Planet", 
+    "type": "Planet",
     "inhabitants": ["Humans", "Animals", "Robots", "Aliens"],
     "notable_residents": [
       "https://finalspaceapi.com/api/v0/character/1",
@@ -66,7 +65,7 @@ https://finalspaceapi.com/api/v0/location/3
 {
   "id": 3,
   "name": "Tera Con Prime",
-  "type": "Destroyed planet", 
+  "type": "Destroyed planet",
   "inhabitants": ["Lord Commander's army", "Infinity Guard soldiers"],
   "notable_residents": [
     "https://finalspaceapi.com/api/v0/character/10",
@@ -91,10 +90,10 @@ https://finalspaceapi.com/api/v0/location/?sort=desc
   {
     "id": 9,
     "name": "The Order of the Twelve",
-    "type": "Temple", 
+    "type": "Temple",
     "inhabitants": [],
     "notable_residents": [],
-    "img_url": "https://finalspaceapi.com/api/location/image/the_order_of_the_twelve.jpg" 
+    "img_url": "https://finalspaceapi.com/api/location/image/the_order_of_the_twelve.jpg"
   },
   ...
 ]
@@ -113,18 +112,18 @@ https://finalspaceapi.com/api/v0/location/?limit=3
   {
     "id": 1,
     "name": "Earth",
-    "type": "Planet", 
+    "type": "Planet",
     "inhabitants": ["Humans", "Animals", "Robots", "Aliens"],
     "notable_residents": [
       "https://finalspaceapi.com/api/v0/character/1",
       "https://finalspaceapi.com/api/v0/character/3"
     ],
-    "img_url": "https://finalspaceapi.com/api/location/image/earth.jpg" 
+    "img_url": "https://finalspaceapi.com/api/location/image/earth.jpg"
   },
   {
     "id": 2,
     "name": "Final Space",
-    "type": "Dimension", 
+    "type": "Dimension",
     "inhabitants": ["Titans", "Invictus", "Quinn"],
     "notable_residents": [
       "https://finalspaceapi.com/api/v0/character/2",
@@ -132,12 +131,12 @@ https://finalspaceapi.com/api/v0/location/?limit=3
       "https://finalspaceapi.com/api/v0/character/15",
       "https://finalspaceapi.com/api/v0/character/18"
     ],
-    "img_url": "https://finalspaceapi.com/api/location/image/final_space.jpg" 
+    "img_url": "https://finalspaceapi.com/api/location/image/final_space.jpg"
   },
   {
     "id": 3,
     "name": "Tera Con Prime",
-    "type": "Destroyed planet", 
+    "type": "Destroyed planet",
     "inhabitants": ["Lord Commander's army", "Infinity Guard soldiers"],
     "notable_residents": [
       "https://finalspaceapi.com/api/v0/character/10",
@@ -145,7 +144,7 @@ https://finalspaceapi.com/api/v0/location/?limit=3
       "https://finalspaceapi.com/api/v0/character/20",
       "https://finalspaceapi.com/api/v0/character/27"
     ],
-    "img_url": "https://finalspaceapi.com/api/location/image/tera_con_prime.jpg" 
+    "img_url": "https://finalspaceapi.com/api/location/image/tera_con_prime.jpg"
   }
 ]
 ```
@@ -163,26 +162,26 @@ https://finalspaceapi.com/api/v0/location/?limit=3&sort=desc
   {
     "id": 9,
     "name": "The Order of the Twelve",
-    "type": "Temple", 
+    "type": "Temple",
     "inhabitants": [],
     "notable_residents": [],
-    "img_url": "https://finalspaceapi.com/api/location/image/the_order_of_the_twelve.jpg" 
+    "img_url": "https://finalspaceapi.com/api/location/image/the_order_of_the_twelve.jpg"
   },
   {
     "id": 8,
     "name": "Lazarus Trap",
-    "type": "Trap", 
+    "type": "Trap",
     "inhabitants": [],
     "notable_residents": [],
-    "img_url": "https://finalspaceapi.com/api/location/image/lazarus_trap.jpg" 
+    "img_url": "https://finalspaceapi.com/api/location/image/lazarus_trap.jpg"
   },
   {
     "id": 7,
     "name": "Deathcropolis",
-    "type": "Gladiatorial Colosseum", 
+    "type": "Gladiatorial Colosseum",
     "inhabitants": [],
     "notable_residents": [],
-    "img_url": "https://finalspaceapi.com/api/location/image/deathcropolis.jpg" 
+    "img_url": "https://finalspaceapi.com/api/location/image/deathcropolis.jpg"
   }
 ]
 ```
