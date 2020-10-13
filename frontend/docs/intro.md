@@ -41,7 +41,7 @@ https://finalspaceapi.com/api/v0/
 
 _Sample Response_
 
-````json
+```json
 [
   {
     "type": "GET",
@@ -115,7 +115,8 @@ _Sample Response_
     "path": "/location/<id>",
     "fullUrl": "https://finalspaceapi.com/api/v0/location/<id>"
   }
-]```
+]
+```
 
 
 :::info Endpoints
