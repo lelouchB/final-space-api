@@ -31,5 +31,6 @@ module.exports = {
     "simple-import-sort/sort": "error",
     "sort-imports": "off",
     "import/order": "off",
+    "react/prop-types": 0,
   },
 }
