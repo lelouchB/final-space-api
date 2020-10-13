@@ -16,7 +16,8 @@
 		"recommendations": [
 			"visualstudioexptteam.vscodeintellicode",
 			"editorconfig.editorconfig",
-			"dbaeumer.vscode-eslint"
+			"dbaeumer.vscode-eslint",
+			"mongodb.mongodb-vscode"
 		]
 	}
 }
