@@ -2,12 +2,12 @@ const express = require("express")
 const router = express.Router()
 const characterController = require("../controllers/character.api.js")
 const episodeController = require("../controllers/episode.api.js")
-const creatureController = require("./../controllers/creature.api")
+const locationController = require("../controllers/location.api.js")
 const apiController = require("../controllers/api.js")
 
 const { getAllCharacters, getSingleCharacter } = characterController
 const { getAllEpisodes, getSingleEpisode } = episodeController
-const { getAllCreatures, getCreature } = creatureController
+const { getAllLocations, getSingleLocation } = locationController
 
 router.route("/character").get(getAllCharacters)
 router.route("/character/:id").get(getSingleCharacter)
@@ -15,8 +15,8 @@ router.route("/character/:id").get(getSingleCharacter)
 router.route("/episode").get(getAllEpisodes)
 router.route("/episode/:id").get(getSingleEpisode)
 
-router.route("/creature").get(getAllCreatures)
-router.route("/creature/:id").get(getCreature)
+router.route("/location").get(getAllLocations)
+router.route("/location/:id").get(getSingleLocation)
 
 router.route("/").get(apiController.getAPI)
 

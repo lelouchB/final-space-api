@@ -31,17 +31,29 @@ const apiRoutes = require("./routes/routes")
 const port = process.env.PORT || 8000
 
 app.use("/api/v0", apiRoutes)
-app.use("/api/character/avatar", express.static(path.join(__dirname, "images/character")))
-app.use("/api/episode/image", express.static(path.join(__dirname, "images/episode")))
+app.use(
+  "/api/character/avatar",
+  express.static(path.join(__dirname, "images/character")),
+)
+app.use(
+  "/api/episode/image",
+  express.static(path.join(__dirname, "images/episode")),
+)
+
+app.use(
+  "/api/location/image",
+  express.static(path.join(__dirname, "images/location")),
+)
 
 const startServer = async () => {
   await db.connectDb()
-  app.listen(port);
+  app.listen(port)
 }
 
 startServer()
   .then(() =>
-    console.log(`Final Space API 🚀 backend server listening on ${port}! 👽👽👽`)
-  ).catch(() =>
-    console.log('Final Space API, ops... failed!')
+    console.log(
+      `Final Space API 🚀 backend server listening on ${port}! 👽👽👽`,
+    ),
   )
+  .catch(() => console.log("Final Space API, ops... failed!"))
