@@ -1,0 +1,225 @@
+---
+id: vuejs
+title: Vue JS
+hide_title: false
+hide_table_of_contents: false
+keywords:
+  - final space
+  - finalspace
+  - finalspaceapi
+  - final space wiki
+  - api
+  - restapi
+  - rest api
+  - example
+  - axios
+  - final space vue
+  - final space vuejs
+description: A static example of the Final Space API using Vue JS and/or Axios.
+---
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+<Tabs
+  defaultValue="vue"
+  values={[
+    {label: 'Vue + Fetch API', value: 'vuejs'},
+    {label: 'Vue + Axios', value: 'vuejsaxios'},
+  ]}>
+  <TabItem value="vuejs">
+
+
+```js
+{
+  /* Not a Live Editor*/
+}
+<template>
+  <div class="root">
+    <p v-if="loading">Loading...</p>
+    <div class="location" v-for="location in locations" :key="location.id">
+      <div class="location-image">
+        <img :src="location.img_url" :alt="location.name" />
+      </div>
+      <div class="location-desc">
+        <div class="location-title">{{ location.name }}</div>
+        <div class="location-type">{{ location.type }}</div>
+      </div>
+      <div class="location-inhabitants">
+        <span v-if="location.inhabitants.length == 0" class="none"
+          >No inhabitants</span
+        >
+        <span
+          v-else
+          v-for="(inhabitant, index) in location.inhabitants"
+          :key="inhabitant"
+        >
+          <span v-if="index == location.inhabitants.length - 1">{{
+            inhabitant
+          }}</span>
+          <span v-else>{{ inhabitant }} <span class="spd">|</span></span>
+        </span>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Location",
+  data() {
+    return {
+      locations: [],
+      loading: false,
+    };
+  },
+  created() {
+    this.getLocations();
+  },
+  methods: {
+    getLocations() {
+      this.loading = true;
+      fetch("https://finalspaceapi.com/api/v0/location/?limit=3")
+        .then((res) => res.json())
+        .then((data) => (this.locations = data));
+      this.loading = false;
+    },
+  },
+};
+</script>
+
+<style scoped>
+.root {
+  margin: 0 auto;
+  padding: 0 10px;
+  color: #333;
+  font-family: sans-serif;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 786px) {
+  .root {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.location {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3);
+  padding: 12px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 18rem;
+  background-color: #fafafa;
+  margin-bottom: 15px;
+  border-radius: 7px;
+}
+.location-desc {
+  display: flex;
+  justify-content: space-between;
+}
+.location-image img {
+  width: 100%;
+  height: calc(16rem - 12px);
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+.location-title {
+  font-size: "1.1rem";
+  font-weight: 400;
+}
+.location-type {
+  color: rgb(107, 107, 107);
+  font-size: 0.9rem;
+}
+.location-inhabitants {
+  color: rgb(107, 107, 107);
+  text-align: left;
+  font-size: 0.9rem;
+  margin: 0.7rem 0;
+}
+.location-inhabitants span {
+  margin: 0 0.1rem;
+}
+.spd {
+  font-size: 1.1rem;
+  font-weight: 200;
+  color: rgb(223, 223, 223);
+}
+</style>
+```
+
+  </TabItem>
+  <TabItem value="vuejsaxios">
+
+
+```js
+{
+  /* Not a Live Editor*/
+}
+import axios from "axios";
+document.write('<div class="root"></div>');
+const root = document.querySelector(".root");
+const cardStyle = {
+  border: "1px solid lightgrey",
+  padding: "12px",
+  width: "600px",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "space-between",
+  marginBottom: "10px",
+  textAlign: "center",
+  backgroundColor: "#fafafa",
+};
+const dataContainerStyle = {
+  width: "250px",
+  padding: "12px",
+  textAlign: "left",
+};
+const rootStyle = {
+  margin: "0 auto",
+  width: "max-content",
+  padding: "0 10px",
+};
+const imageStyle = { boxShadow: "0 5px 8px 0 rgba(0, 0, 0, 0.3)" };
+Object.assign(root.style, rootStyle);
+axios.get("https://finalspaceapi.com/api/v0/character?limit=5").then((res) => {
+  let data = res.data;
+  data.forEach((character) => {
+    const cardDiv = document.createElement("div");
+    Object.assign(cardDiv.style, cardStyle);
+    const cardImage = document.createElement("div");
+    const image = document.createElement("img");
+    Object.assign(image.style, imageStyle);
+    image.src = character.img_url;
+    image.alt = character.name;
+    cardImage.appendChild(image);
+    cardDiv.appendChild(cardImage);
+    const dataContainer = document.createElement("div");
+    Object.assign(dataContainer.style, dataContainerStyle);
+    const name = document.createElement("p");
+    name.classList.add("card--title");
+    name.innerHTML = `name: ${character.name}`;
+    dataContainer.appendChild(name);
+    const species = document.createElement("p");
+    species.innerHTML = `spieces: ${character.species}`;
+    dataContainer.appendChild(species);
+    const gender = document.createElement("p");
+    gender.innerHTML = `gender: ${character.gender}`;
+    dataContainer.appendChild(gender);
+    const hair = document.createElement("p");
+    hair.innerHTML = `hair: ${character.hair}`;
+    dataContainer.appendChild(hair);
+    cardDiv.appendChild(dataContainer);
+    root.appendChild(cardDiv);
+  });
+});
+```
+
+  </TabItem>
+</Tabs>
+
+
+### Result:
