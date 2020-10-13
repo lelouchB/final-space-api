@@ -1,13 +1,14 @@
-import React from "react";
-import styles from "../_styles.module.css";
-import useBaseUrl from "@docusaurus/useBaseUrl";
-import clsx from "clsx";
-import Link from "@docusaurus/Link";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Link from "@docusaurus/Link"
+import useBaseUrl from "@docusaurus/useBaseUrl"
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
+import clsx from "clsx"
+import React from "react"
+
+import styles from "../_styles.module.css"
 
 function Head(props) {
-  const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
+  const context = useDocusaurusContext()
+  const { siteConfig = {} } = context
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
@@ -17,7 +18,7 @@ function Head(props) {
           <Link
             className={clsx(
               "button button--outline button--secondary button--lg",
-              styles.getStarted
+              styles.getStarted,
             )}
             to={useBaseUrl("docs/")}
           >
@@ -35,7 +36,7 @@ function Head(props) {
         </div>
       </div>
     </header>
-  );
+  )
 }
 
-export default Head;
+export default Head

@@ -210,15 +210,9 @@ https://finalspaceapi.com/api/v0/character/?limit=3&sort=desc
     "species": "Fire Snake",
     "gender": "Male",
     "hair": "None",
-    "alias": [
-      "Serpent God",
-      "Snake God"
-    ],
+    "alias": ["Serpent God", "Snake God"],
     "origin": "Serepentis",
-    "abilities": [
-      "Telepathy",
-      "Mind-breaking"
-    ],
+    "abilities": ["Telepathy", "Mind-breaking"],
     "img_url": "https://finalspaceapi.com/api/character/avatar/werthrent.jpg"
   },
   {

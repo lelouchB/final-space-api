@@ -4,4 +4,4 @@ module.exports = {
     Examples: ["react", "vuejs"],
     About: ["about"],
   },
-};
+}

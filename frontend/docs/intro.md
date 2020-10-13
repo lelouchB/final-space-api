@@ -27,18 +27,20 @@ All this information is available through a RESTful API implemented in NodeJS. T
 The Final Space API is maintained as an open source project on [GitHub](https://github.com/lelouchB/final-space-api). More information about contributing can be found in the readme.
 
 ### REST
+
 **Base url:** https://finalspaceapi.com/api/v0/
 
 The base url contains information about all available API's resources.
 All requests are `GET` requests and go over `https`. All responses will return data in `json`.
 
-*Sample Request*
+_Sample Request_
 
 ```
 https://finalspaceapi.com/api/v0/
 ```
 
-*Sample Response*
+_Sample Response_
+
 ```json
 [
   {
@@ -55,10 +57,7 @@ https://finalspaceapi.com/api/v0/
       {
         "optional": true,
         "name": "Sort By",
-        "values": [
-          "asc",
-          "desc"
-        ]
+        "values": ["asc", "desc"]
       }
     ],
     "fullUrl": "https://finalspaceapi.com/api/v0/character"
@@ -77,10 +76,7 @@ https://finalspaceapi.com/api/v0/
       {
         "optional": true,
         "name": "Sort By",
-        "values": [
-          "asc",
-          "desc"
-        ]
+        "values": ["asc", "desc"]
       }
     ],
     "fullUrl": "https://finalspaceapi.com/api/v0/episode"
@@ -99,10 +95,7 @@ https://finalspaceapi.com/api/v0/
       {
         "optional": true,
         "name": "Sort By",
-        "values": [
-          "asc",
-          "desc"
-        ]
+        "values": ["asc", "desc"]
       }
     ],
     "fullUrl": "https://finalspaceapi.com/api/v0/location"
@@ -113,31 +106,35 @@ https://finalspaceapi.com/api/v0/
     "path": "/location/<id>",
     "fullUrl": "https://finalspaceapi.com/api/v0/location/<id>"
   }
-]```
-
+]
+```
 
 :::info Endpoints
-
 
 There are three available resources:
 
 - [Character](/docs/character): used to get all the characters.
-  
+
 ```
+
 https://finalspaceapi.com/api/v0/character
-```  
+
+```
 
 - [Episode](/docs/episode): used to get all the episodes.
 
 ```
-https://finalspaceapi.com/api/v0/episode
-```
 
+https://finalspaceapi.com/api/v0/episode
+
+```
 
 - [Location](/docs/location): used to get all the locations.
 
 ```
+
 https://finalspaceapi.com/api/v0/location
+
 ```
 
 :::
