@@ -10,7 +10,7 @@
     "serve": "docusaurus serve",
     "lint": "eslint .",
     "lint:fix": "eslint --fix --ext .js,.jsx .",
-    "format": "prettier --write './**/*.{js,jsx,css,md,json}'"
+    "format": "prettier --write \"./**/*.{js,jsx,css,md,json}\""
   },
   "author": "Ashutosh K Singh",
   "license": "BSD-3-Clause",
@@ -70,7 +70,7 @@
       "pre-commit": "lint-staged"
     }
   },
-    "lint-staged": {
+  "lint-staged": {
     "*.{js,jsx}": "eslint --cache --fix",
     "*.{js,jsx,css,md}": "prettier --write"
   }
