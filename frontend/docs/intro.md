@@ -126,7 +126,7 @@ There are three available resources:
 
 - [Character](/docs/character): used to get all the characters.
 
-````
+```
 
 https://finalspaceapi.com/api/v0/character
 
