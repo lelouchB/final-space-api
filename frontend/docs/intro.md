@@ -57,10 +57,7 @@ _Sample Response_
       {
         "optional": true,
         "name": "Sort By",
-        "values": [
-          "asc",
-          "desc"
-        ]
+        "values": ["asc", "desc"]
       }
     ],
     "fullUrl": "https://finalspaceapi.com/api/v0/character"
@@ -79,10 +76,7 @@ _Sample Response_
       {
         "optional": true,
         "name": "Sort By",
-        "values": [
-          "asc",
-          "desc"
-        ]
+        "values": ["asc", "desc"]
       }
     ],
     "fullUrl": "https://finalspaceapi.com/api/v0/episode"
@@ -101,10 +95,7 @@ _Sample Response_
       {
         "optional": true,
         "name": "Sort By",
-        "values": [
-          "asc",
-          "desc"
-        ]
+        "values": ["asc", "desc"]
       }
     ],
     "fullUrl": "https://finalspaceapi.com/api/v0/location"
@@ -118,9 +109,7 @@ _Sample Response_
 ]
 ```
 
-
 :::info Endpoints
-
 
 There are three available resources:
 
@@ -140,7 +129,6 @@ https://finalspaceapi.com/api/v0/episode
 
 ```
 
-
 - [Location](/docs/location): used to get all the locations.
 
 ```
@@ -156,4 +144,3 @@ https://finalspaceapi.com/api/v0/location
 :::note
 Coming Soon. Work in Progress.
 :::
-```
