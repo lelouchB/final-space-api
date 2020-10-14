@@ -5,6 +5,7 @@ const apiRoutes = require("./routes/routes")
 const cors = require("cors")
 const morgan = require("morgan")
 const path = require("path")
+const config = require("./config/api")
 
 class App {
   constructor() {
@@ -28,7 +29,7 @@ class App {
   }
 
   routes() {
-    this.express.use("/api/v0", apiRoutes)
+    this.express.use(`/api/v${config.API_VERSION}`, apiRoutes)
   }
 }
 
