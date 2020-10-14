@@ -1,5 +1,11 @@
 const Character = require("../models/character.model")
 const options = require("../helpers/options")
+const config = require("../config/api")
+
+const getCharacterAvatar = async (_, res) => {
+  const avatars = [{name: "ash_graven.jpg"}, {name: "ava.jpg"}]
+  return res.json({ avatars, url: config.BASE_URL})
+}
 
 const getAllCharacters = async (req, res) => {
   await Character.find({}, null, options(req.query), (err, characters) => {
@@ -28,4 +34,8 @@ const getSingleCharacter = async (req, res) => {
   })
 }
 
-module.exports = { getAllCharacters, getSingleCharacter }
+module.exports = {
+  getCharacterAvatar,
+  getAllCharacters,
+  getSingleCharacter
+}

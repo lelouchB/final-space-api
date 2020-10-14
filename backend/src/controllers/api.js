@@ -1,7 +1,7 @@
-const endpoints = require("../../config/endpoints")
+const endpoints = require("../config/endpoints")
 
 module.exports = {
-  getAPI: async (req, res) => {
+  getAPI: async (_, res) => {
     return res.status(200).send(endpoints)
-  },
+  }
 }

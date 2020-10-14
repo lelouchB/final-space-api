@@ -1,10 +1,10 @@
 require("dotenv").config()
-
 const express = require("express")
-
-const apiRoutes = require("./routes/routes")
-
 const databaseHelper = require('./helpers/db')
+const apiRoutes = require("./routes/routes")
+const cors = require("cors")
+const morgan = require("morgan")
+const path = require("path")
 
 class App {
   constructor() {
@@ -20,13 +20,15 @@ class App {
   }
 
   config() {
-    // middleware
-    // cors
-    // extras
+    this.express.use(morgan("common"))
+    this.express.use(cors())
+    this.express.use(express.json())
+    this.express.use(express.static(path.join(__dirname + "../../frontend/build")))
+    this.express.set("trust proxy", 1)
   }
 
   routes() {
-    this.express.use(apiRoutes)
+    this.express.use("/api/v0", apiRoutes)
   }
 }
 
