@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix --ext .js,.jsx .",
     "format": "prettier --write **/*.js",
-    "seed": "node ./helpers/seeder.js"
+    "seed": "node ./src/helpers/seeder.js"
   },
   "author": "Ashutosh K Singh",
   "license": "BSD-3-Clause",

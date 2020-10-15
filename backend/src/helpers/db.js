@@ -1,19 +1,16 @@
 const mongoose = require("mongoose")
+const config = require("../config/api")
 
-const database_url = process.env.DATABASE_URL
-console.log(database_url)
+const database_url = config.DATABASE_URL
 
 const connect = async () => {
   try {
     if (mongoose.connection.readyState === 0) {
-      await mongoose.connect(
-        database_url,
-        {
-          useNewUrlParser: true,
-          useUnifiedTopology: true,
-        }
-      )
-      console.log("Database Connected")
+      await mongoose.connect(database_url, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+      })
+      console.log("Database " + database_url)
     } else {
       console.log("Database Already Connected")
     }
@@ -26,24 +23,24 @@ const connect = async () => {
 
 const truncate = async () => {
   if (mongoose.connection.readyState !== 0) {
-    const { collections } = mongoose.connection;
+    const { collections } = mongoose.connection
 
-    const promises = Object.keys(collections).map(collection =>
-      mongoose.connection.collection(collection).deleteMany({})
-    );
+    const promises = Object.keys(collections).map((collection) =>
+      mongoose.connection.collection(collection).deleteMany({}),
+    )
 
-    await Promise.all(promises);
+    await Promise.all(promises)
   }
-};
+}
 
 const disconnect = async () => {
   if (mongoose.connection.readyState !== 0) {
-    await mongoose.disconnect();
+    await mongoose.disconnect()
   }
-};
+}
 
 module.exports = {
   connect,
   truncate,
-  disconnect
+  disconnect,
 }
