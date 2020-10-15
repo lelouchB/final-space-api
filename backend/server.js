@@ -6,14 +6,16 @@ const morgan = require("morgan")
 // const helmet = require("helmet");
 const path = require("path")
 const rateLimit = require("express-rate-limit")
+const favicon = require('serve-favicon')
 
 const app = express()
-
 app.use(morgan("common"))
 // app.use(helmet());
 app.use(cors())
 app.use(express.json())
 app.use(express.static(path.join(__dirname + "/../frontend/build")))
+app.use(favicon(path.join(__dirname,"/../frontend/static/img","favicon.ico")))
+
 
 app.set("trust proxy", 1)
 
