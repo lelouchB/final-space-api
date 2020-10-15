@@ -2,9 +2,9 @@ const Character = require("../models/character.model")
 const options = require("../helpers/options")
 const config = require("../config/api")
 
-const getCharacterAvatar = async (_, res) => {
-  const avatars = [{name: "ash_graven.jpg"}, {name: "ava.jpg"}]
-  return res.json({ avatars, url: config.BASE_URL})
+const getCharacterAvatar = async (req, res) => {
+  const avatars = [{ name: "ash_graven.jpg" }, { name: "ava.jpg" }]
+  return res.json({ avatars, url: config.BASE_URL })
 }
 
 const getAllCharacters = async (req, res) => {
@@ -37,5 +37,5 @@ const getSingleCharacter = async (req, res) => {
 module.exports = {
   getCharacterAvatar,
   getAllCharacters,
-  getSingleCharacter
+  getSingleCharacter,
 }

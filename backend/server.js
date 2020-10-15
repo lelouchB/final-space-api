@@ -1,3 +1,4 @@
 const app = require("./src/app")
+const config = require("./src/config/api")
 
-app.listen(process.env.NODE_PORT || 3000)
+app.listen(config.PORT)
