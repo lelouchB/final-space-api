@@ -6,7 +6,7 @@ author_title: Final Space API
 authorTwitter: noharashutosh
 author_url: https://github.com/lelouchB
 authorImageURL: https://avatars2.githubusercontent.com/u/45850882
-tags: [character,avatar, final-space, api]
+tags: [character, avatar, final-space, api]
 ---
 
 ![](/img/assets/wallpaper.webp)

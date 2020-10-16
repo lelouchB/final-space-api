@@ -39,7 +39,7 @@ function Card(props){
             </div>
             </div>
         </div>
-    )
+  )
 }
 
-export default Card;
+export default Card
