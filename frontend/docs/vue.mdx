@@ -20,6 +20,25 @@ description: A static example of the Final Space API using Vue JS and/or Axios.
 
 import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
+import Layout from "@theme/Layout"
+import useThemeContext from "@theme/hooks/useThemeContext"
+
+export const RenderImageWithTheme = ({
+  children,
+  isDark,
+  darkImage,
+  lightImage,
+}) => {
+  console.log(darkImage, lightImage)
+  if (isDark) {
+    return <img src={darkImage} />
+  } else {
+    return <img src={lightImage} />
+  }
+  {
+    children
+  }
+}
 
 ### Get locations
 
@@ -103,13 +122,9 @@ export default {
   font-weight: 300;
   display: flex;
   justify-content: space-around;
-}
-
-@media (max-width: 786px) {
-  .root {
-    flex-direction: column;
-    align-items: center;
-  }
+  flex-direction: column;
+  align-items: center;
+  color: purple;
 }
 
 .location {
@@ -238,13 +253,9 @@ export default {
   font-weight: 300;
   display: flex;
   justify-content: space-around;
-}
-
-@media (max-width: 786px) {
-  .root {
-    flex-direction: column;
-    align-items: center;
-  }
+  flex-direction: column;
+  align-items: center;
+  color: purple;
 }
 
 .location {
@@ -298,11 +309,15 @@ export default {
 
 ### Result:
 
-![result](/img/assets/locationVueResult.webp)
+<RenderImageWithTheme
+  isDark={useThemeContext().isDarkTheme}
+  lightImage="/img/assets/locationVueResult.webp"
+  darkImage="/img/assets/locationVueResultDark.webp"
+></RenderImageWithTheme>
 
 ### Get Locations with Characters
 
-The example below shows location with a limit of 3, and a preview of all notable characters in the location
+The example below shows location with a limit of 3, and a preview of all notable [characters](character.md) in the location
 
 ```js
 <template>
@@ -420,13 +435,9 @@ export default {
   font-weight: 300;
   display: flex;
   justify-content: space-around;
-}
-
-@media (max-width: 786px) {
-  .root {
-    flex-direction: column;
-    align-items: center;
-  }
+  flex-direction: column;
+  align-items: center;
+  color: purple;
 }
 
 .location {
@@ -483,4 +494,8 @@ export default {
 
 ### Result
 
-![result](/img/assets/locationCharacterVueResult.webp)
+<RenderImageWithTheme
+  isDark={useThemeContext().isDarkTheme}
+  lightImage="/img/assets/locationCharacterVueResult.webp"
+  darkImage="/img/assets/locationCharacterVueResultDark.webp"
+></RenderImageWithTheme>
