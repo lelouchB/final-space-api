@@ -31,9 +31,9 @@ export const RenderImageWithTheme = ({
 }) => {
   console.log(darkImage, lightImage)
   if (isDark) {
-    return <img src={darkImage} />
+    return <img src={darkImage} alt="vue-result-dark" />
   } else {
-    return <img src={lightImage} />
+    return <img src={lightImage} alt="vue-result-light" />
   }
   {
     children
