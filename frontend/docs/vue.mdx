@@ -41,8 +41,10 @@ export const RenderImageWithTheme = ({
 }
 
 ### Get locations
+A static example of the Final Space API using Vue JS and/or Axios.
 
-You can get available location with a certain limit.
+This example uses `/location` endpoint of the Final Space API.
+Below each example is imgae of the output of the code and the link to the example on StackBlitz.
 
 More details to using limit and other query's an be found in [Location API](location.md)
 
@@ -56,9 +58,6 @@ More details to using limit and other query's an be found in [Location API](loca
 
 
 ```js
-{
-  /* Not a Live Editor*/
-}
 <template>
   <div class="root">
     <p v-if="loading">Loading...</p>
@@ -117,8 +116,7 @@ export default {
 .root {
   margin: 0 auto;
   padding: 0 10px;
-  color: #333;
-  font-family: sans-serif;
+  font-family: Verdana;
   font-weight: 300;
   display: flex;
   justify-content: space-around;
@@ -177,9 +175,6 @@ export default {
 
 
 ```js
-{
-  /* Not a Live Editor*/
-}
 <template>
   <div class="root">
     <p v-if="loading">Loading...</p>
@@ -248,8 +243,7 @@ export default {
 .root {
   margin: 0 auto;
   padding: 0 10px;
-  color: #333;
-  font-family: sans-serif;
+  font-family: Verdana;
   font-weight: 300;
   display: flex;
   justify-content: space-around;
@@ -307,13 +301,15 @@ export default {
 </Tabs>
 
 
-### Result:
+### Result
+You can play with this example on [StackBlitz](https://stackblitz.com/edit/vue-ewplq5?file=src/App.vue).
 
 <RenderImageWithTheme
   isDark={useThemeContext().isDarkTheme}
   lightImage="/img/assets/locationVueResult.webp"
   darkImage="/img/assets/locationVueResultDark.webp"
 ></RenderImageWithTheme>
+
 
 ### Get Locations with Characters
 
@@ -430,8 +426,7 @@ export default {
 .root {
   margin: 0 auto;
   padding: 0 10px;
-  color: #333;
-  font-family: sans-serif;
+  font-family: Verdana;
   font-weight: 300;
   display: flex;
   justify-content: space-around;
@@ -493,6 +488,7 @@ export default {
 ```
 
 ### Result
+You can play with this example on [StackBlitz](https://stackblitz.com/edit/vue-9a9ete?file=src/App.vue).
 
 <RenderImageWithTheme
   isDark={useThemeContext().isDarkTheme}
