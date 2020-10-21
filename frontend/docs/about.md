@@ -56,5 +56,5 @@ You can contribute to this project on [GitHub](https://github.com/lelouchb/final
 ### Copyright
 
 Final Space is created by Olan Rogers for [TBS](https://www.tbs.com/) and later picked by [Adult Swim](https://www.adultswim.com). The data and images are used without claim of ownership and belong to their respective owners.
-
+I do not own the rights to any material provided in this API.
 This API is open source and uses a [BSD license](https://github.com/lelouchB/final-space-api/blob/main/LICENSE).
