@@ -1,0 +1,107 @@
+---
+id: angular
+title: Angular
+hide_title: false
+hide_table_of_contents: false
+keywords:
+  - final space
+  - finalspace
+  - finalspaceapi
+  - final space wiki
+  - api
+  - restapi
+  - rest api
+  - example
+  - angular
+description: A live example of the Final Space API using Angular.
+---
+
+
+<Tabs
+  defaultValue="angular"
+  values={[
+    {label: 'Angular', value: 'angular'}
+  ]}>
+  <TabItem value="angular">
+
+```jsx
+{/* Not a Live Editor*/}
+
+{/* app.component.ts*/}
+import {Component} from '@angular/core';
+import {HttpClient} from '@angular/common/http';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+
+export class AppComponent {
+  title = 'Final Space API with Angular';
+  url = 'https://finalspaceapi.com/api/v0/character?limit=5';
+  items = [];
+
+  constructor(private http: HttpClient) {
+    this.http.get(this.url).toPromise().then(data => {
+      console.log(`>>> data => `, data);
+
+      for (const key in data){
+        if (data.hasOwnProperty(key)){
+          this.items.push(data[key]);
+        }
+      }
+    });
+  }
+}
+
+{/* app.component.html*/}
+<h1>
+  {{title}}
+</h1>
+
+<div class="cont-cards">
+  <div *ngFor="let item of items" class="card">
+    <div class="card shadow--tl">
+      <div class="card__image">
+        <img
+          height="300px"
+          [src]="item.img_url"
+          [alt]="item.charName"
+        />
+      </div>
+      <div class="card__body">
+        <h3>{{item.name}}</h3>
+        <small>{{item.status}}</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* app.component.css*/}
+.cont-cards{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.card {
+  margin: 20px;
+  justify-content: space-around;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.shadow--tl {
+  box-shadow: 0 12px 28px 0 rgba(0,0,0,.2),0 2px 4px 0 rgba(0,0,0,.1) !important;
+}
+
+.card__body, .card__footer, .card__header {
+  padding: 15px;
+}
+```
+
+  </TabItem>
+
+</Tabs>
