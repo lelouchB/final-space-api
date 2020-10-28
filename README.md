@@ -2,6 +2,10 @@
 
 [![CodeFactor](https://www.codefactor.io/repository/github/lelouchb/final-space-api/badge)](https://www.codefactor.io/repository/github/lelouchb/final-space-api)
 [![DeepScan grade](https://deepscan.io/api/teams/11524/projects/14429/branches/268739/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=11524&pid=14429&bid=268739)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/lelouchB/final-space-api.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/lelouchB/final-space-api/context:javascript)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/lelouchB/final-space-api.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/lelouchB/final-space-api/alerts/)
+
+[![Final Space API](https://raw.githubusercontent.com/lelouchB/lelouchB/master/wallpaper.jpg)](https://finalspaceapi.com)
 
 ![](https://img.shields.io/badge/Maintained-Yes-orange)
 ![](https://img.shields.io/badge/PRs-Accepting-brightgreen)
@@ -9,9 +13,6 @@
 ![](https://img.shields.io/github/contributors/lelouchB/final-space-api)
 ![](https://img.shields.io/github/issues-pr/lelouchB/final-space-api)
 ![](https://img.shields.io/github/license/lelouchB/final-space-api)
-
-
-[![Final Space API](https://raw.githubusercontent.com/lelouchB/lelouchB/master/wallpaper.jpg)](https://finalspaceapi.com)
 
 The Final Space API is a RESTful API based on the television show [Final Space](https://en.wikipedia.org/wiki/Final_Space). All the data is taken from [Final Space wiki](https://final-space.fandom.com/wiki/Final_Space_Wiki).
 
