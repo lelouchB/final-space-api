@@ -1,6 +1,7 @@
 # Final Space API
 
 [![CodeFactor](https://www.codefactor.io/repository/github/lelouchb/final-space-api/badge)](https://www.codefactor.io/repository/github/lelouchb/final-space-api)
+[![DeepScan grade](https://deepscan.io/api/teams/11524/projects/14429/branches/268739/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=11524&pid=14429&bid=268739)
 
 ![](https://img.shields.io/badge/Maintained-Yes-orange)
 ![](https://img.shields.io/badge/PRs-Accepting-brightgreen)
