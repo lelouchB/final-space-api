@@ -1,5 +1,7 @@
 # Final Space API
 
+[![CodeFactor](https://www.codefactor.io/repository/github/lelouchb/final-space-api/badge)](https://www.codefactor.io/repository/github/lelouchb/final-space-api)
+
 ![](https://img.shields.io/badge/Maintained-Yes-orange)
 ![](https://img.shields.io/badge/PRs-Accepting-brightgreen)
 ![](https://img.shields.io/github/issues/lelouchB/final-space-api)
