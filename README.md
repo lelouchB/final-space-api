@@ -21,7 +21,11 @@ final-space-api
 ├───backend
 │   ├───config
 │   ├───controllers
+│   ├───helpers
 │   ├───images
+│   │   ├───character
+│   │   ├───episode
+│   │   └───location
 │   ├───models
 │   └───routes
 └───frontend
@@ -35,6 +39,12 @@ final-space-api
     │           └───Head
     └───static
         └───img
+            ├───assets
+            └───pwa
+                ├───android
+                ├───chrome
+                ├───firefox
+                └───msteams
 ```
 
 ## Installation ⭐
