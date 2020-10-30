@@ -28,7 +28,7 @@ import TabItem from '@theme/TabItem';
   ]}>
   <TabItem value="js">
 
-```js
+```js {27,31,39,40,48,53,58,63}
 {/* Not a Live Editor*/}
 document.write("<div class=\"root\"></div>")
 const root = document.querySelector(".root")
@@ -71,35 +71,35 @@ fetch("https://finalspaceapi.com/api/v0/character?limit=5")
       image.alt = character.name
       cardImage.appendChild(image)
       cardDiv.appendChild(cardImage)
-      
+
       const dataContainer = document.createElement("div")
       Object.assign(dataContainer.style, dataContainerStyle);
-      
+
       const name = document.createElement("p")
       name.innerHTML = `name: ${character.name}`
       name.style.color = "green"
       dataContainer.appendChild(name)
-      
+
       const species = document.createElement("p")
       species.innerHTML = `spieces: ${character.species}`
       species.style.color = "orange"
       dataContainer.appendChild(species)
-      
+
       const gender = document.createElement("p")
       gender.innerHTML = `gender: ${character.gender}`
       gender.style.color = "blue"
       dataContainer.appendChild(gender)
-      
+
       const hair = document.createElement("p")
       hair.innerHTML = `hair: ${character.hair}`
       hair.style.color = "red"
       dataContainer.appendChild(hair)
-      
+
       cardDiv.appendChild(dataContainer)
       root.appendChild(cardDiv);
     })
 })
-let mediaQuery = window.matchMedia("(max-width: 630px)")    
+let mediaQuery = window.matchMedia("(max-width: 630px)")
 const handleResize = (e) =>{
   if (e.matches) { // If media query matches
     let cards = document.querySelectorAll('.card')
@@ -123,7 +123,7 @@ handleResize(mediaQuery)
   </TabItem>
   <TabItem value="axios">
 
-```js 
+```js {29,32,40,41,49,54,59,64}
 {/* Not a Live Editor*/}
 import axios from 'axios'
 
@@ -167,35 +167,35 @@ axios.get("https://finalspaceapi.com/api/v0/character?limit=5")
       image.alt = character.name
       cardImage.appendChild(image)
       cardDiv.appendChild(cardImage)
-      
+
       const dataContainer = document.createElement("div")
       Object.assign(dataContainer.style, dataContainerStyle);
-      
+
       const name = document.createElement("p")
       name.innerHTML = `name: ${character.name}`
       name.style.color = "green"
       dataContainer.appendChild(name)
-      
+
       const species = document.createElement("p")
       species.innerHTML = `spieces: ${character.species}`
       species.style.color = "orange"
       dataContainer.appendChild(species)
-      
+
       const gender = document.createElement("p")
       gender.innerHTML = `gender: ${character.gender}`
       gender.style.color = "blue"
       dataContainer.appendChild(gender)
-      
+
       const hair = document.createElement("p")
       hair.innerHTML = `hair: ${character.hair}`
       hair.style.color = "red"
       dataContainer.appendChild(hair)
-      
+
       cardDiv.appendChild(dataContainer)
       root.appendChild(cardDiv);
-  })    
+  })
 })
-let mediaQuery = window.matchMedia("(max-width: 630px)")    
+let mediaQuery = window.matchMedia("(max-width: 630px)")
 const handleResize = (e) =>{
   if (e.matches) { // If media query matches
     let cards = document.querySelectorAll('.card')
