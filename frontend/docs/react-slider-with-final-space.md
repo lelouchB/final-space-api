@@ -1,6 +1,6 @@
 ---
 id: examples
-title: Examples
+title: Weibenfalk React Slider with Final Space API
 hide_title: false
 hide_table_of_contents: false
 keywords:
@@ -12,7 +12,7 @@ keywords:
   - restapi
   - rest api
   - examples
-description: Examples section for Final Space.
+description: How to use data from the Final Space API to populate a React Slider Component
 ---
 
 ### Examples Section
@@ -21,7 +21,7 @@ Below is a video from youtuber Weibenfalk on how to use data from the Final Spac
 
 [![React Slider with Final Space API](https://img.youtube.com/vi/zmwG5lYQYRo/0.jpg)](https://www.youtube.com/watch?v=zmwG5lYQYRo "React Slider with Final Space API")
 
-**Links**
+**Connect with Thomas Weibenfalk here**
 
 - [Website](https://www.weibenfalk.com)
 - [Twitter](https://twitter.com/weibenfalk)
