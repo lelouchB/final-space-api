@@ -44,6 +44,10 @@ module.exports = {
               to: "docs/character/",
             },
             {
+              label: "Examples",
+              to: "docs/react/",
+            },
+            {
               label: "About",
               to: "docs/about/",
             },
@@ -126,13 +130,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
           editUrl:
             "https://github.com/lelouchB/final-space-api/edit/main/frontend/",
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
             "https://github.com/lelouchB/final-space-api/edit/main/frontend/",
         },
