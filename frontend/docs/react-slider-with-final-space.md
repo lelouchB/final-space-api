@@ -1,6 +1,6 @@
 ---
-id: examples
-title: Weibenfalk React Slider with Final Space API
+id: slider
+title: React Slider with Final Space API
 hide_title: false
 hide_table_of_contents: false
 keywords:
@@ -12,20 +12,39 @@ keywords:
   - restapi
   - rest api
   - examples
+  - youtube video
+  - react slider
 description: How to use data from the Final Space API to populate a React Slider Component
 ---
 
-### Examples Section
+### Youtube Video
 
 Below is a video from youtuber Weibenfalk on how to use data from the Final Space API to populate a React Slider Component that he built a while ago.
 
-[![React Slider with Final Space API](https://img.youtube.com/vi/zmwG5lYQYRo/0.jpg)](https://www.youtube.com/watch?v=zmwG5lYQYRo "React Slider with Final Space API")
+<div style={{overflow: "hidden",    paddingBottom: "56.25%",
+    paddingTop: "35px", height:"0", position: "relative"}}>
+<iframe
+  style={{
+    position: "absolute",
+    top: "0",
+    left: "0",
+    width: "100%",
+    height: "100%",
+  }}
+  width="100%"
+  height="450"
+  src="https://www.youtube.com/embed/zmwG5lYQYRo"
+  frameborder="0"
+  allowfullscreen=""
+  loading="lazy"
+></iframe>
+</div>
 
-**Connect with Thomas Weibenfalk here**
+### **Connect with Thomas Weibenfalk**
 
 - [Website](https://www.weibenfalk.com)
 - [Twitter](https://twitter.com/weibenfalk)
 - [LinkedIn](https://www.linkedin.com/in/thomas-weibenfalk-76356611/)
-- [Github](https://github.com/weibenfalk)
+- [GitHub](https://github.com/weibenfalk)
 - [FreeCodeCamp](https://www.freecodecamp.org/news/author/thomas-weibenfalk/)
 - [Dev.to](https://dev.to/weibenfalk)
