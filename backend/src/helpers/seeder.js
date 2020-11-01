@@ -1,12 +1,12 @@
 /* eslint-disable no-return-assign */
 /* eslint-disable no-await-in-loop */
-require("dotenv").config({ path: __dirname + "/./../.env" })
+const config = require("../config/api")
 const mongoose = require("mongoose")
 const axios = require("axios")
 const Character = require("../models/character.model")
 const Episode = require("../models/episode.model")
 const Location = require("../models/location.model")
-const database_url = process.env.DATABASE_URL
+const database_url = config.DATABASE_URL
 
 const seedCharacters = async () => {
   const charactersEndpoint = "https://finalspaceapi.com/api/v0/character"

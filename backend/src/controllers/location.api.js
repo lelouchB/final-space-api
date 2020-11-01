@@ -1,5 +1,11 @@
-const Location = require("./../models/location.model")
+const Location = require("../models/location.model")
 const options = require("../helpers/options")
+const config = require("../config/api")
+
+const getLocationImage = async (req, res) => {
+  const images = [{ name: "dark_zone.jpg" }, { name: "deathcropolis.jpg" }]
+  return res.json({ images, url: config.BASE_URL })
+}
 
 const getAllLocations = async (req, res) => {
   await Location.find({}, null, options(req.query), (err, locations) => {
@@ -28,4 +34,8 @@ const getSingleLocation = async (req, res) => {
   })
 }
 
-module.exports = { getAllLocations, getSingleLocation }
+module.exports = {
+  getLocationImage,
+  getAllLocations,
+  getSingleLocation,
+}

@@ -29,7 +29,7 @@ module.exports = {
     "callback-return": "error",
     camelcase: "off",
     "capitalized-comments": ["error", "never"],
-    "class-methods-use-this": "error",
+    "class-methods-use-this": ["error", { exceptMethods: ["database"] }],
     "comma-dangle": "off",
     "comma-spacing": [
       "error",
