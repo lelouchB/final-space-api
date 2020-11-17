@@ -58,6 +58,18 @@ const endpoints = [
     name: "Single Location",
     path: "/location/<id>",
   },
+  {
+    type: "GET",
+    name: "All Quotes",
+    path: "/quote",
+    queryParams: [
+      {
+        optional: true,
+        name: "Sort By",
+        values: ["asc", "desc"],
+      },
+    ],
+  },
 ]
 
 module.exports = endpoints.map((endpoint) => {
