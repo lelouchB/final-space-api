@@ -1,0 +1,359 @@
+[
+  {
+    "id": 1,
+    "quote": "How about fricken’ no?!",
+    "by": "Gary Goodspeed",
+    "character": "https://finalspaceapi.com/api/v0/character/1",
+    "image": "https://finalspaceapi.com/api/character/avatar/gary_goodspeed.jpg"
+  },
+  {
+    "id": 2,
+    "quote": "You see, I like that. I like a girl with a lot of phones.",
+    "by": "Gary Goodspeed",
+    "character": "https://finalspaceapi.com/api/v0/character/1",
+    "image": "https://finalspaceapi.com/api/character/avatar/gary_goodspeed.jpg"
+  },
+  {
+    "id": 3,
+    "quote": "Let's get wild. How about you buy me a drink?",
+    "by": "Gary Goodspeed",
+    "character": "https://finalspaceapi.com/api/v0/character/1",
+    "image": "https://finalspaceapi.com/api/character/avatar/gary_goodspeed.jpg"
+  },
+  {
+    "id": 4,
+    "quote": "I am going to murder your face off!",
+    "by": "Gary Goodspeed",
+    "character": "https://finalspaceapi.com/api/v0/character/1",
+    "image": "https://finalspaceapi.com/api/character/avatar/gary_goodspeed.jpg"
+  },
+  {
+    "id": 5,
+    "quote": "I need a face-hugger in my life!",
+    "by": "Gary Goodspeed",
+    "character": "https://finalspaceapi.com/api/v0/character/1",
+    "image": "https://finalspaceapi.com/api/character/avatar/gary_goodspeed.jpg"
+  },
+  {
+    "id": 6,
+    "quote": "Chookity Dookity.",
+    "by": "Mooncake",
+    "character": "https://finalspaceapi.com/api/v0/character/2",
+    "image": "https://finalspaceapi.com/api/character/avatar/mooncake.jpg"
+  },
+  {
+    "id": 7,
+    "quote": "Chookity-pok.",
+    "by": "Mooncake",
+    "character": "https://finalspaceapi.com/api/v0/character/2",
+    "image": "https://finalspaceapi.com/api/character/avatar/mooncake.jpg"
+  },
+  {
+    "id": 8,
+    "quote": "Woooahhh!",
+    "by": "Mooncake",
+    "character": "https://finalspaceapi.com/api/v0/character/2",
+    "image": "https://finalspaceapi.com/api/character/avatar/mooncake.jpg"
+  },
+  {
+    "id": 9,
+    "quote": "Awwwwwww!",
+    "by": "Mooncake",
+    "character": "https://finalspaceapi.com/api/v0/character/2",
+    "image": "https://finalspaceapi.com/api/character/avatar/mooncake.jpg"
+  },
+  {
+    "id": 10,
+    "quote": "Speaking of problems, maybe you should leave before you become one.",
+    "by": "Quinn Ergon",
+    "character": "https://finalspaceapi.com/api/v0/character/3",
+    "image": "https://finalspaceapi.com/api/character/avatar/quinn_ergon.jpg"
+  },
+  {
+    "id": 11,
+    "quote": "Wow. I mean, no, but wow.",
+    "by": "Quinn Ergon",
+    "character": "https://finalspaceapi.com/api/v0/character/3",
+    "image": "https://finalspaceapi.com/api/character/avatar/quinn_ergon.jpg"
+  },
+  {
+    "id": 12,
+    "quote": "Is there not a single idiot who can hear me?",
+    "by": "Quinn Ergon",
+    "character": "https://finalspaceapi.com/api/v0/character/3",
+    "image": "https://finalspaceapi.com/api/character/avatar/quinn_ergon.jpg"
+  },
+  {
+    "id": 13,
+    "quote": "Because I need you.",
+    "by": "Quinn Ergon",
+    "character": "https://finalspaceapi.com/api/v0/character/3",
+    "image": "https://finalspaceapi.com/api/character/avatar/quinn_ergon.jpg"
+  },
+  {
+    "id": 14,
+    "quote": "What the tough titty whompus.",
+    "by": "Quinn Ergon",
+    "character": "https://finalspaceapi.com/api/v0/character/3",
+    "image": "https://finalspaceapi.com/api/character/avatar/quinn_ergon.jpg"
+  },
+  {
+    "id": 15,
+    "quote": "You always look like crap, but right now you look like if crap built a house... on crap.",
+    "by": "Little Cato",
+    "character": "https://finalspaceapi.com/api/v0/character/4",
+    "image": "https://finalspaceapi.com/api/character/avatar/little_cato.jpg"
+  },
+  {
+    "id": 16,
+    "quote": "Let's tear the Lord Commander a new butthole.",
+    "by": "Little Cato",
+    "character": "https://finalspaceapi.com/api/v0/character/4",
+    "image": "https://finalspaceapi.com/api/character/avatar/little_cato.jpg"
+  },
+  {
+    "id": 17,
+    "quote": "This is for my dad!",
+    "by": "Little Cato",
+    "character": "https://finalspaceapi.com/api/v0/character/4",
+    "image": "https://finalspaceapi.com/api/character/avatar/little_cato.jpg"
+  },
+  {
+    "id": 18,
+    "quote": "It was all my fault. He died because of me...",
+    "by": "Little Cato",
+    "character": "https://finalspaceapi.com/api/v0/character/4",
+    "image": "https://finalspaceapi.com/api/character/avatar/little_cato.jpg"
+  },
+  {
+    "id": 19,
+    "quote": "Call me that again, and I'll kill you.",
+    "by": "Avocato",
+    "character": "https://finalspaceapi.com/api/v0/character/5",
+    "image": "https://finalspaceapi.com/api/character/avatar/avocato.jpg"
+  },
+  {
+    "id": 20,
+    "quote": "I'm not a cat, I'm a Ventrexian.",
+    "by": "Avocato",
+    "character": "https://finalspaceapi.com/api/v0/character/5",
+    "image": "https://finalspaceapi.com/api/character/avatar/avocato.jpg"
+  },
+  {
+    "id": 21,
+    "quote": "I'm back, baby!",
+    "by": "Avocato",
+    "character": "https://finalspaceapi.com/api/v0/character/5",
+    "image": "https://finalspaceapi.com/api/character/avatar/avocato.jpg"
+  },
+  {
+    "id": 22,
+    "quote": "Hue, can you pass this in?",
+    "by": "Avocato",
+    "character": "https://finalspaceapi.com/api/v0/character/5",
+    "image": "https://finalspaceapi.com/api/character/avatar/avocato.jpg"
+  },
+  {
+    "id": 23,
+    "quote": "Hey Gary, my name is KVN. I'm your Deep Space Insanity Avoidance Companion, nice to meet you!",
+    "by": "KVN",
+    "character": "https://finalspaceapi.com/api/v0/character/6",
+    "image": "https://finalspaceapi.com/api/character/avatar/kvn.jpg"
+  },
+  {
+    "id": 24,
+    "quote": "I have the key! In my butthole.",
+    "by": "KVN",
+    "character": "https://finalspaceapi.com/api/v0/character/6",
+    "image": "https://finalspaceapi.com/api/character/avatar/kvn.jpg"
+  },
+  {
+    "id": 25,
+    "quote": "Embrace the KVN!",
+    "by": "KVN",
+    "character": "https://finalspaceapi.com/api/v0/character/6",
+    "image": "https://finalspaceapi.com/api/character/avatar/kvn.jpg"
+  },
+  {
+    "id": 26,
+    "quote": "KVN saves the day!",
+    "by": "KVN",
+    "character": "https://finalspaceapi.com/api/v0/character/6",
+    "image": "https://finalspaceapi.com/api/character/avatar/kvn.jpg"
+  },
+  {
+    "id": 27,
+    "quote": "They're just soooooo good!",
+    "by": "KVN",
+    "character": "https://finalspaceapi.com/api/v0/character/6",
+    "image": "https://finalspaceapi.com/api/character/avatar/kvn.jpg"
+  },
+  {
+    "id": 28,
+    "quote": "Eat flames, you dipwads! Bathe in my punishing fire!",
+    "by": "Ash Graven",
+    "character": "https://finalspaceapi.com/api/v0/character/7",
+    "image": "https://finalspaceapi.com/api/character/avatar/ash_graven.jpg"
+  },
+  {
+    "id": 29,
+    "quote": "You can call me Ash, Ms. Graven, or Mam but NOT Ashy!",
+    "by": "Ash Graven",
+    "character": "https://finalspaceapi.com/api/v0/character/7",
+    "image": "https://finalspaceapi.com/api/character/avatar/ash_graven.jpg"
+  },
+  {
+    "id": 30,
+    "quote": "Oh, KVN! You're the best talkin' microwave I EVER had!",
+    "by": "Fox",
+    "character": "https://finalspaceapi.com/api/v0/character/8",
+    "image": "https://finalspaceapi.com/api/character/avatar/fox.jpg"
+  },
+  {
+    "id": 31,
+    "quote": "Is that life, Gary?",
+    "by": "H.U.E",
+    "character": "https://finalspaceapi.com/api/v0/character/9",
+    "image": "https://finalspaceapi.com/api/character/avatar/hue.jpg"
+  },
+  {
+    "id": 32,
+    "quote": "What the hell, Quinn? You failed to mention me.",
+    "by": "H.U.E",
+    "character": "https://finalspaceapi.com/api/v0/character/9",
+    "image": "https://finalspaceapi.com/api/character/avatar/hue.jpg"
+  },
+  {
+    "id": 33,
+    "quote": "Sorry to be the bearer of bad news, but we're still in extreme danger. Those dickheads from the Infinity Guard found us, and Gary is not responding.",
+    "by": "H.U.E",
+    "character": "https://finalspaceapi.com/api/v0/character/9",
+    "image": "https://finalspaceapi.com/api/character/avatar/hue.jpg"
+  },
+  {
+    "id": 34,
+    "quote": "You're my only friend, Gary.",
+    "by": "H.U.E",
+    "character": "https://finalspaceapi.com/api/v0/character/9",
+    "image": "https://finalspaceapi.com/api/character/avatar/hue.jpg"
+  },
+  {
+    "id": 35,
+    "quote": "KVN is a jag-off, Gary. You know that.",
+    "by": "H.U.E",
+    "character": "https://finalspaceapi.com/api/v0/character/9",
+    "image": "https://finalspaceapi.com/api/character/avatar/hue.jpg"
+  },
+  {
+    "id": 36,
+    "quote": "Ahh... Avocato, hmm, so good to see you. What brings you to my little shop of... Doo-dads?",
+    "by": "Clarence",
+    "character": "https://finalspaceapi.com/api/v0/character/10",
+    "image": "https://finalspaceapi.com/api/character/avatar/clarence.jpg"
+  },
+  {
+    "id": 37,
+    "quote": "Well, papers are not cheap!",
+    "by": "Clarence",
+    "character": "https://finalspaceapi.com/api/v0/character/10",
+    "image": "https://finalspaceapi.com/api/character/avatar/clarence.jpg"
+  },
+  {
+    "id": 38,
+    "quote": "Yes, right... I suppose you did, but this is the last time! Your papers are easy but this Primate is going to be much more difficult.",
+    "by": "Clarence",
+    "character": "https://finalspaceapi.com/api/v0/character/10",
+    "image": "https://finalspaceapi.com/api/character/avatar/clarence.jpg"
+  },
+  {
+    "id": 39,
+    "quote": "All the pieces are in place...Let's play a little...",
+    "by": "Lord Commander",
+    "character": "https://finalspaceapi.com/api/v0/character/11",
+    "image": "https://finalspaceapi.com/api/character/avatar/lord_commander.jpg"
+  },
+  {
+    "id": 40,
+    "quote": "Do you like games? I love games. I always win.",
+    "by": "Lord Commander",
+    "character": "https://finalspaceapi.com/api/v0/character/11",
+    "image": "https://finalspaceapi.com/api/character/avatar/lord_commander.jpg"
+  },
+  {
+    "id": 41,
+    "quote": "Where is E35-1?!",
+    "by": "Lord Commander",
+    "character": "https://finalspaceapi.com/api/v0/character/11",
+    "image": "https://finalspaceapi.com/api/character/avatar/lord_commander.jpg"
+  },
+  {
+    "id": 42,
+    "quote": "That's why I need \"Mooncake\", or whatever idiot calls him. I need him to live. Tell me where he is!",
+    "by": "Lord Commander",
+    "character": "https://finalspaceapi.com/api/v0/character/11",
+    "image": "https://finalspaceapi.com/api/character/avatar/lord_commander.jpg"
+  },
+  {
+    "id": 43,
+    "quote": "Cause Einstein's a jerk.",
+    "by": "Nightfall",
+    "character": "https://finalspaceapi.com/api/v0/character/12",
+    "image": "https://finalspaceapi.com/api/character/avatar/nightfall.jpg"
+  },
+  {
+    "id": 44,
+    "quote": "Gotta say, Gary, I missed your wit.",
+    "by": "Nightfall",
+    "character": "https://finalspaceapi.com/api/v0/character/12",
+    "image": "https://finalspaceapi.com/api/character/avatar/nightfall.jpg"
+  },
+  {
+    "id": 45,
+    "quote": "I'm going to kill Mooncake, before he destroys all of us.",
+    "by": "A.V.A",
+    "character": "https://finalspaceapi.com/api/v0/character/13",
+    "image": "https://finalspaceapi.com/api/character/avatar/ava.jpg"
+  },
+  {
+    "id": 46,
+    "quote": "Why would they be twiddling their wieners? Why?",
+    "by": "Tribore",
+    "character": "https://finalspaceapi.com/api/v0/character/14",
+    "image": "https://finalspaceapi.com/api/character/avatar/tribore.jpg"
+  },
+  {
+    "id": 47,
+    "quote": "I know, it doesn't make any sense, I wish there were sense. Where did all the sense go?",
+    "by": "Tribore",
+    "character": "https://finalspaceapi.com/api/v0/character/14",
+    "image": "https://finalspaceapi.com/api/character/avatar/tribore.jpg"
+  },
+  {
+    "id": 48,
+    "quote": "I am seeing it, I am!",
+    "by": "Tribore",
+    "character": "https://finalspaceapi.com/api/v0/character/14",
+    "image": "https://finalspaceapi.com/api/character/avatar/tribore.jpg"
+  },
+  {
+    "id": 49,
+    "quote": "Ergon, we have orders to arrest your for, uh..., grand theft.",
+    "by": "Chuck",
+    "character": "https://finalspaceapi.com/api/v0/character/23",
+    "image": "https://finalspaceapi.com/api/character/avatar/chuck.jpg"
+  },
+  {
+    "id": 50,
+    "quote": "Yes, that's Chuck, now please surrender and this all goes away.",
+    "by": "Chuck",
+    "character": "https://finalspaceapi.com/api/v0/character/23",
+    "image": "https://finalspaceapi.com/api/character/avatar/chuck.jpg"
+  },
+  {
+    "id": 51,
+    "quote": "Oh...okay... yeah... I think you are under arrest.",
+    "by": "Chuck",
+    "character": "https://finalspaceapi.com/api/v0/character/23",
+    "image": "https://finalspaceapi.com/api/character/avatar/chuck.jpg"
+  }
+]
