@@ -105,13 +105,25 @@ _Sample Response_
     "name": "Single Location",
     "path": "/location/<id>",
     "fullUrl": "https://finalspaceapi.com/api/v0/location/<id>"
+  },
+  {
+    "type": "GET",
+    "name": "All Quotes",
+    "path": "/quote",
+    "queryParams": [
+      {
+        "optional": true,
+        "name": "Sort By",
+        "values": ["asc", "desc"]
+      }
+    ]
   }
 ]
 ```
 
 :::info Endpoints
 
-There are three available resources:
+There are four available resources:
 
 - [Character](/docs/character): used to get all the characters.
 
@@ -134,6 +146,14 @@ https://finalspaceapi.com/api/v0/episode
 ```
 
 https://finalspaceapi.com/api/v0/location
+
+```
+
+- [Quote](/docs/quote): used to get quotes from Final Space.
+
+```
+
+https://finalspaceapi.com/api/v0/quote
 
 ```
 

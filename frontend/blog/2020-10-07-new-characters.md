@@ -9,7 +9,7 @@ authorImageURL: https://avatars2.githubusercontent.com/u/45850882
 tags: [characters, final-space, api]
 ---
 
-🎉🎉 15 new characters has been added to the `character` endpoint which brings the total number of characters to 40..
+🎉🎉 15 new characters has been added to the `character` endpoint which brings the total number of characters to 40.
 
 Check it out here: https://finalspaceapi.com/api/v0/character
 
