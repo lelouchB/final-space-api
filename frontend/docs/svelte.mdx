@@ -1,0 +1,152 @@
+
+
+----------
+
+id: svelte
+title: Svelte
+hide_title: false
+hide_table_of_contents: false
+keywords:
+
+- final space
+- finalspace
+- finalspaceapi
+- final space wiki
+- api
+- restapi
+- rest api
+- example
+- svelte
+- axios
+description: A live example of the Final Space API using Svelte alongside Axios to retrieve data.
+
+The code samples below will show you how to implement the Final Space API using either the Fetch API or [Axios](https://www.npmjs.com/package/axios) in Svelte.
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+defaultValue="svelte"
+values={[
+{label: 'Svelte + Fetch API', value: 'svelte-fetch'},
+{label: 'Svelte + Axios', value: 'svelte-axios'},
+]}>
+You can check out this example on CodeSandbox.
+:::note Code
+
+    // App.svelte
+    
+        <style>
+      .parent {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+      }
+    
+      .imageStyle {
+        display: flex;
+        box-shadow: 0 10px 5px 0 rgba(0, 0, 0, 0.3);
+        padding: 20px;
+        margin: 30px;
+        border-radius: 7px;
+        flex-direction: column;
+        background-color: #000000;
+        align-items: center;
+      }
+    
+      .fontStyle {
+        color: #33ccff;
+        font-family: "Darker Grotesque", sans-serif;
+        font-weight: 300;
+      }
+    </style>
+    
+    <div class="{'parent'}">
+        {#each characters as character}
+          <div>
+            <section class="{'imageStyle'}"> 
+              <img src={character.img_url} alt={character.name} />
+              <h4 class="{'fontStyle'}">{character.name}</h4>
+            </section>
+    
+         </div>
+       {:else}
+          <p>loading...</p>
+       {/each}
+    </div>
+    
+    <script>
+      import { onMount } from "svelte";
+    
+      let characters = [];
+    
+      onMount(async () => {
+        const res = await fetch(`https://finalspaceapi.com/api/v0/character?limit=5`);
+        characters = await res.json();
+      });
+    </script>
+
+:::
+
+You can check out this example here on CodeSandbox.
+To use this example, remember to add the Axios dependency to your project and install it.
+:::note Code
+
+    // App.svelte
+    
+    <style>
+      .parent {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+      }
+    
+      .imageStyle {
+        display: flex;
+        box-shadow: 0 10px 5px 0 rgba(0, 0, 0, 0.3);
+        padding: 20px;
+        margin: 30px;
+        border-radius: 7px;
+        flex-direction: column;
+        background-color: #000000;
+        align-items: center;
+      }
+    
+      .fontStyle {
+        color: #33ccff;
+        font-family: "Darker Grotesque", sans-serif;
+        font-weight: 300;
+      }
+    </style>
+    
+    <div class="{'parent'}">
+        {#each characters as character}
+          <div>
+            <section class="{'imageStyle'}"> 
+              <img src={character.img_url} alt={character.name} />
+              <h4 class="{'fontStyle'}">{character.name}</h4>
+            </section>
+    
+         </div>
+       {:else}
+          <p>loading...</p>
+       {/each}
+    </div>
+    
+    <script>
+      import { onMount } from "svelte";
+      import axios from "axios";
+    
+      let characters = [];
+    
+      onMount(async () => {
+        const res = "https://finalspaceapi.com/api/v0/character?limit=5";
+        axios.get(res).then(response => {
+          characters = response.data;
+        });
+      });
+    </script>
+
+:::
+
+
+
