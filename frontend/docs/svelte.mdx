@@ -1,6 +1,4 @@
-
-
-----------
+---
 
 id: svelte
 title: Svelte
@@ -19,21 +17,31 @@ keywords:
 - svelte
 - axios
 description: A live example of the Final Space API using Svelte alongside Axios to retrieve data.
+---
 
 The code samples below will show you how to implement the Final Space API using either the Fetch API or [Axios](https://www.npmjs.com/package/axios) in Svelte.
+
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-defaultValue="svelte"
-values={[
-{label: 'Svelte + Fetch API', value: 'svelte-fetch'},
-{label: 'Svelte + Axios', value: 'svelte-axios'},
-]}>
-You can check out this example on CodeSandbox.
+
+
+<Tabs
+  defaultValue="svelte"
+  values={[
+    {label: 'Svelte + Fetch API', value: 'svelte-fetch'},
+    {label: 'Svelte + Axios', value: 'svelte-axios'},
+  ]}>
+  <TabItem value="Svelte">
+      
+You can check out this example [on CodeSandbox](https://codesandbox.io/s/finalapi-svelte-urxd7).
+
+
 :::note Code
 
-    // App.svelte
-    
-        <style>
+// App.svelte
+```jsx   
+    <style>
       .parent {
         align-items: center;
         display: flex;
@@ -83,13 +91,16 @@ You can check out this example on CodeSandbox.
         characters = await res.json();
       });
     </script>
-
+```
 :::
+ </TabItem>
+  <TabItem value="Svelte + Axios">
 
-You can check out this example here on CodeSandbox.
+You can check out this example [here on CodeSandbox](https://codesandbox.io/s/finalapi-svelte-axios-of957).
 To use this example, remember to add the Axios dependency to your project and install it.
 :::note Code
 
+```jsx
     // App.svelte
     
     <style>
@@ -145,8 +156,11 @@ To use this example, remember to add the Axios dependency to your project and in
         });
       });
     </script>
-
+```
 :::
+
+  </TabItem>
+</Tabs>
 
 
 
