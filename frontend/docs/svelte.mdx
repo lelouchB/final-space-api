@@ -152,7 +152,7 @@ To use this example, remember to add the Axios dependency to your project and in
       let characters = [];
     
       onMount(async () => {
-        const res = "https://finalspaceapi.com/api/v0/character?limit=5";
+        const res = "https://finalspaceapi.com/api/v0/character?limit=6";
         axios.get(res).then(response => {
           characters = response.data;
         });
