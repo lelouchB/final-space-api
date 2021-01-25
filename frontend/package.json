@@ -20,7 +20,7 @@
     "@docusaurus/preset-classic": "2.0.0-alpha.65",
     "@docusaurus/theme-live-codeblock": "2.0.0-alpha.39",
     "@mdx-js/react": "^1.6.22",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "clsx": "^1.1.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
