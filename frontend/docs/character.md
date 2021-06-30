@@ -17,7 +17,7 @@ keywords:
 description: Character endpoint documentation for Final Space API.
 ---
 
-This is the documentation for the `/character` endpoint. There are currently `40` characters sorted by `id`.
+This is the documentation for the `/character` endpoint. There are currently `47` characters sorted by `id`.
 
 ### Character schema
 
@@ -44,25 +44,44 @@ https://finalspaceapi.com/api/v0/character/
 
 ```json
 [ {
-    "id": 1,
-    "name": "Gary Goodspeed",
-    "status": "Alive",
-    "species": "Human",
-    "gender": "Male",
-    "hair": "Blonde",
-    "alias": [
-      "The Gary(by Lord Commander)",
-      "Thunder Bandit(code name)",
-      "Star Dragon(new code name)",
-      "Primate(By Clarence)"
-    ],
-    "origin": "Earth",
-    "abilities": [
-      "Piloting",
-      "Marksmanship"
-    ],
-    "img_url": "https://finalspaceapi.com/api/character/avatar/gary_goodspeed.jpg"
-  },
+  "id": 1,
+  "name": "Gary Goodspeed",
+  "status": "Alive",
+  "species": "Human",
+  "gender": "Male",
+  "hair": "Blonde",
+  "alias": [
+    "The Gary (by Lord Commander and Invictus)",
+    "Thunder Bandit(code name)",
+    "Star Dragon(new code name)",
+    "Primate(By Clarence)",
+    "The Captain (self-proclaimed)",
+    "Mommy (by the Dewinter children)",
+    "Jerry by (Quinn)",
+    "Gerald (by Quinn and the S.A.M.E.S)",
+    "Humanoid trash (by Avocato)",
+    "Generic Blonde Guy (by Ash)",
+    "No-Good Thief (by Avocato/Invictus)",
+    "Little Bastard (by Sheryl)",
+    "Larry Tumbleweed (by Tribore)",
+    "Harry Hoodseed (by Tribore)",
+    "Leslie (by Tribore)",
+    "Barry (by Tribore)",
+    "The Fool Who Died A Thousand Deaths (by Invictus)"
+  ],
+  "origin": "Earth",
+  "abilities": [
+    "Piloting",
+    "Marksmanship",
+    "Hand-to-hand combat",
+    "Weapons: Blasters",
+    "Weapons: Black hole gun (briefly)",
+    "Weapons: Robot arm",
+    "Weapons: Laser gun",
+    "Weapons: Laser sword"
+  ],
+  "img_url": "https://finalspaceapi.com/api/character/avatar/gary_goodspeed.png"
+}
   ...
 ]
 ```
@@ -83,9 +102,19 @@ https://finalspaceapi.com/api/v0/character/5
   "species": "Ventrexian",
   "gender": "Male",
   "hair": "Dark Teal / White ",
-  "alias": ["General Avocato"],
-  "origin": "Unknown",
-  "abilities": ["Combat", "Surgery"],
+  "alias": [
+    "General Avocato",
+    "Mr. Whiskers (by Gary)",
+    "Cat Guy (by Gary)",
+    "Dad (by Little Cato)",
+    "My Boyfriend (by Gary)",
+    "Furry Fantasy Dad Guy (by Biskit)",
+    "Daddy-O (by Little Cato)",
+    "Pops (by Little Cato)",
+    "Ventrexian Filth (by Ash)"
+  ],
+  "origin": "Ventrexia",
+  "abilities": ["Marksmanship", "Surgery", "Combat prowess"],
   "img_url": "https://finalspaceapi.com/api/character/avatar/avocato.jpg"
 }
 ```
@@ -101,7 +130,7 @@ https://finalspaceapi.com/api/v0/character/?sort=desc
 ```json
 [
   {
-    "id": 40,
+    "id": 47,
     "name": "Zargon Tukalishi",
     "status": "Deceased",
     "species": "Unknown",
@@ -112,7 +141,7 @@ https://finalspaceapi.com/api/v0/character/?sort=desc
     "abilities": [],
     "img_url": "https://finalspaceapi.com/api/character/avatar/zargon_tukalishi.jpg"
   },
-  ...
+ ...
 ]
 ```
 
@@ -134,31 +163,57 @@ https://finalspaceapi.com/api/v0/character/?limit=3
     "gender": "Male",
     "hair": "Blonde",
     "alias": [
-      "The Gary(by Lord Commander)",
+      "The Gary (by Lord Commander and Invictus)",
       "Thunder Bandit(code name)",
       "Star Dragon(new code name)",
-      "Primate(By Clarence)"
+      "Primate(By Clarence)",
+      "The Captain (self-proclaimed)",
+      "Mommy (by the Dewinter children)",
+      "Jerry by (Quinn)",
+      "Gerald (by Quinn and the S.A.M.E.S)",
+      "Humanoid trash (by Avocato)",
+      "Generic Blonde Guy (by Ash)",
+      "No-Good Thief (by Avocato/Invictus)",
+      "Little Bastard (by Sheryl)",
+      "Larry Tumbleweed (by Tribore)",
+      "Harry Hoodseed (by Tribore)",
+      "Leslie (by Tribore)",
+      "Barry (by Tribore)",
+      "The Fool Who Died A Thousand Deaths (by Invictus)"
     ],
     "origin": "Earth",
-    "abilities": ["Piloting", "Marksmanship"],
-    "img_url": "https://finalspaceapi.com/api/character/avatar/gary_goodspeed.jpg"
+    "abilities": [
+      "Piloting",
+      "Marksmanship",
+      "Hand-to-hand combat",
+      "Weapons: Blasters",
+      "Weapons: Black hole gun (briefly)",
+      "Weapons: Robot arm",
+      "Weapons: Laser gun",
+      "Weapons: Laser sword"
+    ],
+    "img_url": "https://finalspaceapi.com/api/character/avatar/gary_goodspeed.png"
   },
   {
     "id": 2,
     "name": "Mooncake",
-    "status": "Alive",
+    "status": "Unknown",
     "species": "Mooncake's Species",
-    "gender": "Male",
+    "gender": "None (referred to as male)",
     "hair": "None",
     "alias": [
       "Specimen E - 351",
       "Little Buddy",
       "Planet Destroyer",
       "Dude cake",
-      "Little Guy"
+      "Little Guy",
+      "The Key (by Lord Commander, Invictus, and Ash)",
+      "The Missing Piece (by the Arachnitects)",
+      "Homeslice (by Bolo)",
+      "Booger Ball (by Kevin Van Newton)"
     ],
-    "origin": "Created when John Goodspeed used an Anti-matter bomb to close a breach to Final Space.",
-    "abilities": ["Hovering", "Firing Laser Beams", "Planet Destruction"],
+    "origin": "Outer space",
+    "abilities": ["Hovering", "Firing Laser Beams", "Planetary Destruction"],
     "img_url": "https://finalspaceapi.com/api/character/avatar/mooncake.jpg"
   },
   {
@@ -168,7 +223,11 @@ https://finalspaceapi.com/api/v0/character/?limit=3
     "species": "Human",
     "gender": "Female",
     "hair": "Dark Brown",
-    "alias": ["Nightfall(codename)"],
+    "alias": [
+      "Nightfall(codename)",
+      "Muy Bueno Super Spicy Lady (by Gary)",
+      "Magnificent Goddess (by Biskit)"
+    ],
     "origin": "Earth",
     "abilities": [
       "Astrophysicist",
@@ -192,7 +251,7 @@ https://finalspaceapi.com/api/v0/character/?limit=3&sort=desc
 ```json
 [
   {
-    "id": 40,
+    "id": 47,
     "name": "Zargon Tukalishi",
     "status": "Deceased",
     "species": "Unknown",
@@ -204,7 +263,7 @@ https://finalspaceapi.com/api/v0/character/?limit=3&sort=desc
     "img_url": "https://finalspaceapi.com/api/character/avatar/zargon_tukalishi.jpg"
   },
   {
-    "id": 39,
+    "id": 46,
     "name": "Werthrent",
     "status": "Deceased",
     "species": "Fire Snake",
@@ -216,7 +275,7 @@ https://finalspaceapi.com/api/v0/character/?limit=3&sort=desc
     "img_url": "https://finalspaceapi.com/api/character/avatar/werthrent.jpg"
   },
   {
-    "id": 38,
+    "id": 45,
     "name": "Viro",
     "status": "Deceased",
     "species": "Cyborg",

@@ -1,77 +1,83 @@
 {
-  "name": "final-space-api-frontend",
-  "version": "0.0.0",
-  "scripts": {
-    "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
-    "serve": "docusaurus serve",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix --ext .js,.jsx .",
-    "format": "prettier --write \"./**/*.{js,jsx,css,md,json}\""
-  },
-  "author": "Ashutosh K Singh",
-  "license": "BSD-3-Clause",
-  "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.65",
-    "@docusaurus/plugin-pwa": "2.0.0-alpha.65",
-    "@docusaurus/preset-classic": "2.0.0-alpha.65",
-    "@docusaurus/theme-live-codeblock": "2.0.0-alpha.39",
-    "@mdx-js/react": "^1.6.22",
-    "axios": "^0.21.1",
-    "clsx": "^1.1.1",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
-  },
-  "devDependencies": {
-    "eslint": "^7.16.0",
-    "eslint-config-google": "^0.14.0",
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.3.0",
-    "eslint-plugin-react": "^7.21.5",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-simple-import-sort": "^5.0.3",
-    "husky": "^4.3.6",
-    "lint-staged": "^10.5.3",
-    "prettier": "^2.2.1"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+    "name": "final-space-api-frontend",
+    "version": "0.0.0",
+    "scripts": {
+        "docusaurus": "docusaurus",
+        "start": "docusaurus start",
+        "build": "docusaurus build",
+        "swizzle": "docusaurus swizzle",
+        "deploy": "docusaurus deploy",
+        "serve": "docusaurus serve",
+        "write-translations": "docusaurus write-translations",
+        "write-heading-ids": "docusaurus write-heading-ids",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix --ext .js,.jsx .",
+        "format": "prettier --write \"./**/*.{js,jsx,css,md,json}\""
+    },
+    "author": "Ashutosh K Singh",
+    "license": "BSD-3-Clause",
+    "dependencies": {
+        "@docusaurus/core": "2.0.0-beta.2",
+        "@docusaurus/plugin-pwa": "^2.0.0-beta.2",
+        "@docusaurus/preset-classic": "2.0.0-beta.2",
+        "@docusaurus/theme-live-codeblock": "^2.0.0-beta.2",
+        "@mdx-js/react": "^1.6.21",
+        "@svgr/webpack": "^5.5.0",
+        "axios": "^0.21.1",
+        "clsx": "^1.1.1",
+        "file-loader": "^6.2.0",
+        "prism-react-renderer": "^1.2.1",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "url-loader": "^4.1.1"
+    },
+    "devDependencies": {
+        "eslint": "^7.16.0",
+        "eslint-config-google": "^0.14.0",
+        "eslint-config-prettier": "^6.15.0",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-prettier": "^3.3.0",
+        "eslint-plugin-react": "^7.21.5",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "eslint-plugin-simple-import-sort": "^5.0.3",
+        "husky": "^4.3.6",
+        "lint-staged": "^10.5.3",
+        "prettier": "^2.2.1"
+    },
+    "browserslist": {
+        "production": [
+            ">0.5%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "engines": {
+        "node": "14.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lelouchB/final-space-api.git"
+    },
+    "keywords": [
+        "api",
+        "final space"
     ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "engines": {
-    "node": "14.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lelouchB/final-space-api.git"
-  },
-  "keywords": [
-    "api",
-    "final space"
-  ],
-  "bugs": {
-    "url": "https://github.com/lelouchB/final-space-api/issues"
-  },
-  "homepage": "https://github.com/lelouchB/final-space-api#readme",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
+    "bugs": {
+        "url": "https://github.com/lelouchB/final-space-api/issues"
+    },
+    "homepage": "https://github.com/lelouchB/final-space-api#readme",
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.{js,jsx}": "eslint --cache --fix",
+        "*.{js,jsx,css,md}": "prettier --write"
     }
-  },
-  "lint-staged": {
-    "*.{js,jsx}": "eslint --cache --fix",
-    "*.{js,jsx,css,md}": "prettier --write"
-  }
 }

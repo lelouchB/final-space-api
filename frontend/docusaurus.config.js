@@ -4,6 +4,7 @@ module.exports = {
   url: "https://finalspaceapi.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
+  trailingSlash: false,
   favicon: "img/favicon.ico",
   organizationName: "lelouchB", // Usually your GitHub org/user name.
   projectName: "final-space-api", // Usually your repo name.
@@ -58,8 +59,7 @@ module.exports = {
           items: [
             {
               label: "Stack Overflow",
-              href:
-                "https://stackoverflow.com/questions/tagged/final-space-api",
+              href: "https://stackoverflow.com/questions/tagged/final-space-api",
             },
             {
               label: "Twitter",
@@ -144,10 +144,8 @@ module.exports = {
           customCss: require.resolve("./src/css/custom.css"),
         },
         sitemap: {
-          cacheTime: 600 * 1000, // 600 sec - cache purge period
           changefreq: "weekly",
           priority: 0.5,
-          trailingSlash: false,
         },
       },
     ],
