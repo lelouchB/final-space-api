@@ -23,7 +23,8 @@ Season 1 premiered on TBS and consists of 10 episodes which are named as **Chapt
 
 Season 2 premiered in 2019 on Adult Swim and consists of 13 episodes.
 
- Season 3 premiered on March 20, 2021 and consists of 13 episodes.
+Season 3 premiered on March 20, 2021 and consists of 13 episodes.
+
 ### Episode schema
 
 | Key        | Type         | Description                              |
@@ -34,7 +35,7 @@ Season 2 premiered in 2019 on Adult Swim and consists of 13 episodes.
 | director   | string       | The director of the episode.             |
 | writer     | string       | The writer of the episode.               |
 | characters | array        | Different characters of the episode.     |
-| img_url    | string (url) | Link to the episode's image.             |
+| img_url    | string (url) | Link to the episode's image. (640x480)   |
 
 ### Get all episodes
 

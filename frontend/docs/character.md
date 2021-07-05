@@ -32,7 +32,7 @@ This is the documentation for the `/character` endpoint. There are currently `47
 | origin    | object       | Name of the character's origin location.   |
 | abilities | array        | Different abilities of character.          |
 | alias     | array        | Different names of character.              |
-| img_url   | string (url) | Link to the character's image.             |
+| img_url   | string (url) | Link to the character's image. (300x300)   |
 
 ### Get all characters
 

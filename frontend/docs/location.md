@@ -15,7 +15,7 @@ keywords:
 description: Location endpoint documentation for Final Space API.
 ---
 
-This is the documentation for the `/location` endpoint. There are currently `9` locations sorted by id.
+This is the documentation for the `/location` endpoint. There are currently `12` locations sorted by id.
 
 ### Location schema
 
@@ -26,7 +26,7 @@ This is the documentation for the `/location` endpoint. There are currently `9` 
 | type              | string       | The type of the location.                 |
 | inhabitants       | array        | Inhabitants of the location.              |
 | notable_residents | array        | Notable residents(if any).                |
-| img_url           | string (url) | Image of the location.                    |
+| img_url           | string (url) | Image of the location. (400x300)          |
 
 ### Get all locations
 
@@ -88,13 +88,20 @@ https://finalspaceapi.com/api/v0/location/?sort=desc
 ```json
 [
   {
-    "id": 9,
-    "name": "The Order of the Twelve",
-    "type": "Temple",
-    "inhabitants": [],
-    "notable_residents": [],
-    "img_url": "https://finalspaceapi.com/api/location/image/the_order_of_the_twelve.jpg"
-  },
+        "id": 12,
+        "name": "Invictus' Prison",
+        "type": "Prison dimension",
+        "inhabitants": [
+            "Invictus",
+            "Ash Graven",
+            "Zombie Garys",
+            "Lord Commander"
+        ],
+        "notable_residents": [
+            "https://finalspaceapi.com/api/v0/character/17"
+        ],
+        "img_url": "https://finalspaceapi.com/api/image/invictus_prison.jpg"
+    }
   ...
 ]
 ```
@@ -160,28 +167,31 @@ https://finalspaceapi.com/api/v0/location/?limit=3&sort=desc
 ```json
 [
   {
-    "id": 9,
-    "name": "The Order of the Twelve",
-    "type": "Temple",
-    "inhabitants": [],
-    "notable_residents": [],
-    "img_url": "https://finalspaceapi.com/api/location/image/the_order_of_the_twelve.jpg"
+    "id": 12,
+    "name": "Invictus' Prison",
+    "type": "Prison dimension",
+    "inhabitants": ["Invictus", "Ash Graven", "Zombie Garys", "Lord Commander"],
+    "notable_residents": ["https://finalspaceapi.com/api/v0/character/17"],
+    "img_url": "https://finalspaceapi.com/api/image/invictus_prison.jpg"
   },
   {
-    "id": 8,
-    "name": "Lazarus Trap",
-    "type": "Trap",
-    "inhabitants": [],
-    "notable_residents": [],
-    "img_url": "https://finalspaceapi.com/api/location/image/lazarus_trap.jpg"
+    "id": 11,
+    "name": "Ventrexia",
+    "type": "Planet",
+    "inhabitants": ["Ventrexian"],
+    "notable_residents": [
+      "https://finalspaceapi.com/api/v0/character/5",
+      "https://finalspaceapi.com/api/v0/character/4"
+    ],
+    "img_url": "https://finalspaceapi.com/api/image/ventrexia.jpg"
   },
   {
-    "id": 7,
-    "name": "Deathcropolis",
-    "type": "Gladiatorial Colosseum",
-    "inhabitants": [],
-    "notable_residents": [],
-    "img_url": "https://finalspaceapi.com/api/location/image/deathcropolis.jpg"
+    "id": 10,
+    "name": "Serepentis",
+    "type": "Planet",
+    "inhabitants": ["Serepentians"],
+    "notable_residents": ["https://finalspaceapi.com/api/v0/character/7"],
+    "img_url": "https://finalspaceapi.com/api/image/serepentis.jpg"
   }
 ]
 ```
