@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 id: about
 title: About
 hide_title: false

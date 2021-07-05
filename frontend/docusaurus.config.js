@@ -1,9 +1,15 @@
+const lightCodeTheme = require("prism-react-renderer/themes/palenight")
+const darkCodeTheme = require("prism-react-renderer/themes/dracula")
+
+/** @type {import('@docusaurus/types').DocusaurusConfig} */
+
 module.exports = {
   title: "Final Space API",
   tagline: `"That's Not A Cookie. And You Know That HUE, You Know That!"`,
   url: "https://finalspaceapi.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
   trailingSlash: false,
   favicon: "img/favicon.ico",
   organizationName: "lelouchB", // Usually your GitHub org/user name.
@@ -17,8 +23,8 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/",
-          activeBasePath: "docs",
+          type: "doc",
+          docId: "intro",
           label: "Docs",
           position: "right",
         },
@@ -37,20 +43,20 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Getting Started",
-              to: "docs/",
+              label: "Introduction",
+              to: "/docs",
             },
             {
               label: "Character",
-              to: "docs/character/",
+              to: "/docs/endpoints/character/",
             },
             {
               label: "Examples",
-              to: "docs/react/",
+              to: "/docs/examples/react/",
             },
             {
               label: "About",
-              to: "docs/about/",
+              to: "/docs/about/about",
             },
           ],
         },
@@ -72,7 +78,7 @@ module.exports = {
           items: [
             {
               label: "Blog",
-              to: "blog",
+              to: "/blog",
             },
             {
               label: "GitHub",
@@ -86,6 +92,11 @@ module.exports = {
         },
       ],
       copyright: "Handcrafted with 🤍 by Me",
+    },
+
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
     },
     googleAnalytics: { trackingID: "UA-179975321-1", anonymizeIP: true },
     metadatas: [

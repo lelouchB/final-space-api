@@ -1,4 +1,5 @@
 ---
+sidebar_position: 4
 id: quote
 title: Quote
 hide_title: false

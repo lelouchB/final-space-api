@@ -1,4 +1,5 @@
 ---
+sidebar_position: 3
 id: location
 title: Location
 hide_title: false

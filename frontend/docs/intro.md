@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 id: intro
 title: Introduction
 sidebar_label: Introduction
@@ -125,7 +126,7 @@ _Sample Response_
 
 There are four available resources:
 
-- [Character](/docs/character): used to get all the characters.
+- [Character](endpoints/character.md): used to get all the characters.
 
 ```
 
@@ -133,7 +134,7 @@ https://finalspaceapi.com/api/v0/character
 
 ```
 
-- [Episode](/docs/episode): used to get all the episodes.
+- [Episode](endpoints/episode.md): used to get all the episodes.
 
 ```
 
@@ -141,7 +142,7 @@ https://finalspaceapi.com/api/v0/episode
 
 ```
 
-- [Location](/docs/location): used to get all the locations.
+- [Location](endpoints/location.md): used to get all the locations.
 
 ```
 
@@ -149,7 +150,7 @@ https://finalspaceapi.com/api/v0/location
 
 ```
 
-- [Quote](/docs/quote): used to get quotes from Final Space.
+- [Quote](endpoints/quote.md): used to get quotes from Final Space.
 
 ```
 

@@ -1,4 +1,5 @@
 ---
+sidebar_position: 5
 id: slider
 title: React Slider with Final Space API
 hide_title: false

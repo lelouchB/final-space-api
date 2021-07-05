@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 id: character
 title: Character
 hide_title: false
