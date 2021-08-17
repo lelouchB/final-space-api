@@ -25,7 +25,7 @@ function InfoContainer() {
         <div>
           <a
             className="button button--success button--outline button--lg"
-            href={useBaseUrl("docs/react")}
+            href={useBaseUrl("docs/examples/react")}
           >
             Examples
           </a>
