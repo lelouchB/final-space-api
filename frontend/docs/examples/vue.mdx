@@ -22,7 +22,6 @@ description: A static example of the Final Space API using Vue JS and/or Axios.
 import Tabs from "@theme/Tabs"
 import TabItem from "@theme/TabItem"
 import Layout from "@theme/Layout"
-import useThemeContext from "@theme/hooks/useThemeContext"
 
 export const RenderImageWithTheme = ({
   children,
@@ -305,7 +304,7 @@ export default {
 You can play with this example on [StackBlitz](https://stackblitz.com/edit/vue-ewplq5?file=src/App.vue).
 
 <RenderImageWithTheme
-  isDark={useThemeContext().isDarkTheme}
+  isDark={false}
   lightImage="/img/assets/locationVueResult.webp"
   darkImage="/img/assets/locationVueResultDark.webp"
 ></RenderImageWithTheme>
@@ -491,7 +490,7 @@ export default {
 You can play with this example on [StackBlitz](https://stackblitz.com/edit/vue-9a9ete?file=src/App.vue).
 
 <RenderImageWithTheme
-  isDark={useThemeContext().isDarkTheme}
+  isDark={false}
   lightImage="/img/assets/locationCharacterVueResult.webp"
   darkImage="/img/assets/locationCharacterVueResultDark.webp"
 ></RenderImageWithTheme>

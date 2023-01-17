@@ -8,7 +8,7 @@ module.exports = {
   tagline: `"That's Not A Cookie. And You Know That HUE, You Know That!"`,
   url: "https://finalspaceapi.com",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "lelouchB", // Usually your GitHub org/user name.
@@ -55,7 +55,7 @@ module.exports = {
             },
             {
               label: "About",
-              to: "/docs/about/about",
+              to: "/docs/about",
             },
           ],
         },
@@ -97,8 +97,7 @@ module.exports = {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
     },
-    googleAnalytics: { trackingID: "UA-179975321-1", anonymizeIP: true },
-    metadatas: [
+    metadata: [
       {
         name: "title",
         content: "Hello from Final Space API | Final Space API",
@@ -153,6 +152,12 @@ module.exports = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+
+        gtag: {
+          trackingID: "G-NF6S5SQ852",
+          anonymizeIP: true,
+        },
+
         sitemap: {
           changefreq: "weekly",
           priority: 0.5,

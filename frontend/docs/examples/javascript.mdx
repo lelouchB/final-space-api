@@ -20,7 +20,6 @@ description: A static example of the Final Space API using Vanilla Js + Axios.
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Layout from "@theme/Layout"
-import useThemeContext from "@theme/hooks/useThemeContext"
 
 export const RenderImageWithTheme = ({
   children,
@@ -256,7 +255,7 @@ handleResize(mediaQuery)
 You can play with this example on [StackBlitz](https://stackblitz.com/edit/js-dsktzg?file=index.js).
 
 <RenderImageWithTheme
-  isDark={useThemeContext().isDarkTheme}
+  isDark={false}
   lightImage="/img/assets/jsResult.webp"
   darkImage="/img/assets/jsResultDark.webp"
 ></RenderImageWithTheme>
