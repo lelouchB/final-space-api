@@ -57,3 +57,5 @@ startServer()
     ),
   )
   .catch(() => console.log("Final Space API, ops... failed!"))
+
+module.exports = app

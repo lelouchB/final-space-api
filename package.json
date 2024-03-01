@@ -5,7 +5,7 @@
     "start": "npm run start:backend",
     "dev": "npm run build:frontend && npm run dev:backend",
     "dev:backend": "npm run dev --prefix backend",
-    "vercel-build": "echo hello",
+    "vercel-build": "npm run build:frontend && echo hello",
     "install": "npm run install:frontend && npm run install:backend",
     "install:frontend": "npm install --prefix frontend",
     "install:backend": "npm install --prefix backend",
