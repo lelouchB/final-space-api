@@ -13,7 +13,7 @@ const seedCharacters = async () => {
   let characters = null
   await axios
     .get(charactersEndpoint)
-    .then((res) => characters = res.data)
+    .then((res) => (characters = res.data))
     .then(() => console.log("Characters data Fetched"))
     .catch((err) => console.log("Error: characters data didn't fetched " + err))
 
@@ -33,7 +33,7 @@ const seedEpisodes = async () => {
   let episodes = null
   await axios
     .get(episodesEndpoint)
-    .then((res) => episodes = res.data)
+    .then((res) => (episodes = res.data))
     .then(() => console.log("Episodes data Fetched"))
     .catch((err) => console.log("Error: episodes data didn't fetched " + err))
 
@@ -53,7 +53,7 @@ const seedLocations = async () => {
   let locations = null
   await axios
     .get(locationEndpoint)
-    .then((res) => locations = res.data)
+    .then((res) => (locations = res.data))
     .then(() => console.log("Locations data Fetched"))
     .catch((err) => console.log("Error: locations data didn't fetched " + err))
 
