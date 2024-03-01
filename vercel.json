@@ -6,5 +6,5 @@
       "maxDuration": 300
     }
   },
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
 }
