@@ -1,5 +1,6 @@
-const lightCodeTheme = require("prism-react-renderer/themes/palenight")
-const darkCodeTheme = require("prism-react-renderer/themes/dracula")
+import { themes } from "prism-react-renderer"
+const lightCodeTheme = themes.palenight
+const darkCodeTheme = themes.dracula
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 
@@ -34,6 +35,13 @@ module.exports = {
           position: "right",
         },
       ],
+    },
+    liveCodeBlock: {
+      /**
+       * The position of the live playground, above or under the editor
+       * Possible values: "top" | "bottom"
+       */
+      playgroundPosition: "bottom",
     },
     footer: {
       style: "dark",
@@ -165,8 +173,8 @@ module.exports = {
       },
     ],
   ],
-  themes: ["@docusaurus/theme-live-codeblock"],
   plugins: [
+    "@docusaurus/theme-live-codeblock",
     [
       "@docusaurus/plugin-pwa",
       {
