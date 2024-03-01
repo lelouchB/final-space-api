@@ -2,7 +2,7 @@
   "name": "final-space-api",
   "version": "1.0.0",
   "scripts": {
-    "start": "npm run build:frontend && npm run start:backend",
+    "start": "npm run start:backend",
     "dev": "npm run build:frontend && npm run dev:backend",
     "dev:backend": "npm run dev --prefix backend",
     "build": "npm run build:frontend",
