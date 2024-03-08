@@ -19,18 +19,18 @@ description: A live example of the Final Space API using React.
 
 You can play around with this live example and add new features, styles and so much more.
 
-:::tip Hint 
+:::tip Hint
 Uncomment the following line:
- ```jsx
- <div className="card--text">{character.species}</div>
- ```
 
- PS: remove `{/* */}`
+```jsx
+<div className="card--text">{character.species}</div>
+```
+
+PS: remove `{/* */}`
 :::
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
+import Tabs from "@theme/Tabs"
+import TabItem from "@theme/TabItem"
 
 <Tabs
   defaultValue="react"
@@ -42,7 +42,7 @@ import TabItem from '@theme/TabItem';
 
 ```jsx live {18-22,26,27,29,31}
 function App() {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState([])
 
   const cardStyle = {
     boxShadow: "0 5px 8px 0 rgba(0, 0, 0, 0.3)",
@@ -50,19 +50,19 @@ function App() {
     marginBottom: "10px",
     textAlign: "center",
     backgroundColor: "#fafafa",
-  };
+  }
   const rootStyle = {
     margin: "0 auto",
     width: "max-content",
     padding: "0 10px",
-    color:"purple",
-    fontFamily:"Verdana"
-  };
+    color: "purple",
+    fontFamily: "Verdana",
+  }
   useEffect(() => {
-    fetch("https://finalspaceapi.com/api/v0/character?limit=5")
+    fetch("http://localhost:3000/api/v0/character?limit=5")
       .then((res) => res.json())
-      .then((data) => setData(data));
-  }, []);
+      .then((data) => setData(data))
+  }, [])
 
   return (
     <div className="root" style={rootStyle}>
@@ -72,11 +72,11 @@ function App() {
             <img src={character.img_url} alt={character.name} />{" "}
           </div>
           <div className="card--title">{character.name}</div>
-        {/* <div className="card--text">{character.species}</div>*/}
+          {/* <div className="card--text">{character.species}</div>*/}
         </div>
       ))}
     </div>
-  );
+  )
 }
 ```
 
@@ -84,11 +84,13 @@ function App() {
   <TabItem value="axios">
 
 ```jsx {19-23,27,28,30,32}
-{/* Not a Live Editor*/}
-import axios from 'axios'
+{
+  /* Not a Live Editor*/
+}
+import axios from "axios"
 
 function App() {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState([])
 
   const cardStyle = {
     boxShadow: "0 5px 8px 0 rgba(0, 0, 0, 0.3)",
@@ -96,17 +98,18 @@ function App() {
     marginBottom: "10px",
     textAlign: "center",
     backgroundColor: "#fafafa",
-  };
+  }
   const rootStyle = {
     margin: "0 auto",
     width: "max-content",
     padding: "0 10px",
-  };
+  }
   useEffect(() => {
-    axios.get("https://finalspaceapi.com/api/v0/character?limit=5")
+    axios
+      .get("https://finalspaceapi.com/api/v0/character?limit=5")
       .then((res) => res.json())
-      .then((data) => setData(data));
-  }, []);
+      .then((data) => setData(data))
+  }, [])
 
   return (
     <div className="root" style={rootStyle}>
@@ -116,11 +119,11 @@ function App() {
             <img src={character.img_url} alt={character.name} />{" "}
           </div>
           <div className="card--title">{character.name}</div>
-        {/* <div className="card--text">{character.species}</div>*/}
+          {/* <div className="card--text">{character.species}</div>*/}
         </div>
       ))}
     </div>
-  );
+  )
 }
 ```
 
