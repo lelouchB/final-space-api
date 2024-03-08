@@ -9,9 +9,18 @@ const rateLimit = require("express-rate-limit")
 
 const app = express()
 
+const corsOptions = {
+  headers: [
+    { key: "Access-Control-Allow-Credentials", value: "true" },
+    { key: "Access-Control-Allow-Origin", value: "*" },
+  ],
+  origin: "*",
+  optionsSuccessStatus: 200,
+}
+
 app.use(morgan("common"))
 // app.use(helmet());
-app.use(cors())
+app.use(cors(corsOptions))
 app.use(express.json())
 app.use(express.static(path.join(__dirname + "/../frontend/build")))
 
